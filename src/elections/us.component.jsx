@@ -34,7 +34,7 @@ export default class USElection extends Component {
         super(props);
 
         this.state = {
-            year: 2016,
+            year: this.props.year,
         };
     }
     
@@ -44,7 +44,7 @@ export default class USElection extends Component {
     
     /* mandatory click event */
     mapHandler = (event) => {
-        console.log(event.target.dataset.name, event.target.dataset)
+        //console.log(event.target.dataset.name, event.target.dataset)
         //alert(event.target.dataset.name);
     };
 
@@ -73,8 +73,8 @@ export default class USElection extends Component {
     /* optional customization of filling per state and calling custom callbacks per state */
     statesCustomConfig = () => {
         var fills = {};        
-
-        var state_list = data[this.state.year]["states"];
+        
+        var state_list = data[this.props.year].states;
         
         // Go through every state
         for( var state in state_list ) {
@@ -89,8 +89,6 @@ export default class USElection extends Component {
                 fills[state] = d;
             }       
         }
-        
-        console.log(fills);
 
         return fills;
     };

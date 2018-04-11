@@ -86,7 +86,7 @@
 				{"Republican": "4"}
 			],
 			"IL": [
-				{"Democratic": "4"}
+				{"Democratic": "20"}
 			],
 			"IN": [
 				{"Republican": "11"}
@@ -120,7 +120,7 @@
 				{"Democratic": "9"}
 			],
 			"MS": [
-				{"Republican": "10"}
+				{"Republican": "6"}
 			],
 			"MO": [
 				{"Republican": "10"}
@@ -278,6 +278,377 @@
 				{"Republican": "4"}
 			],
 			"IL": [
+				{"Democratic": "20"}
+			],
+			"IN": [
+				{"Republican": "11"}
+			],
+			"IA": [
+				{"Democratic": "6"}
+			],
+			"KS": [
+				{"Republican": "6"}
+			],
+			"KY": [
+				{"Republican": "8"}
+			],
+			"LA": [
+				{"Republican": "8"}
+			],
+			"ME": [				
+				{"Democratic": "4"}
+			],
+			"MD": [
+				{"Democratic": "10"}
+			],
+			"MA": [
+				{"Democratic": "11"}
+			],
+			"MI": [
+				{"Democratic": "16"}
+			],
+			"MN": [
+				{"Democratic": "9"}
+			],
+			"MS": [
+				{"Republican": "6"}
+			],
+			"MO": [
+				{"Republican": "10"}
+			],
+			"MT": [
+				{"Republican": "3"}
+			],
+			"NE": [
+				{"Republican": "5"}
+			],
+			"NV": [
+				{"Democratic": "6"}
+			],
+			"NH": [
+				{"Democratic": "4"}
+			],
+			"NJ": [
+				{"Democratic": "14"}
+			],
+			"NM": [
+				{"Democratic": "5"}
+			],
+			"NY": [
+				{"Democratic": "29"}
+			],
+			"NC": [
+				{"Republican": "15"}
+			],
+			"ND": [
+				{"Republican": "3"}
+			],
+			"OH": [
+				{"Democratic": "18"}
+			],
+			"OK": [
+				{"Republican": "7"}
+			],
+			"OR": [
+				{"Democratic": "7"}
+			],
+			"PA": [
+				{"Democratic": "20"}
+			],
+			"RI": [
+				{"Democratic": "4"}
+			],
+			"SC": [
+				{"Republican": "9"}
+			],
+			"SD": [
+				{"Republican": "3"}
+			],
+			"TN": [
+				{"Republican": "11"}
+			],
+			"TX": [
+				{"Republican": "38"}
+			],
+			"UT": [
+				{"Republican": "6"}
+			],
+			"VT": [
+				{"Democratic": "3"}
+			],
+			"VA": [
+				{"Democratic": "13"}
+			],
+			"WA": [
+				{"Democratic": "12"}
+			],
+			"WV": [
+				{"Republican": "5"}
+			],
+			"WI": [
+				{"Democratic": "10"}
+			],
+			"WY": [
+				{"Republican": "3"}
+			]
+		}	
+	},
+	
+	"2008": {
+		"totals": {
+			"electoral": "548",
+			"popular": "129,391,711"
+		},
+		"candidates": [
+			{
+				"name": "Barack H. Obama",
+				"party": "Democratic",
+				"popular": "69,456,897",
+				"electoral": "365"
+			},
+			{
+				"name": "John S. McCain",
+				"party": "Republican",
+				"popular": "59,934,814",
+				"electoral": "173"
+			}
+		],
+		"states": {
+			"AL": [
+				{"Republican": "9"}
+			],
+			"AK": [
+				{"Republican": "3"}
+			],
+			"AR": [
+				{"Republican": "6"}
+			],
+			"AZ": [
+				{"Republican": "10"}
+			],
+			"CA": [
+				{"Democratic": "55"}
+			],
+			"CO": [
+				{"Democratic": "9"}
+			],
+			"CT": [
+				{"Democratic": "7"}
+			],
+			"DC": [
+				{"Democratic": "3"}
+			],
+			"DC state": [
+				{"Democratic": "3"}
+			],
+			"DC1": [
+				{"Democratic": "3"}
+			],
+			"DC2": [
+				{"Democratic": "3"}
+			],
+			"DE": [
+				{"Democratic": "3"}
+			],
+			"FL": [
+				{"Democratic": "27"}
+			],
+			"GA": [
+				{"Republican": "15"}
+			],
+			"HI": [
+				{"Democratic": "4"}
+			],
+			"ID": [
+				{"Republican": "4"}
+			],
+			"IL": [
+				{"Democratic": "21"}
+			],
+			"IN": [
+				{"Republican": "11"}
+			],
+			"IA": [
+				{"Democratic": "6"}
+			],
+			"KS": [
+				{"Republican": "6"}
+			],
+			"KY": [
+				{"Republican": "8"}
+			],
+			"LA": [
+				{"Republican": "8"}
+			],
+			"ME": [				
+				{"Democratic": "4"}
+			],
+			"MD": [
+				{"Democratic": "10"}
+			],
+			"MA": [
+				{"Democratic": "11"}
+			],
+			"MI": [
+				{"Democratic": "16"}
+			],
+			"MN": [
+				{"Democratic": "10"}
+			],
+			"MS": [
+				{"Republican": "6"}
+			],
+			"MO": [
+				{"Republican": "10"}
+			],
+			"MT": [
+				{"Republican": "3"}
+			],
+			"NE": [
+				{"Republican": "4"},
+				{"Democratic": "1"}
+			],
+			"NV": [
+				{"Democratic": "5"}
+			],
+			"NH": [
+				{"Democratic": "4"}
+			],
+			"NJ": [
+				{"Democratic": "15"}
+			],
+			"NM": [
+				{"Democratic": "5"}
+			],
+			"NY": [
+				{"Democratic": "31"}
+			],
+			"NC": [
+				{"Democratic": "15"}
+			],
+			"ND": [
+				{"Republican": "3"}
+			],
+			"OH": [
+				{"Democratic": "20"}
+			],
+			"OK": [
+				{"Republican": "7"}
+			],
+			"OR": [
+				{"Democratic": "7"}
+			],
+			"PA": [
+				{"Democratic": "21"}
+			],
+			"RI": [
+				{"Democratic": "4"}
+			],
+			"SC": [
+				{"Republican": "8"}
+			],
+			"SD": [
+				{"Republican": "3"}
+			],
+			"TN": [
+				{"Republican": "11"}
+			],
+			"TX": [
+				{"Republican": "34"}
+			],
+			"UT": [
+				{"Republican": "5"}
+			],
+			"VT": [
+				{"Democratic": "3"}
+			],
+			"VA": [
+				{"Democratic": "13"}
+			],
+			"WA": [
+				{"Democratic": "11"}
+			],
+			"WV": [
+				{"Republican": "5"}
+			],
+			"WI": [
+				{"Democratic": "10"}
+			],
+			"WY": [
+				{"Republican": "3"}
+			]
+		}	
+	},
+
+	"2004": {
+		"totals": {
+			"electoral": "531",
+			"popular": "135,500,034"
+		},
+		"candidates": [
+			{
+				"name": "John F. Kerry",
+				"party": "Democratic",
+				"popular": "65,446,032",
+				"electoral": "251"
+			},
+			{
+				"name": "George w. Bush (I)",
+				"party": "Republican",
+				"popular": "60,589,084",
+				"electoral": "286"
+			}
+		],
+		"states": {
+			"AL": [
+				{"Republican": "9"}
+			],
+			"AK": [
+				{"Republican": "3"}
+			],
+			"AR": [
+				{"Republican": "6"}
+			],
+			"AZ": [
+				{"Republican": "11"}
+			],
+			"CA": [
+				{"Democratic": "55"}
+			],
+			"CO": [
+				{"Democratic": "9"}
+			],
+			"CT": [
+				{"Democratic": "7"}
+			],
+			"DC": [
+				{"Democratic": "3"}
+			],
+			"DC state": [
+				{"Democratic": "3"}
+			],
+			"DC1": [
+				{"Democratic": "3"}
+			],
+			"DC2": [
+				{"Democratic": "3"}
+			],
+			"DE": [
+				{"Democratic": "3"}
+			],
+			"FL": [
+				{"Democratic": "29"}
+			],
+			"GA": [
+				{"Republican": "16"}
+			],
+			"HI": [
+				{"Democratic": "3"}
+			],
+			"ID": [
+				{"Republican": "4"}
+			],
+			"IL": [
 				{"Democratic": "4"}
 			],
 			"IN": [
@@ -368,7 +739,7 @@
 				{"Republican": "11"}
 			],
 			"TX": [
-				{"Republican": "36"}
+				{"Republican": "38"}
 			],
 			"UT": [
 				{"Republican": "6"}
@@ -380,7 +751,7 @@
 				{"Democratic": "13"}
 			],
 			"WA": [
-				{"Democratic": "8"}
+				{"Democratic": "12"}
 			],
 			"WV": [
 				{"Republican": "5"}
@@ -393,5 +764,4 @@
 			]
 		}	
 	}
-	
 }

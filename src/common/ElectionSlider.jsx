@@ -16,7 +16,8 @@ export default class ElectionSlider extends Component {
     }
     
     onChangeEvent = (year) => {
-        this.setState({ year });
+        this.setState({ year: year });
+        this.props.updateElectionYear(year);
     }
 
     render() {
@@ -29,8 +30,7 @@ export default class ElectionSlider extends Component {
                             minValue={1788}
                             value={this.state.year}
                             step={4}
-                            onChange={year => this.onChangeEvent(year)}
-                            onChangeComplete={value => console.log(value)} />
+                            onChange={year => this.onChangeEvent(year)} />
                     </form>
                 </div>
             </div>

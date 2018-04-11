@@ -25,13 +25,17 @@ export default class App extends Component {
     setYear = (year) => {
         this.setState({ year: year });
     }
+
+    onYearChange = (year) => {
+        this.setYear(year);
+    }
     
     render() {
         return(
             <div>
                 <NavigationDrawer></NavigationDrawer>
-                <USElection></USElection>
-                <ElectionSlider></ElectionSlider>
+                <USElection year={this.state.year}></USElection>
+                <ElectionSlider updateElectionYear={this.onYearChange}></ElectionSlider>
             </div>
         )
     }
