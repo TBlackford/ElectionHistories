@@ -9,6 +9,7 @@ import './../css/App.css';
 // Data
 import data from './us/history.jsx';
 
+var COLOUR_NONPARTISAN = "#5FD35F";
 
 var COLOUR_FEDERALIST = "#EA9978";
 var COLOUR_DEMOCRATIC_REPUBLICAN = "#008000";
@@ -24,6 +25,8 @@ var COLOUR_JACKSONIANS = "#7AA4E5";
 var COLOUR_CLAY = "#E8EE73";
 var COLOUR_CRAWFORD = "#FF9955";
 var COLOUR_ADAMS = "#68C468";
+
+var COLOUR_AMERICAN_INDEPENDENT = "#FF9955";
 
 var COLOUR_REPUBLICAN = "#F07763";
 var COLOUR_DEMOCRAT = "#698DC5";
@@ -51,6 +54,9 @@ export default class USElection extends Component {
     getColour = (party) => {
         switch( party ) {
             case "Independant": return 0;
+
+            case "Nonpartisan": return COLOUR_NONPARTISAN;
+            case "Territory": return "#808080";
                 
             case "Whig": return COLOUR_WHIG;                
             case "Federalist": return COLOUR_FEDERALIST;      
@@ -63,10 +69,12 @@ export default class USElection extends Component {
 
             case "National Union": return 0;    
 
+            case "American Independent": return COLOUR_AMERICAN_INDEPENDENT;
+
             case "Democratic": return COLOUR_DEMOCRAT;
             case "Republican": return COLOUR_REPUBLICAN;
 
-            default: "#C4C4C4";
+            default: "#EEE";
         }
     }
 

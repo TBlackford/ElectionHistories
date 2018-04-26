@@ -583,19 +583,19 @@
 	"2004": {
 		"totals": {
 			"electoral": "531",
-			"popular": "135,500,034"
+			"popular": "121,066,551"
 		},
 		"candidates": [
 			{
 				"name": "John F. Kerry",
 				"party": "Democratic",
-				"popular": "65,446,032",
+				"popular": "59,027,478",
 				"electoral": "251"
 			},
 			{
-				"name": "George w. Bush (I)",
+				"name": "George W. Bush (I)",
 				"party": "Republican",
-				"popular": "60,589,084",
+				"popular": "62,039,073",
 				"electoral": "286"
 			}
 		],
@@ -610,13 +610,13 @@
 				{"Republican": "6"}
 			],
 			"AZ": [
-				{"Republican": "11"}
+				{"Republican": "10"}
 			],
 			"CA": [
 				{"Democratic": "55"}
 			],
 			"CO": [
-				{"Democratic": "9"}
+				{"Republican": "9"}
 			],
 			"CT": [
 				{"Democratic": "7"}
@@ -637,25 +637,25 @@
 				{"Democratic": "3"}
 			],
 			"FL": [
-				{"Democratic": "29"}
+				{"Republican": "27"}
 			],
 			"GA": [
-				{"Republican": "16"}
+				{"Republican": "15"}
 			],
 			"HI": [
-				{"Democratic": "3"}
+				{"Democratic": "4"}
 			],
 			"ID": [
 				{"Republican": "4"}
 			],
 			"IL": [
-				{"Democratic": "4"}
+				{"Democratic": "21"}
 			],
 			"IN": [
 				{"Republican": "11"}
 			],
 			"IA": [
-				{"Democratic": "6"}
+				{"Republican": "6"}
 			],
 			"KS": [
 				{"Republican": "6"}
@@ -664,7 +664,7 @@
 				{"Republican": "8"}
 			],
 			"LA": [
-				{"Republican": "8"}
+				{"Republican": "9"}
 			],
 			"ME": [				
 				{"Democratic": "4"}
@@ -673,19 +673,19 @@
 				{"Democratic": "10"}
 			],
 			"MA": [
-				{"Democratic": "11"}
+				{"Democratic": "12"}
 			],
 			"MI": [
-				{"Democratic": "16"}
+				{"Democratic": "17"}
 			],
 			"MN": [
 				{"Democratic": "9"}
 			],
 			"MS": [
-				{"Republican": "10"}
+				{"Republican": "6"}
 			],
 			"MO": [
-				{"Republican": "10"}
+				{"Republican": "11"}
 			],
 			"MT": [
 				{"Republican": "3"}
@@ -694,19 +694,19 @@
 				{"Republican": "5"}
 			],
 			"NV": [
-				{"Democratic": "6"}
+				{"Republican": "5"}
 			],
 			"NH": [
 				{"Democratic": "4"}
 			],
 			"NJ": [
-				{"Democratic": "14"}
+				{"Democratic": "15"}
 			],
 			"NM": [
-				{"Democratic": "5"}
+				{"Republican": "5"}
 			],
 			"NY": [
-				{"Democratic": "29"}
+				{"Democratic": "31"}
 			],
 			"NC": [
 				{"Republican": "15"}
@@ -715,7 +715,7 @@
 				{"Republican": "3"}
 			],
 			"OH": [
-				{"Democratic": "18"}
+				{"Republican": "20"}
 			],
 			"OK": [
 				{"Republican": "7"}
@@ -724,13 +724,13 @@
 				{"Democratic": "7"}
 			],
 			"PA": [
-				{"Democratic": "20"}
+				{"Democratic": "21"}
 			],
 			"RI": [
 				{"Democratic": "4"}
 			],
 			"SC": [
-				{"Republican": "9"}
+				{"Republican": "8"}
 			],
 			"SD": [
 				{"Republican": "3"}
@@ -739,19 +739,19 @@
 				{"Republican": "11"}
 			],
 			"TX": [
-				{"Republican": "38"}
+				{"Republican": "34"}
 			],
 			"UT": [
-				{"Republican": "6"}
+				{"Republican": "5"}
 			],
 			"VT": [
 				{"Democratic": "3"}
 			],
 			"VA": [
-				{"Democratic": "13"}
+				{"Republican": "13"}
 			],
 			"WA": [
-				{"Democratic": "12"}
+				{"Democratic": "11"}
 			],
 			"WV": [
 				{"Republican": "5"}
@@ -763,5 +763,2300 @@
 				{"Republican": "3"}
 			]
 		}	
+	},
+
+	"2000": {
+		"totals": {
+			"electoral": "537",
+			"popular": "104,335,599"
+		},
+		"candidates": [
+			{
+				"name": "Albert Gore, Jr.",
+				"party": "Democratic",
+				"popular": "50,996,582",
+				"electoral": "266"
+			},
+			{
+				"name": "George W. Bush",
+				"party": "Republican",
+				"popular": "50,456,062",
+				"electoral": "271"
+			},
+			{
+				"name": "Ralph Nader",
+				"party": "Green",
+				"popular": "2,882,955",
+				"electoral": "0"
+			}
+		],
+		"states": {
+			"AL": [
+				{"Republican": "9"}
+			],
+			"AK": [
+				{"Republican": "3"}
+			],
+			"AR": [
+				{"Republican": "6"}
+			],
+			"AZ": [
+				{"Republican": "8"}
+			],
+			"CA": [
+				{"Democratic": "54"}
+			],
+			"CO": [
+				{"Republican": "8"}
+			],
+			"CT": [
+				{"Democratic": "8"}
+			],
+			"DC": [
+				{"Democratic": "2"}
+			],
+			"DC state": [
+				{"Democratic": "2"}
+			],
+			"DC1": [
+				{"Democratic": "2"}
+			],
+			"DC2": [
+				{"Democratic": "2"}
+			],
+			"DE": [
+				{"Democratic": "3"}
+			],
+			"FL": [
+				{"Republican": "25"}
+			],
+			"GA": [
+				{"Republican": "13"}
+			],
+			"HI": [
+				{"Democratic": "4"}
+			],
+			"ID": [
+				{"Republican": "4"}
+			],
+			"IL": [
+				{"Democratic": "22"}
+			],
+			"IN": [
+				{"Republican": "12"}
+			],
+			"IA": [
+				{"Republican": "7"}
+			],
+			"KS": [
+				{"Republican": "6"}
+			],
+			"KY": [
+				{"Republican": "8"}
+			],
+			"LA": [
+				{"Republican": "9"}
+			],
+			"ME": [				
+				{"Democratic": "4"}
+			],
+			"MD": [
+				{"Democratic": "10"}
+			],
+			"MA": [
+				{"Democratic": "12"}
+			],
+			"MI": [
+				{"Democratic": "18"}
+			],
+			"MN": [
+				{"Democratic": "10"}
+			],
+			"MS": [
+				{"Republican": "7"}
+			],
+			"MO": [
+				{"Republican": "11"}
+			],
+			"MT": [
+				{"Republican": "3"}
+			],
+			"NE": [
+				{"Republican": "5"}
+			],
+			"NV": [
+				{"Republican": "4"}
+			],
+			"NH": [
+				{"Republican": "4"}
+			],
+			"NJ": [
+				{"Democratic": "15"}
+			],
+			"NM": [
+				{"Democratic": "5"}
+			],
+			"NY": [
+				{"Democratic": "33"}
+			],
+			"NC": [
+				{"Republican": "14"}
+			],
+			"ND": [
+				{"Republican": "3"}
+			],
+			"OH": [
+				{"Republican": "21"}
+			],
+			"OK": [
+				{"Republican": "8"}
+			],
+			"OR": [
+				{"Democratic": "7"}
+			],
+			"PA": [
+				{"Democratic": "23"}
+			],
+			"RI": [
+				{"Democratic": "4"}
+			],
+			"SC": [
+				{"Republican": "8"}
+			],
+			"SD": [
+				{"Republican": "3"}
+			],
+			"TN": [
+				{"Republican": "11"}
+			],
+			"TX": [
+				{"Republican": "32"}
+			],
+			"UT": [
+				{"Republican": "5"}
+			],
+			"VT": [
+				{"Democratic": "3"}
+			],
+			"VA": [
+				{"Republican": "13"}
+			],
+			"WA": [
+				{"Democratic": "11"}
+			],
+			"WV": [
+				{"Republican": "5"}
+			],
+			"WI": [
+				{"Democratic": "11"}
+			],
+			"WY": [
+				{"Republican": "3"}
+			]
+		}	
+	},
+
+	"1996": {
+		"totals": {
+			"electoral": "537",
+			"popular": "91,492,304"
+		},
+		"candidates": [
+			{
+				"name": "William J. Clinton (I)",
+				"party": "Democratic",
+				"popular": "45,590,703",
+				"electoral": "266"
+			},
+			{
+				"name": "Robert Dole",
+				"party": "Republican",
+				"popular": "37,816,307",
+				"electoral": "271"
+			},
+			{
+				"name": "Ross Perot",
+				"party": "Reform",
+				"popular": "8,085,294",
+				"electoral": "0"
+			}
+		],
+		"states": {
+			"AL": [
+				{"Republican": "9"}
+			],
+			"AK": [
+				{"Republican": "3"}
+			],
+			"AR": [
+				{"Democratic": "6"}
+			],
+			"AZ": [
+				{"Democratic": "8"}
+			],
+			"CA": [
+				{"Democratic": "54"}
+			],
+			"CO": [
+				{"Republican": "8"}
+			],
+			"CT": [
+				{"Democratic": "8"}
+			],
+			"DC": [
+				{"Democratic": "3"}
+			],
+			"DC state": [
+				{"Democratic": "3"}
+			],
+			"DC1": [
+				{"Democratic": "3"}
+			],
+			"DC2": [
+				{"Democratic": "3"}
+			],
+			"DE": [
+				{"Democratic": "3"}
+			],
+			"FL": [
+				{"Democratic": "25"}
+			],
+			"GA": [
+				{"Republican": "13"}
+			],
+			"HI": [
+				{"Democratic": "4"}
+			],
+			"ID": [
+				{"Republican": "4"}
+			],
+			"IL": [
+				{"Democratic": "22"}
+			],
+			"IN": [
+				{"Republican": "12"}
+			],
+			"IA": [
+				{"Democratic": "7"}
+			],
+			"KS": [
+				{"Republican": "6"}
+			],
+			"KY": [
+				{"Democratic": "8"}
+			],
+			"LA": [
+				{"Democratic": "9"}
+			],
+			"ME": [				
+				{"Democratic": "4"}
+			],
+			"MD": [
+				{"Democratic": "10"}
+			],
+			"MA": [
+				{"Democratic": "12"}
+			],
+			"MI": [
+				{"Democratic": "18"}
+			],
+			"MN": [
+				{"Democratic": "10"}
+			],
+			"MS": [
+				{"Republican": "7"}
+			],
+			"MO": [
+				{"Democratic": "11"}
+			],
+			"MT": [
+				{"Republican": "3"}
+			],
+			"NE": [
+				{"Republican": "5"}
+			],
+			"NV": [
+				{"Democratic": "4"}
+			],
+			"NH": [
+				{"Democratic": "4"}
+			],
+			"NJ": [
+				{"Democratic": "15"}
+			],
+			"NM": [
+				{"Democratic": "5"}
+			],
+			"NY": [
+				{"Democratic": "33"}
+			],
+			"NC": [
+				{"Republican": "14"}
+			],
+			"ND": [
+				{"Republican": "3"}
+			],
+			"OH": [
+				{"Democratic": "21"}
+			],
+			"OK": [
+				{"Republican": "8"}
+			],
+			"OR": [
+				{"Democratic": "7"}
+			],
+			"PA": [
+				{"Democratic": "23"}
+			],
+			"RI": [
+				{"Democratic": "4"}
+			],
+			"SC": [
+				{"Republican": "8"}
+			],
+			"SD": [
+				{"Republican": "3"}
+			],
+			"TN": [
+				{"Democratic": "11"}
+			],
+			"TX": [
+				{"Republican": "32"}
+			],
+			"UT": [
+				{"Republican": "5"}
+			],
+			"VT": [
+				{"Democratic": "3"}
+			],
+			"VA": [
+				{"Republican": "13"}
+			],
+			"WA": [
+				{"Democratic": "11"}
+			],
+			"WV": [
+				{"Democratic": "5"}
+			],
+			"WI": [
+				{"Democratic": "11"}
+			],
+			"WY": [
+				{"Republican": "3"}
+			]
+		}	
+	},
+
+	"1992": {
+		"totals": {
+			"electoral": "538",
+			"popular": "104,335,599"
+		},
+		"candidates": [
+			{
+				"name": "William J. Clinton",
+				"party": "Democratic",
+				"popular": "44,908,254",
+				"electoral": "370"
+			},
+			{
+				"name": "George Bush (I)",
+				"party": "Republican",
+				"popular": "39,102,343",
+				"electoral": "168"
+			},
+			{
+				"name": "Ross Perot",
+				"party": "Independent",
+				"popular": "19,743,821",
+				"electoral": "0"
+			}
+		],
+		"states": {
+			"AL": [
+				{"Republican": "9"}
+			],
+			"AK": [
+				{"Republican": "3"}
+			],
+			"AR": [
+				{"Democratic": "6"}
+			],
+			"AZ": [
+				{"Republican": "8"}
+			],
+			"CA": [
+				{"Democratic": "54"}
+			],
+			"CO": [
+				{"Democratic": "8"}
+			],
+			"CT": [
+				{"Democratic": "8"}
+			],
+			"DC": [
+				{"Democratic": "3"}
+			],
+			"DC state": [
+				{"Democratic": "3"}
+			],
+			"DC1": [
+				{"Democratic": "3"}
+			],
+			"DC2": [
+				{"Democratic": "3"}
+			],
+			"DE": [
+				{"Democratic": "3"}
+			],
+			"FL": [
+				{"Republican": "25"}
+			],
+			"GA": [
+				{"Democratic": "13"}
+			],
+			"HI": [
+				{"Democratic": "4"}
+			],
+			"ID": [
+				{"Republican": "4"}
+			],
+			"IL": [
+				{"Democratic": "22"}
+			],
+			"IN": [
+				{"Republican": "12"}
+			],
+			"IA": [
+				{"Democratic": "7"}
+			],
+			"KS": [
+				{"Republican": "6"}
+			],
+			"KY": [
+				{"Democratic": "8"}
+			],
+			"LA": [
+				{"Democratic": "9"}
+			],
+			"ME": [				
+				{"Democratic": "4"}
+			],
+			"MD": [
+				{"Democratic": "10"}
+			],
+			"MA": [
+				{"Democratic": "12"}
+			],
+			"MI": [
+				{"Democratic": "18"}
+			],
+			"MN": [
+				{"Democratic": "10"}
+			],
+			"MS": [
+				{"Republican": "7"}
+			],
+			"MO": [
+				{"Democratic": "11"}
+			],
+			"MT": [
+				{"Democratic": "3"}
+			],
+			"NE": [
+				{"Republican": "5"}
+			],
+			"NV": [
+				{"Democratic": "4"}
+			],
+			"NH": [
+				{"Democratic": "4"}
+			],
+			"NJ": [
+				{"Democratic": "15"}
+			],
+			"NM": [
+				{"Democratic": "5"}
+			],
+			"NY": [
+				{"Democratic": "33"}
+			],
+			"NC": [
+				{"Republican": "14"}
+			],
+			"ND": [
+				{"Republican": "3"}
+			],
+			"OH": [
+				{"Democratic": "21"}
+			],
+			"OK": [
+				{"Republican": "8"}
+			],
+			"OR": [
+				{"Democratic": "7"}
+			],
+			"PA": [
+				{"Democratic": "23"}
+			],
+			"RI": [
+				{"Democratic": "4"}
+			],
+			"SC": [
+				{"Republican": "8"}
+			],
+			"SD": [
+				{"Republican": "3"}
+			],
+			"TN": [
+				{"Democratic": "11"}
+			],
+			"TX": [
+				{"Republican": "32"}
+			],
+			"UT": [
+				{"Republican": "5"}
+			],
+			"VT": [
+				{"Democratic": "3"}
+			],
+			"VA": [
+				{"Republican": "13"}
+			],
+			"WA": [
+				{"Democratic": "11"}
+			],
+			"WV": [
+				{"Democratic": "5"}
+			],
+			"WI": [
+				{"Democratic": "11"}
+			],
+			"WY": [
+				{"Republican": "3"}
+			]
+		}	
+	},
+
+	"1988": {
+		"totals": {
+			"electoral": "537",
+			"popular": "88,962,000"
+		},
+		"candidates": [
+			{
+				"name": "Michael S. Dukakis",
+				"party": "Democratic",
+				"popular": "41,016,000",
+				"electoral": "111"
+			},
+			{
+				"name": "George Bush",
+				"party": "Republican",
+				"popular": "47,946,000",
+				"electoral": "426"
+			}
+		],
+		"states": {
+			"AL": [
+				{"Republican": "9"}
+			],
+			"AK": [
+				{"Republican": "3"}
+			],
+			"AR": [
+				{"Republican": "6"}
+			],
+			"AZ": [
+				{"Republican": "8"}
+			],
+			"CA": [
+				{"Republican": "47"}
+			],
+			"CO": [
+				{"Republican": "8"}
+			],
+			"CT": [
+				{"Republican": "8"}
+			],
+			"DC": [
+				{"Democratic": "3"}
+			],
+			"DC state": [
+				{"Democratic": "3"}
+			],
+			"DC1": [
+				{"Democratic": "3"}
+			],
+			"DC2": [
+				{"Democratic": "3"}
+			],
+			"DE": [
+				{"Republican": "3"}
+			],
+			"FL": [
+				{"Republican": "21"}
+			],
+			"GA": [
+				{"Republican": "12"}
+			],
+			"HI": [
+				{"Democratic": "4"}
+			],
+			"ID": [
+				{"Republican": "4"}
+			],
+			"IL": [
+				{"Republican": "24"}
+			],
+			"IN": [
+				{"Republican": "12"}
+			],
+			"IA": [
+				{"Democratic": "8"}
+			],
+			"KS": [
+				{"Republican": "7"}
+			],
+			"KY": [
+				{"Republican": "9"}
+			],
+			"LA": [
+				{"Republican": "10"}
+			],
+			"ME": [				
+				{"Republican": "4"}
+			],
+			"MD": [
+				{"Republican": "10"}
+			],
+			"MA": [
+				{"Democratic": "13"}
+			],
+			"MI": [
+				{"Republican": "20"}
+			],
+			"MN": [
+				{"Democratic": "10"}
+			],
+			"MS": [
+				{"Republican": "7"}
+			],
+			"MO": [
+				{"Republican": "11"}
+			],
+			"MT": [
+				{"Republican": "4"}
+			],
+			"NE": [
+				{"Republican": "5"}
+			],
+			"NV": [
+				{"Republican": "4"}
+			],
+			"NH": [
+				{"Republican": "4"}
+			],
+			"NJ": [
+				{"Republican": "16"}
+			],
+			"NM": [
+				{"Republican": "5"}
+			],
+			"NY": [
+				{"Democratic": "36"}
+			],
+			"NC": [
+				{"Republican": "13"}
+			],
+			"ND": [
+				{"Republican": "3"}
+			],
+			"OH": [
+				{"Democratic": "23"}
+			],
+			"OK": [
+				{"Republican": "8"}
+			],
+			"OR": [
+				{"Democratic": "7"}
+			],
+			"PA": [
+				{"Republican": "25"}
+			],
+			"RI": [
+				{"Democratic": "4"}
+			],
+			"SC": [
+				{"Republican": "8"}
+			],
+			"SD": [
+				{"Republican": "3"}
+			],
+			"TN": [
+				{"Republican": "11"}
+			],
+			"TX": [
+				{"Republican": "29"}
+			],
+			"UT": [
+				{"Republican": "5"}
+			],
+			"VT": [
+				{"Republican": "3"}
+			],
+			"VA": [
+				{"Republican": "12"}
+			],
+			"WA": [
+				{"Democratic": "10"}
+			],
+			"WV": [
+				{"Democratic": "5"}
+			],
+			"WI": [
+				{"Democratic": "11"}
+			],
+			"WY": [
+				{"Republican": "3"}
+			]
+		}	
+	},
+
+	"1984": {
+		"totals": {
+			"electoral": "538",
+			"popular": "88,962,000"
+		},
+		"candidates": [
+			{
+				"name": "Walter F. Mondale",
+				"party": "Democratic",
+				"popular": "41,016,000",
+				"electoral": "13"
+			},
+			{
+				"name": "Ronald Reagan (I)",
+				"party": "Republican",
+				"popular": "47,946,000",
+				"electoral": "525"
+			}
+		],
+		"states": {
+			"AL": [
+				{"Republican": "9"}
+			],
+			"AK": [
+				{"Republican": "3"}
+			],
+			"AR": [
+				{"Republican": "6"}
+			],
+			"AZ": [
+				{"Republican": "7"}
+			],
+			"CA": [
+				{"Republican": "47"}
+			],
+			"CO": [
+				{"Republican": "8"}
+			],
+			"CT": [
+				{"Republican": "8"}
+			],
+			"DC": [
+				{"Democratic": "3"}
+			],
+			"DC state": [
+				{"Democratic": "3"}
+			],
+			"DC1": [
+				{"Democratic": "3"}
+			],
+			"DC2": [
+				{"Democratic": "3"}
+			],
+			"DE": [
+				{"Republican": "3"}
+			],
+			"FL": [
+				{"Republican": "21"}
+			],
+			"GA": [
+				{"Republican": "12"}
+			],
+			"HI": [
+				{"Republican": "4"}
+			],
+			"ID": [
+				{"Republican": "4"}
+			],
+			"IL": [
+				{"Republican": "24"}
+			],
+			"IN": [
+				{"Republican": "12"}
+			],
+			"IA": [
+				{"Republican": "8"}
+			],
+			"KS": [
+				{"Republican": "7"}
+			],
+			"KY": [
+				{"Republican": "9"}
+			],
+			"LA": [
+				{"Republican": "10"}
+			],
+			"ME": [				
+				{"Republican": "4"}
+			],
+			"MD": [
+				{"Republican": "10"}
+			],
+			"MA": [
+				{"Republican": "13"}
+			],
+			"MI": [
+				{"Republican": "20"}
+			],
+			"MN": [
+				{"Democratic": "10"}
+			],
+			"MS": [
+				{"Republican": "7"}
+			],
+			"MO": [
+				{"Republican": "11"}
+			],
+			"MT": [
+				{"Republican": "4"}
+			],
+			"NE": [
+				{"Republican": "5"}
+			],
+			"NV": [
+				{"Republican": "4"}
+			],
+			"NH": [
+				{"Republican": "4"}
+			],
+			"NJ": [
+				{"Republican": "16"}
+			],
+			"NM": [
+				{"Republican": "5"}
+			],
+			"NY": [
+				{"Republican": "36"}
+			],
+			"NC": [
+				{"Republican": "13"}
+			],
+			"ND": [
+				{"Republican": "3"}
+			],
+			"OH": [
+				{"Republican": "23"}
+			],
+			"OK": [
+				{"Republican": "8"}
+			],
+			"OR": [
+				{"Republican": "7"}
+			],
+			"PA": [
+				{"Republican": "25"}
+			],
+			"RI": [
+				{"Republican": "4"}
+			],
+			"SC": [
+				{"Republican": "8"}
+			],
+			"SD": [
+				{"Republican": "3"}
+			],
+			"TN": [
+				{"Republican": "11"}
+			],
+			"TX": [
+				{"Republican": "29"}
+			],
+			"UT": [
+				{"Republican": "5"}
+			],
+			"VT": [
+				{"Republican": "3"}
+			],
+			"VA": [
+				{"Republican": "12"}
+			],
+			"WA": [
+				{"Republican": "10"}
+			],
+			"WV": [
+				{"Republican": "6"}
+			],
+			"WI": [
+				{"Republican": "11"}
+			],
+			"WY": [
+				{"Republican": "3"}
+			]
+		}	
+	},
+
+	"1980": {
+		"totals": {
+			"electoral": "538",
+			"popular": "86,026,610"
+		},
+		"candidates": [
+			{
+				"name": "Jimmy Carter (I)",
+				"party": "Democratic",
+				"popular": "41,016,000",
+				"electoral": "49"
+			},
+			{
+				"name": "Ronald Reagan",
+				"party": "Republican",
+				"popular": "47,946,000",
+				"electoral": "489"
+			},
+			{
+				"name": "John Anderson",
+				"party": "Independent",
+				"popular": "47,946,000",
+				"electoral": "0"
+			},
+			{
+				"name": "Ed Clark",
+				"party": "Libertarian",
+				"popular": "47,946,000",
+				"electoral": "0"
+			}
+		],
+		"states": {
+			"AL": [
+				{"Republican": "9"}
+			],
+			"AK": [
+				{"Republican": "3"}
+			],
+			"AR": [
+				{"Republican": "6"}
+			],
+			"AZ": [
+				{"Republican": "6"}
+			],
+			"CA": [
+				{"Republican": "45"}
+			],
+			"CO": [
+				{"Republican": "7"}
+			],
+			"CT": [
+				{"Republican": "8"}
+			],
+			"DC": [
+				{"Democratic": "3"}
+			],
+			"DC state": [
+				{"Democratic": "3"}
+			],
+			"DC1": [
+				{"Democratic": "3"}
+			],
+			"DC2": [
+				{"Democratic": "3"}
+			],
+			"DE": [
+				{"Republican": "3"}
+			],
+			"FL": [
+				{"Republican": "17"}
+			],
+			"GA": [
+				{"Democratic": "12"}
+			],
+			"HI": [
+				{"Democratic": "4"}
+			],
+			"ID": [
+				{"Republican": "4"}
+			],
+			"IL": [
+				{"Republican": "26"}
+			],
+			"IN": [
+				{"Republican": "13"}
+			],
+			"IA": [
+				{"Republican": "8"}
+			],
+			"KS": [
+				{"Republican": "7"}
+			],
+			"KY": [
+				{"Republican": "9"}
+			],
+			"LA": [
+				{"Republican": "10"}
+			],
+			"ME": [				
+				{"Republican": "4"}
+			],
+			"MD": [
+				{"Democratic": "10"}
+			],
+			"MA": [
+				{"Republican": "14"}
+			],
+			"MI": [
+				{"Republican": "21"}
+			],
+			"MN": [
+				{"Democratic": "10"}
+			],
+			"MS": [
+				{"Republican": "7"}
+			],
+			"MO": [
+				{"Republican": "12"}
+			],
+			"MT": [
+				{"Republican": "4"}
+			],
+			"NE": [
+				{"Republican": "5"}
+			],
+			"NV": [
+				{"Republican": "3"}
+			],
+			"NH": [
+				{"Republican": "4"}
+			],
+			"NJ": [
+				{"Republican": "17"}
+			],
+			"NM": [
+				{"Republican": "4"}
+			],
+			"NY": [
+				{"Republican": "41"}
+			],
+			"NC": [
+				{"Republican": "13"}
+			],
+			"ND": [
+				{"Republican": "3"}
+			],
+			"OH": [
+				{"Republican": "25"}
+			],
+			"OK": [
+				{"Republican": "8"}
+			],
+			"OR": [
+				{"Republican": "6"}
+			],
+			"PA": [
+				{"Republican": "27"}
+			],
+			"RI": [
+				{"Democratic": "4"}
+			],
+			"SC": [
+				{"Republican": "8"}
+			],
+			"SD": [
+				{"Republican": "4"}
+			],
+			"TN": [
+				{"Republican": "10"}
+			],
+			"TX": [
+				{"Republican": "26"}
+			],
+			"UT": [
+				{"Republican": "4"}
+			],
+			"VT": [
+				{"Republican": "3"}
+			],
+			"VA": [
+				{"Republican": "12"}
+			],
+			"WA": [
+				{"Republican": "9"}
+			],
+			"WV": [
+				{"Democratic": "6"}
+			],
+			"WI": [
+				{"Republican": "11"}
+			],
+			"WY": [
+				{"Republican": "3"}
+			]
+		}	
+	},
+
+	"1976": {
+		"totals": {
+			"electoral": "537",
+			"popular": "79,973,609"
+		},
+		"candidates": [
+			{
+				"name": "Jimmy Carter",
+				"party": "Democratic",
+				"popular": "41,016,000",
+				"electoral": "297"
+			},
+			{
+				"name": "Gerald R. Ford (I)",
+				"party": "Republican",
+				"popular": "47,946,000",
+				"electoral": "240"
+			}
+		],
+		"states": {
+			"AL": [
+				{"Democratic": "9"}
+			],
+			"AK": [
+				{"Republican": "3"}
+			],
+			"AR": [
+				{"Democratic": "6"}
+			],
+			"AZ": [
+				{"Republican": "6"}
+			],
+			"CA": [
+				{"Republican": "45"}
+			],
+			"CO": [
+				{"Republican": "7"}
+			],
+			"CT": [
+				{"Republican": "8"}
+			],
+			"DC": [
+				{"Democratic": "3"}
+			],
+			"DC state": [
+				{"Democratic": "3"}
+			],
+			"DC1": [
+				{"Democratic": "3"}
+			],
+			"DC2": [
+				{"Democratic": "3"}
+			],
+			"DE": [
+				{"Democratic": "3"}
+			],
+			"FL": [
+				{"Democratic": "17"}
+			],
+			"GA": [
+				{"Democratic": "12"}
+			],
+			"HI": [
+				{"Democratic": "4"}
+			],
+			"ID": [
+				{"Republican": "4"}
+			],
+			"IL": [
+				{"Republican": "26"}
+			],
+			"IN": [
+				{"Republican": "13"}
+			],
+			"IA": [
+				{"Republican": "8"}
+			],
+			"KS": [
+				{"Republican": "7"}
+			],
+			"KY": [
+				{"Democratic": "9"}
+			],
+			"LA": [
+				{"Democratic": "10"}
+			],
+			"ME": [				
+				{"Republican": "4"}
+			],
+			"MD": [
+				{"Democratic": "10"}
+			],
+			"MA": [
+				{"Democratic": "14"}
+			],
+			"MI": [
+				{"Republican": "21"}
+			],
+			"MN": [
+				{"Democratic": "10"}
+			],
+			"MS": [
+				{"Democratic": "7"}
+			],
+			"MO": [
+				{"Democratic": "12"}
+			],
+			"MT": [
+				{"Republican": "4"}
+			],
+			"NE": [
+				{"Republican": "5"}
+			],
+			"NV": [
+				{"Republican": "3"}
+			],
+			"NH": [
+				{"Republican": "4"}
+			],
+			"NJ": [
+				{"Republican": "17"}
+			],
+			"NM": [
+				{"Republican": "4"}
+			],
+			"NY": [
+				{"Democratic": "41"}
+			],
+			"NC": [
+				{"Democratic": "13"}
+			],
+			"ND": [
+				{"Republican": "3"}
+			],
+			"OH": [
+				{"Democratic": "25"}
+			],
+			"OK": [
+				{"Republican": "8"}
+			],
+			"OR": [
+				{"Republican": "6"}
+			],
+			"PA": [
+				{"Democratic": "27"}
+			],
+			"RI": [
+				{"Democratic": "4"}
+			],
+			"SC": [
+				{"Democratic": "8"}
+			],
+			"SD": [
+				{"Republican": "4"}
+			],
+			"TN": [
+				{"Democratic": "10"}
+			],
+			"TX": [
+				{"Democratic": "26"}
+			],
+			"UT": [
+				{"Republican": "4"}
+			],
+			"VT": [
+				{"Republican": "3"}
+			],
+			"VA": [
+				{"Republican": "12"}
+			],
+			"WA": [
+				{"Republican": "8"}
+			],
+			"WV": [
+				{"Democratic": "6"}
+			],
+			"WI": [
+				{"Democratic": "11"}
+			],
+			"WY": [
+				{"Republican": "3"}
+			]
+		}	
+	},
+
+	"1972": {
+		"totals": {
+			"electoral": "537",
+			"popular": "75,641,921"
+		},
+		"candidates": [
+			{
+				"name": "George McGovern",
+				"party": "Democratic",
+				"popular": "41,016,000",
+				"electoral": "17"
+			},
+			{
+				"name": "Richard M. Nixon (I)",
+				"party": "Republican",
+				"popular": "47,946,000",
+				"electoral": "520"
+			}
+		],
+		"states": {
+			"AL": [
+				{"Republican": "9"}
+			],
+			"AK": [
+				{"Republican": "3"}
+			],
+			"AR": [
+				{"Republican": "6"}
+			],
+			"AZ": [
+				{"Republican": "6"}
+			],
+			"CA": [
+				{"Republican": "45"}
+			],
+			"CO": [
+				{"Republican": "7"}
+			],
+			"CT": [
+				{"Republican": "8"}
+			],
+			"DC": [
+				{"Democratic": "3"}
+			],
+			"DC state": [
+				{"Democratic": "3"}
+			],
+			"DC1": [
+				{"Democratic": "3"}
+			],
+			"DC2": [
+				{"Democratic": "3"}
+			],
+			"DE": [
+				{"Republican": "3"}
+			],
+			"FL": [
+				{"Republican": "17"}
+			],
+			"GA": [
+				{"Republican": "12"}
+			],
+			"HI": [
+				{"Republican": "4"}
+			],
+			"ID": [
+				{"Republican": "4"}
+			],
+			"IL": [
+				{"Republican": "26"}
+			],
+			"IN": [
+				{"Republican": "13"}
+			],
+			"IA": [
+				{"Republican": "8"}
+			],
+			"KS": [
+				{"Republican": "7"}
+			],
+			"KY": [
+				{"Republican": "9"}
+			],
+			"LA": [
+				{"Republican": "10"}
+			],
+			"ME": [				
+				{"Republican": "4"}
+			],
+			"MD": [
+				{"Republican": "10"}
+			],
+			"MA": [
+				{"Democratic": "14"}
+			],
+			"MI": [
+				{"Republican": "21"}
+			],
+			"MN": [
+				{"Republican": "10"}
+			],
+			"MS": [
+				{"Republican": "7"}
+			],
+			"MO": [
+				{"Republican": "12"}
+			],
+			"MT": [
+				{"Republican": "4"}
+			],
+			"NE": [
+				{"Republican": "5"}
+			],
+			"NV": [
+				{"Republican": "3"}
+			],
+			"NH": [
+				{"Republican": "4"}
+			],
+			"NJ": [
+				{"Republican": "17"}
+			],
+			"NM": [
+				{"Republican": "4"}
+			],
+			"NY": [
+				{"Republican": "41"}
+			],
+			"NC": [
+				{"Republican": "13"}
+			],
+			"ND": [
+				{"Republican": "3"}
+			],
+			"OH": [
+				{"Republican": "25"}
+			],
+			"OK": [
+				{"Republican": "8"}
+			],
+			"OR": [
+				{"Republican": "6"}
+			],
+			"PA": [
+				{"Republican": "27"}
+			],
+			"RI": [
+				{"Republican": "4"}
+			],
+			"SC": [
+				{"Republican": "8"}
+			],
+			"SD": [
+				{"Republican": "4"}
+			],
+			"TN": [
+				{"Republican": "10"}
+			],
+			"TX": [
+				{"Republican": "26"}
+			],
+			"UT": [
+				{"Republican": "4"}
+			],
+			"VT": [
+				{"Republican": "3"}
+			],
+			"VA": [
+				{"Republican": "11"}
+			],
+			"WA": [
+				{"Republican": "9"}
+			],
+			"WV": [
+				{"Republican": "6"}
+			],
+			"WI": [
+				{"Republican": "11"}
+			],
+			"WY": [
+				{"Republican": "3"}
+			]
+		}	
+	},
+
+	"1968": {
+		"totals": {
+			"electoral": "538",
+			"popular": "72,514,998"
+		},
+		"candidates": [
+			{
+				"name": "Hubert H. Humphrey",
+				"party": "Democratic",
+				"popular": "30,898,055",
+				"electoral": "191"
+			},
+			{
+				"name": "Richard M. Nixon",
+				"party": "Republican",
+				"popular": "31,710,470",
+				"electoral": "520"
+			},
+			{
+				"name": "George C. Wallace",
+				"party": "American Independent",
+				"popular": "9,906,473",
+				"electoral": "46"
+			}
+		],
+		"states": {
+			"AL": [
+				{"American Independent": "10"}
+			],
+			"AK": [
+				{"Republican": "3"}
+			],
+			"AR": [
+				{"American Independent": "6"}
+			],
+			"AZ": [
+				{"Republican": "5"}
+			],
+			"CA": [
+				{"Republican": "40"}
+			],
+			"CO": [
+				{"Republican": "6"}
+			],
+			"CT": [
+				{"Democratic": "8"}
+			],
+			"DC": [
+				{"Democratic": "3"}
+			],
+			"DC state": [
+				{"Democratic": "3"}
+			],
+			"DC1": [
+				{"Democratic": "3"}
+			],
+			"DC2": [
+				{"Democratic": "3"}
+			],
+			"DE": [
+				{"Republican": "3"}
+			],
+			"FL": [
+				{"Republican": "14"}
+			],
+			"GA": [
+				{"American Independent": "12"}
+			],
+			"HI": [
+				{"Democratic": "4"}
+			],
+			"ID": [
+				{"Republican": "4"}
+			],
+			"IL": [
+				{"Republican": "26"}
+			],
+			"IN": [
+				{"Republican": "13"}
+			],
+			"IA": [
+				{"Republican": "9"}
+			],
+			"KS": [
+				{"Republican": "7"}
+			],
+			"KY": [
+				{"Republican": "9"}
+			],
+			"LA": [
+				{"American Independent": "10"}
+			],
+			"ME": [				
+				{"Democratic": "4"}
+			],
+			"MD": [
+				{"Democratic": "10"}
+			],
+			"MA": [
+				{"Democratic": "14"}
+			],
+			"MI": [
+				{"Democratic": "21"}
+			],
+			"MN": [
+				{"Democratic": "10"}
+			],
+			"MS": [
+				{"American Independent": "7"}
+			],
+			"MO": [
+				{"Republican": "12"}
+			],
+			"MT": [
+				{"Republican": "4"}
+			],
+			"NE": [
+				{"Republican": "5"}
+			],
+			"NV": [
+				{"Republican": "3"}
+			],
+			"NH": [
+				{"Republican": "4"}
+			],
+			"NJ": [
+				{"Republican": "17"}
+			],
+			"NM": [
+				{"Republican": "4"}
+			],
+			"NY": [
+				{"Democratic": "43"}
+			],
+			"NC": [
+				{"American Independent": "1"},
+				{"Republican": "12"}				
+			],
+			"ND": [
+				{"Republican": "4"}
+			],
+			"OH": [
+				{"Republican": "26"}
+			],
+			"OK": [
+				{"Republican": "8"}
+			],
+			"OR": [
+				{"Republican": "6"}
+			],
+			"PA": [
+				{"Democratic": "29"}
+			],
+			"RI": [
+				{"Democratic": "4"}
+			],
+			"SC": [
+				{"Republican": "8"}
+			],
+			"SD": [
+				{"Republican": "4"}
+			],
+			"TN": [
+				{"Republican": "11"}
+			],
+			"TX": [
+				{"Democratic": "25"}
+			],
+			"UT": [
+				{"Republican": "4"}
+			],
+			"VT": [
+				{"Republican": "3"}
+			],
+			"VA": [
+				{"Republican": "12"}
+			],
+			"WA": [
+				{"Democratic": "9"}
+			],
+			"WV": [
+				{"Democratic": "7"}
+			],
+			"WI": [
+				{"Republican": "12"}
+			],
+			"WY": [
+				{"Republican": "3"}
+			]
+		}	
+	},
+
+	"1964": {
+		"totals": {
+			"electoral": "538",
+			"popular": "69,972,432"
+		},
+		"candidates": [
+			{
+				"name": "Lyndon B. Johnson (I)",
+				"party": "Democratic",
+				"popular": "42,825,463",
+				"electoral": "191"
+			},
+			{
+				"name": "Barry M. Goldwater",
+				"party": "Republican",
+				"popular": "27,146,969",
+				"electoral": "520"
+			}
+		],
+		"states": {
+			"AL": [
+				{"Republican": "10"}
+			],
+			"AK": [
+				{"Democratic": "3"}
+			],
+			"AR": [
+				{"Democratic": "6"}
+			],
+			"AZ": [
+				{"Republican": "5"}
+			],
+			"CA": [
+				{"Democratic": "40"}
+			],
+			"CO": [
+				{"Democratic": "6"}
+			],
+			"CT": [
+				{"Democratic": "8"}
+			],
+			"DC": [
+				{"Democratic": "3"}
+			],
+			"DC state": [
+				{"Democratic": "3"}
+			],
+			"DC1": [
+				{"Democratic": "3"}
+			],
+			"DC2": [
+				{"Democratic": "3"}
+			],
+			"DE": [
+				{"Democratic": "3"}
+			],
+			"FL": [
+				{"Democratic": "14"}
+			],
+			"GA": [
+				{"Republican": "12"}
+			],
+			"HI": [
+				{"Democratic": "4"}
+			],
+			"ID": [
+				{"Democratic": "4"}
+			],
+			"IL": [
+				{"Democratic": "26"}
+			],
+			"IN": [
+				{"Democratic": "13"}
+			],
+			"IA": [
+				{"Democratic": "9"}
+			],
+			"KS": [
+				{"Democratic": "7"}
+			],
+			"KY": [
+				{"Democratic": "9"}
+			],
+			"LA": [
+				{"Republican": "10"}
+			],
+			"ME": [				
+				{"Democratic": "4"}
+			],
+			"MD": [
+				{"Democratic": "10"}
+			],
+			"MA": [
+				{"Democratic": "14"}
+			],
+			"MI": [
+				{"Democratic": "21"}
+			],
+			"MN": [
+				{"Democratic": "10"}
+			],
+			"MS": [
+				{"Republican": "7"}
+			],
+			"MO": [
+				{"Democratic": "12"}
+			],
+			"MT": [
+				{"Democratic": "4"}
+			],
+			"NE": [
+				{"Democratic": "5"}
+			],
+			"NV": [
+				{"Democratic": "3"}
+			],
+			"NH": [
+				{"Democratic": "4"}
+			],
+			"NJ": [
+				{"Democratic": "17"}
+			],
+			"NM": [
+				{"Democratic": "4"}
+			],
+			"NY": [
+				{"Democratic": "43"}
+			],
+			"NC": [
+				{"Democratic": "13"}				
+			],
+			"ND": [
+				{"Democratic": "4"}
+			],
+			"OH": [
+				{"Democratic": "26"}
+			],
+			"OK": [
+				{"Democratic": "8"}
+			],
+			"OR": [
+				{"Democratic": "6"}
+			],
+			"PA": [
+				{"Democratic": "29"}
+			],
+			"RI": [
+				{"Democratic": "4"}
+			],
+			"SC": [
+				{"Republican": "8"}
+			],
+			"SD": [
+				{"Democratic": "4"}
+			],
+			"TN": [
+				{"Democratic": "11"}
+			],
+			"TX": [
+				{"Democratic": "25"}
+			],
+			"UT": [
+				{"Democratic": "4"}
+			],
+			"VT": [
+				{"Democratic": "3"}
+			],
+			"VA": [
+				{"Democratic": "12"}
+			],
+			"WA": [
+				{"Democratic": "9"}
+			],
+			"WV": [
+				{"Democratic": "7"}
+			],
+			"WI": [
+				{"Democratic": "12"}
+			],
+			"WY": [
+				{"Democratic": "3"}
+			]
+		}	
+	},
+
+	"1960": {
+
+	},
+
+	"1956": {
+
+	},
+
+	"1952": {
+
+	},
+
+	"1948": {
+
+	},
+
+	"1944": {
+
+	},
+
+	"1940": {
+
+	},
+
+	"1936": {
+
+	},
+
+	"1932": {
+
+	},
+
+	"1928": {
+
+	},
+
+	"1924": {
+
+	},
+
+	"1920": {
+
+	},
+
+	"1916": {
+
+	},
+
+	"1912": {
+
+	},
+
+	"1908": {
+
+	},
+
+	"1904": {
+
+	},
+
+	"1900": {
+
+	},
+
+	"1896": {
+
+	},
+
+	"1892": {
+
+	},
+
+	"1888": {
+
+	},
+
+	"1884": {
+
+	},
+
+	"1880": {
+
+	},
+
+	"1876": {
+
+	},
+
+	"1872": {
+
+	},
+
+	"1868": {
+
+	},
+
+	"1864": {
+
+	},
+
+	"1860": {
+
+	},
+
+	"1856": {
+
+	},
+
+	"1852": {
+
+	},
+
+	"1848": {
+
+	},
+
+	"1844": {
+
+	},
+
+	"1840": {
+
+	},
+
+	"1836": {
+
+	},
+
+	"1832": {
+
+	},
+
+	"1828": {
+
+	},
+
+	"1824": {
+
+	},
+
+	"1820": {
+
+	},
+
+	"1816": {
+
+	},
+
+	"1812": {
+
+	},
+
+	"1808": {
+
+	},
+
+	"1804": {
+
+	},
+
+	"1800": {
+
+	},
+
+	"1796": {
+		"totals": {
+			"electoral": "271",
+			"popular": "0"
+		},
+		"candidates": [
+			{
+				"name": "John Adams",
+				"party": "Federalist",
+				"popular": "0",
+				"electoral": "71"
+			},
+			{
+				"name": "George Clinton",
+				"party": "Democratic-Republican",
+				"popular": "0",
+				"electoral": "68"
+			},
+			{
+				"name": "Aaron Burr",
+				"party": "Democratic-Republican",
+				"popular": "0",
+				"electoral": "30"
+			},
+			{
+				"name": "Others",
+				"party": "Various",
+				"popular": "0",
+				"electoral": "48"
+			}
+		],
+		"states": {
+			"CT": [
+				{"Federalist": "9"}
+			],
+			"DE": [
+				{"Federalist": "3"}
+			],
+			"GA": [
+				{"Democratic-Republican": "4"}
+			],
+			"KY": [
+				{"Democratic-Republican": "4"}
+			],
+			"MA": [
+				{"Federalist": "16"}
+			],
+			"MD": [				
+				{"Democratic-Republican": "4"},
+				{"Federalist": "7"}
+			],
+			"NC": [
+				{"Federalist": "1"},
+				{"Democratic-Republican": "12"}
+			],
+			"NH": [
+				{"Federalist": "6"}
+			],
+			"NJ": [
+				{"Federalist": "7"}
+			],
+			"NY": [
+				{"Federalist": "12"}
+			],
+			"PA": [
+				{"Federalist": "1"},
+				{"Democratic-Republican": "14"}
+			],
+			"SC": [
+				{"Democratic-Republican": "8"}
+			],
+			"TN": [
+				{"Democratic-Republican": "3"}
+			],
+			"RI": [
+				{"Federalist": "4"}
+			],			
+			"WV": [
+				{"Democratic-Republican": "0"}
+			],			
+			"VA": [
+				{"Federalist": "1"},
+				{"Democratic-Republican": "20"}
+			],			
+			"VT": [
+				{"Federalist": "4"}
+			]
+		}
+	},
+
+	"1792": {
+		"totals": {
+			"electoral": "264",
+			"popular": "0"
+		},
+		"candidates": [
+			{
+				"name": "George Washington (I)",
+				"party": "Nonpartisan",
+				"popular": "0",
+				"electoral": "132"
+			},
+			{
+				"name": "John Adams",
+				"party": "Federalist",
+				"popular": "0",
+				"electoral": "77"
+			},
+			{
+				"name": "George Clinton",
+				"party": "Anti-Federalist",
+				"popular": "0",
+				"electoral": "50"
+			},
+			{
+				"name": "Others",
+				"party": "Anti-Federalist",
+				"popular": "0",
+				"electoral": "5"
+			}
+		],
+		"states": {
+			"CT": [
+				{"Nonpartisan": "9"}
+			],
+			"DE": [
+				{"Nonpartisan": "3"}
+			],
+			"GA": [
+				{"Nonpartisan": "4"}
+			],
+			"KY": [
+				{"Nonpartisan": "4"}
+			],
+			"MA": [
+				{"Nonpartisan": "16"}
+			],
+			"MD": [
+				{"Nonpartisan": "8"}
+			],
+			"NC": [
+				{"Nonpartisan": "12"}
+			],
+			"NH": [
+				{"Nonpartisan": "6"}
+			],
+			"NJ": [
+				{"Nonpartisan": "7"}
+			],
+			"NY": [
+				{"Nonpartisan": "12"}
+			],
+			"PA": [
+				{"Nonpartisan": "15"}
+			],
+			"SC": [
+				{"Nonpartisan": "8"}
+			],
+			"RI": [
+				{"Nonpartisan": "4"}
+			],			
+			"WV": [
+				{"Nonpartisan": "0"}
+			],			
+			"VA": [
+				{"Nonpartisan": "21"}
+			],			
+			"VT": [
+				{"Nonpartisan": "3"}
+			]
+		}
+	},
+
+	"1788": {
+		"totals": {
+			"electoral": "138",
+			"popular": "0"
+		},
+		"candidates": [
+			{
+				"name": "George Washington",
+				"party": "Nonpartisan",
+				"popular": "0",
+				"electoral": "69"
+			},
+			{
+				"name": "John Adams",
+				"party": "Republican",
+				"popular": "0",
+				"electoral": "34"
+			},
+			{
+				"name": "Others",
+				"party": "Independent",
+				"popular": "0",
+				"electoral": "35"
+			}
+		],
+		"states": {
+			"CT": [
+				{"Nonpartisan": "7"}
+			],
+			"DE": [
+				{"Nonpartisan": "3"}
+			],
+			"GA": [
+				{"Nonpartisan": "5"}
+			],
+			"MA": [
+				{"Nonpartisan": "10"}
+			],
+			"MD": [
+				{"Nonpartisan": "10"}
+			],
+			"NC": [
+				{"Territory": "0"}
+			],
+			"NH": [
+				{"Nonpartisan": "5"}
+			],
+			"NJ": [
+				{"Nonpartisan": "6"}
+			],
+			"NY": [
+				{"Territory": "0"}
+			],
+			"PA": [
+				{"Nonpartisan": "10"}
+			],
+			"SC": [
+				{"Nonpartisan": "7"}
+			],
+			"RI": [
+				{"Territory": "0"}
+			],			
+			"WV": [
+				{"Nonpartisan": "0"}
+			],			
+			"VA": [
+				{"Nonpartisan": "10"}
+			]
+		}
 	}
 }
