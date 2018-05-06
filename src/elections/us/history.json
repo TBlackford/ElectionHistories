@@ -2785,35 +2785,737 @@
 	},
 
 	"1828": {
-
+		"totals": {
+			"electoral": "261",
+			"popular": "1,155,350"
+		},
+		"candidates": [
+			{
+				"name": "Andrew Jackson",
+				"party": "Democratic",
+				"popular": "647,286",
+				"electoral": "178"
+			},			
+			{
+				"name": "John Quincy Adams (I)",
+				"party": "National Republican",
+				"popular": "508,064",
+				"electoral": "83"
+			}
+		],
+		"states": {
+			"AL": [
+				{"Democratic": "5"}
+			],
+			"CT": [
+				{"National Republican": "8"}
+			],
+			"DE": [
+				{"National Republican": "3"}
+			],
+			"GA": [
+				{"Democratic": "9"}
+			],
+			"IL": [
+				{"Democratic": "3"}
+			],
+			"IN": [
+				{"Democratic": "5"}
+			],
+			"KY": [
+				{"Democratic": "14"}
+			],
+			"LA": [
+				{"Democratic": "5"}
+			],			
+			"MA": [
+				{"National Republican": "15"}
+			],
+			"MD": [		
+				{"Democratic": "5"},
+				{"National Republican": "6"}
+			],
+			"ME": [		
+				{"Democratic": "1"},
+				{"National Republican": "8"}
+			],
+			"MO": [		
+				{"Democratic": "3"}
+			],
+			"MS": [		
+				{"Democratic": "3"}
+			],
+			"NC": [
+				{"Democratic": "15"}
+			],
+			"NH": [
+				{"National Republican": "8"}
+			],
+			"NJ": [
+				{"National Republican": "8"}
+			],
+			"NY": [
+				{"National Republican": "16"},
+				{"Democratic": "20"}
+			],
+			"OH": [
+				{"Democratic": "16"}
+			],
+			"PA": [
+				{"Democratic": "28"}
+			],
+			"SC": [
+				{"Democratic": "11"}
+			],
+			"TN": [
+				{"Democratic": "11"}
+			],
+			"RI": [
+				{"National Republican": "4"}
+			],			
+			"WV": [
+				{"Democratic": "0"}
+			],			
+			"VA": [
+				{"Democratic": "24"}
+			],			
+			"VT": [
+				{"National Republican": "7"}
+			]
+		}
 	},
 
 	"1824": {
-
+		"totals": {
+			"electoral": "261",
+			"popular": "350,671"
+		},
+		"candidates": [
+			{
+				"name": "Andrew Jackson",
+				"party": "Democratic-Republican (Jackson Faction)",
+				"popular": "153,544",
+				"electoral": "99"
+			},			
+			{
+				"name": "John Quincy Adams",
+				"party": "Democratic-Republican (Adams Faction)",
+				"popular": "108,740",
+				"electoral": "84"
+			},
+			{
+				"name": "William H. Crawford",
+				"party": "Democratic-Republican (Crawford Faction)",
+				"popular": "40,856",
+				"electoral": "41"
+			},			
+			{
+				"name": "Henry Clay",
+				"party": "Democratic-Republican (Clay Faction)",
+				"popular": "47,531",
+				"electoral": "37"
+			}
+		],
+		"states": {
+			"AL": [
+				{"Democratic-Republican (Jackson Faction)": "5"}
+			],
+			"CT": [
+				{"Democratic-Republican (Adams Faction)": "8"}
+			],
+			"DE": [
+				{"Democratic-Republican (Adams Faction)": "1"},
+				{"Democratic-Republican (Crawford Faction)": "2"}
+			],
+			"GA": [
+				{"Democratic-Republican (Crawford Faction)": "9"}
+			],
+			"IL": [
+				{"Democratic-Republican (Adams Faction)": "1"},
+				{"Democratic-Republican (Jackson Faction)": "2"}
+			],
+			"IN": [
+				{"Democratic-Republican (Jackson Faction)": "5"}
+			],
+			"KY": [
+				{"Democratic-Republican (Clay Faction)": "14"}
+			],
+			"LA": [
+				{"Democratic-Republican (Adams Faction)": "2"},
+				{"Democratic-Republican (Jackson Faction)": "3"}
+			],			
+			"MA": [
+				{"Democratic-Republican (Adams Faction)": "15"}
+			],
+			"MD": [		
+				{"Democratic-Republican (Crawford Faction)": "1"},
+				{"Democratic-Republican (Adams Faction)": "3"},
+				{"Democratic-Republican (Jackson Faction)": "7"}
+			],
+			"ME": [		
+				{"Democratic-Republican (Adams Faction)": "9"}
+			],
+			"MO": [		
+				{"Democratic-Republican (Clay Faction)": "3"}
+			],
+			"MS": [		
+				{"Democratic-Republican (Jackson Faction)": "3"}
+			],
+			"NC": [
+				{"Democratic-Republican (Jackson Faction)": "15"}
+			],
+			"NH": [
+				{"Democratic-Republican (Adams Faction)": "8"}
+			],
+			"NJ": [
+				{"Democratic-Republican (Jackson Faction)": "8"}
+			],
+			"NY": [
+				{"Democratic-Republican (Jackson Faction)": "1"},
+				{"Democratic-Republican (Clay Faction)": "4"},
+				{"Democratic-Republican (Crawford Faction)": "5"},
+				{"Democratic-Republican (Adams Faction)": "26"}
+			],
+			"OH": [
+				{"Democratic-Republican (Clay Faction)": "16"}
+			],
+			"PA": [
+				{"Democratic-Republican (Jackson Faction)": "28"}
+			],
+			"SC": [
+				{"Democratic-Republican (Jackson Faction)": "11"}
+			],
+			"TN": [
+				{"Democratic-Republican (Jackson Faction)": "11"}
+			],
+			"RI": [
+				{"Democratic-Republican (Adams Faction)": "4"}
+			],			
+			"WV": [
+				{"Democratic-Republican (Crawford Faction)": "0"}
+			],			
+			"VA": [
+				{"Democratic-Republican (Crawford Faction)": "24"}
+			],			
+			"VT": [
+				{"Democratic-Republican (Adams Faction)": "7"}
+			]
+		}
 	},
 
 	"1820": {
-
+		"totals": {
+			"electoral": "232",
+			"popular": "0"
+		},
+		"candidates": [
+			{
+				"name": "James Monroe (I)",
+				"party": "Democratic-Republican",
+				"popular": "0",
+				"electoral": "231"
+			},			
+			{
+				"name": "John Quincy Adams",
+				"party": "Federalist",
+				"popular": "0",
+				"electoral": "1"
+			}
+		],
+		"states": {
+			"AL": [
+				{"Democratic-Republican": "3"}
+			],
+			"CT": [
+				{"Democratic-Republican": "9"}
+			],
+			"DE": [
+				{"Democratic-Republican": "4"}
+			],
+			"GA": [
+				{"Democratic-Republican": "8"}
+			],
+			"IL": [
+				{"Democratic-Republican": "3"}
+			],
+			"IN": [
+				{"Democratic-Republican": "3"}
+			],
+			"KY": [
+				{"Democratic-Republican": "12"}
+			],
+			"LA": [
+				{"Democratic-Republican": "3"}
+			],			
+			"MA": [
+				{"Democratic-Republican": "15"}
+			],
+			"MD": [		
+				{"Democratic-Republican": "11"}
+			],
+			"ME": [		
+				{"Democratic-Republican": "9"}
+			],
+			"MO": [		
+				{"Democratic-Republican": "3"}
+			],
+			"MS": [		
+				{"Democratic-Republican": "2"}
+			],
+			"NC": [
+				{"Democratic-Republican": "15"}
+			],
+			"NH": [
+				{"Independent": "1"},
+				{"Democratic-Republican": "7"}
+			],
+			"NJ": [
+				{"Democratic-Republican": "8"}
+			],
+			"NY": [
+				{"Democratic-Republican": "29"}
+			],
+			"OH": [
+				{"Democratic-Republican": "8"}
+			],
+			"PA": [
+				{"Democratic-Republican": "24"}
+			],
+			"SC": [
+				{"Democratic-Republican": "11"}
+			],
+			"TN": [
+				{"Democratic-Republican": "7"}
+			],
+			"RI": [
+				{"Democratic-Republican": "4"}
+			],			
+			"WV": [
+				{"Democratic-Republican": "0"}
+			],			
+			"VA": [
+				{"Democratic-Republican": "25"}
+			],			
+			"VT": [
+				{"Democratic-Republican": "8"}
+			]
+		}
 	},
 
 	"1816": {
-
+		"totals": {
+			"electoral": "217",
+			"popular": "0"
+		},
+		"candidates": [
+			{
+				"name": "James Monroe",
+				"party": "Democratic-Republican",
+				"popular": "0",
+				"electoral": "183"
+			},			
+			{
+				"name": "Rufus King",
+				"party": "Federalist",
+				"popular": "0",
+				"electoral": "34"
+			}
+		],
+		"states": {
+			"CT": [
+				{"Federalist": "9"}
+			],
+			"DE": [
+				{"Federalist": "3"}
+			],
+			"GA": [
+				{"Democratic-Republican": "8"}
+			],
+			"IN": [
+				{"Democratic-Republican": "3"}
+			],
+			"KY": [
+				{"Democratic-Republican": "12"}
+			],
+			"LA": [
+				{"Democratic-Republican": "3"}
+			],			
+			"MA": [
+				{"Federalist": "22"}
+			],
+			"MD": [		
+				{"Democratic-Republican": "8"}
+			],
+			"NC": [
+				{"Democratic-Republican": "15"}
+			],
+			"NH": [
+				{"Democratic-Republican": "8"}
+			],
+			"NJ": [
+				{"Democratic-Republican": "8"}
+			],
+			"NY": [
+				{"Democratic-Republican": "29"}
+			],
+			"OH": [
+				{"Democratic-Republican": "8"}
+			],
+			"PA": [
+				{"Democratic-Republican": "25"}
+			],
+			"SC": [
+				{"Democratic-Republican": "11"}
+			],
+			"TN": [
+				{"Democratic-Republican": "8"}
+			],
+			"RI": [
+				{"Federalist": "4"}
+			],			
+			"WV": [
+				{"Democratic-Republican": "0"}
+			],			
+			"VA": [
+				{"Democratic-Republican": "25"}
+			],			
+			"VT": [
+				{"Democratic-Republican": "8"}
+			]
+		}
 	},
 
 	"1812": {
-
+		"totals": {
+			"electoral": "217",
+			"popular": "0"
+		},
+		"candidates": [
+			{
+				"name": "James Madison (I)",
+				"party": "Democratic-Republican",
+				"popular": "0",
+				"electoral": "128"
+			},			
+			{
+				"name": "De Witt Clinton",
+				"party": "Federalist",
+				"popular": "0",
+				"electoral": "89"
+			}
+		],
+		"states": {
+			"CT": [
+				{"Federalist": "9"}
+			],
+			"DE": [
+				{"Federalist": "4"}
+			],
+			"GA": [
+				{"Democratic-Republican": "8"}
+			],
+			"KY": [
+				{"Democratic-Republican": "12"}
+			],
+			"LA": [
+				{"Democratic-Republican": "3"}
+			],			
+			"MA": [
+				{"Federalist": "22"}
+			],
+			"MD": [		
+				{"Federalist": "5"},
+				{"Democratic-Republican": "6"}
+			],
+			"NC": [
+				{"Democratic-Republican": "15"}
+			],
+			"NH": [
+				{"Federalist": "8"}
+			],
+			"NJ": [
+				{"Federalist": "8"}
+			],
+			"NY": [
+				{"Federalist": "29"}
+			],
+			"OH": [
+				{"Democratic-Republican": "7"}
+			],
+			"PA": [
+				{"Democratic-Republican": "25"}
+			],
+			"SC": [
+				{"Democratic-Republican": "11"}
+			],
+			"TN": [
+				{"Democratic-Republican": "8"}
+			],
+			"RI": [
+				{"Federalist": "4"}
+			],			
+			"WV": [
+				{"Democratic-Republican": "0"}
+			],			
+			"VA": [
+				{"Democratic-Republican": "25"}
+			],			
+			"VT": [
+				{"Democratic-Republican": "8"}
+			]
+		}
 	},
-
+	
 	"1808": {
-
+		"totals": {
+			"electoral": "175",
+			"popular": "0"
+		},
+		"candidates": [
+			{
+				"name": "James Madison",
+				"party": "Democratic-Republican",
+				"popular": "0",
+				"electoral": "122"
+			},			
+			{
+				"name": "Charles C. Pinckney",
+				"party": "Federalist",
+				"popular": "0",
+				"electoral": "47"
+			},
+			{
+				"name": "George Clinton",
+				"party": "Democratic-Republican",
+				"popular": "0",
+				"electoral": "6"
+			}
+		],
+		"states": {
+			"CT": [
+				{"Federalist": "9"}
+			],
+			"DE": [
+				{"Federalist": "3"}
+			],
+			"GA": [
+				{"Democratic-Republican": "6"}
+			],
+			"KY": [
+				{"Democratic-Republican": "7"}
+			],
+			"MA": [
+				{"Federalist": "19"}
+			],
+			"MD": [		
+				{"Federalist": "2"},
+				{"Democratic-Republican": "9"}
+			],
+			"NC": [
+				{"Federalist": "3"},
+				{"Democratic-Republican": "11"}
+			],
+			"NH": [
+				{"Federalist": "7"}
+			],
+			"NJ": [
+				{"Democratic-Republican": "8"}
+			],
+			"NY": [
+				{"Democratic-Republican": "19"}
+			],
+			"OH": [
+				{"Democratic-Republican": "3"}
+			],
+			"PA": [
+				{"Democratic-Republican": "20"}
+			],
+			"SC": [
+				{"Democratic-Republican": "10"}
+			],
+			"TN": [
+				{"Democratic-Republican": "5"}
+			],
+			"RI": [
+				{"Federalist": "4"}
+			],			
+			"WV": [
+				{"Democratic-Republican": "0"}
+			],			
+			"VA": [
+				{"Democratic-Republican": "24"}
+			],			
+			"VT": [
+				{"Democratic-Republican": "6"}
+			]
+		}
 	},
 
 	"1804": {
-
+		"totals": {
+			"electoral": "176",
+			"popular": "0"
+		},
+		"candidates": [
+			{
+				"name": "Thomas Jefferson",
+				"party": "Democratic-Republican",
+				"popular": "0",
+				"electoral": "162"
+			},			
+			{
+				"name": "Charles C. Pinckney",
+				"party": "Federalist",
+				"popular": "0",
+				"electoral": "14"
+			}
+		],
+		"states": {
+			"CT": [
+				{"Federalist": "9"}
+			],
+			"DE": [
+				{"Federalist": "3"}
+			],
+			"GA": [
+				{"Democratic-Republican": "6"}
+			],
+			"KY": [
+				{"Democratic-Republican": "8"}
+			],
+			"MA": [
+				{"Democratic-Republican": "19"}
+			],
+			"MD": [		
+				{"Federalist": "2"},
+				{"Democratic-Republican": "9"}
+			],
+			"NC": [
+				{"Democratic-Republican": "14"}
+			],
+			"NH": [
+				{"Democratic-Republican": "7"}
+			],
+			"NJ": [
+				{"Democratic-Republican": "8"}
+			],
+			"NY": [
+				{"Democratic-Republican": "19"}
+			],
+			"OH": [
+				{"Democratic-Republican": "3"}
+			],
+			"PA": [
+				{"Democratic-Republican": "20"}
+			],
+			"SC": [
+				{"Democratic-Republican": "10"}
+			],
+			"TN": [
+				{"Democratic-Republican": "5"}
+			],
+			"RI": [
+				{"Democratic-Republican": "4"}
+			],			
+			"WV": [
+				{"Democratic-Republican": "0"}
+			],			
+			"VA": [
+				{"Democratic-Republican": "24"}
+			],			
+			"VT": [
+				{"Democratic-Republican": "6"}
+			]
+		}
 	},
 
 	"1800": {
-
+		"totals": {
+			"electoral": "275",
+			"popular": "0"
+		},
+		"candidates": [
+			{
+				"name": "Thomas Jefferson",
+				"party": "Democratic-Republican",
+				"popular": "0",
+				"electoral": "73"
+			},			
+			{
+				"name": "Aaron Burr",
+				"party": "Democratic-Republican",
+				"popular": "0",
+				"electoral": "73"
+			},
+			{
+				"name": "John Adams (I)",
+				"party": "Federalist",
+				"popular": "0",
+				"electoral": "65"
+			},
+			{
+				"name": "Charles C. Pinckney",
+				"party": "Federalist",
+				"popular": "0",
+				"electoral": "64"
+			}
+		],
+		"states": {
+			"CT": [
+				{"Federalist": "9"}
+			],
+			"DE": [
+				{"Federalist": "3"}
+			],
+			"GA": [
+				{"Democratic-Republican": "4"}
+			],
+			"KY": [
+				{"Democratic-Republican": "4"}
+			],
+			"MA": [
+				{"Federalist": "16"}
+			],
+			"MD": [		
+				{"Federalist": "5"},		
+				{"Democratic-Republican": "5"}				
+			],
+			"NC": [
+				{"Federalist": "4"},
+				{"Democratic-Republican": "8"}
+			],
+			"NH": [
+				{"Federalist": "6"}
+			],
+			"NJ": [
+				{"Federalist": "7"}
+			],
+			"NY": [
+				{"Democratic-Republican": "12"}
+			],
+			"PA": [
+				{"Federalist": "7"},
+				{"Democratic-Republican": "8"}
+			],
+			"SC": [
+				{"Democratic-Republican": "8"}
+			],
+			"TN": [
+				{"Democratic-Republican": "3"}
+			],
+			"RI": [
+				{"Federalist": "4"}
+			],			
+			"WV": [
+				{"Democratic-Republican": "0"}
+			],			
+			"VA": [
+				{"Democratic-Republican": "21"}
+			],			
+			"VT": [
+				{"Federalist": "4"}
+			]
+		}
 	},
 
 	"1796": {

@@ -67,6 +67,8 @@ export default class USElection extends Component {
             case "Democratic-Republican (Crawford Faction)": return COLOUR_CRAWFORD;
             case "Democratic-Republican (Adams Faction)": return COLOUR_ADAMS;
 
+            case "National Republican": return COLOUR_NATIONAL_REPUBLICAN;
+
             case "National Union": return 0;    
 
             case "American Independent": return COLOUR_AMERICAN_INDEPENDENT;
