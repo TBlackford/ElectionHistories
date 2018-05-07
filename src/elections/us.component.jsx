@@ -17,6 +17,14 @@ var COLOUR_DEMOCRATIC_REPUBLICAN = "#008000";
 var COLOUR_NATIONAL_REPUBLICAN = "#FFE6B0";
 var COLOUR_WHIG = "#F0C862";
 
+var COLOUR_WHIG_HARRISON = "";
+var COLOUR_WHIG_WHITE = "";
+var COLOUR_WHIG_WEBSTER = "";
+var COLOUR_WHIG_PERSON = "";
+
+var COLOUR_NULLIFIER = "#0EBFB0";
+var COLOUR_ANTI_MASONIC = "#F1BA00";
+
 var COLOUR_CONSTITUTIONAL_UNION = "#F59100";
 var COLOUR_NORTHERN_DEMOCRATIC = "3333FF";
 var COLOUR_SOUTHERN_DEMOCRATIC = "#4F990C";
@@ -53,7 +61,7 @@ export default class USElection extends Component {
 
     getColour = (party) => {
         switch( party ) {
-            case "Independant": return 0;
+            case "Independent": return 0;
 
             case "Nonpartisan": return COLOUR_NONPARTISAN;
             case "Territory": return "#808080";
@@ -69,7 +77,10 @@ export default class USElection extends Component {
 
             case "National Republican": return COLOUR_NATIONAL_REPUBLICAN;
 
-            case "National Union": return 0;    
+            case "National Union": return COLOUR_NATIONAL_REPUBLICAN;
+            
+            case "Nullifier": return COLOUR_NULLIFIER;
+            case "Anti-Masonic": return COLOUR_ANTI_MASONIC;
 
             case "American Independent": return COLOUR_AMERICAN_INDEPENDENT;
 

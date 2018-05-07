@@ -2777,11 +2777,225 @@
 	},
 
 	"1836": {
-
+		"totals": {
+			"electoral": "261",
+			"popular": "1,318,742"
+		},
+		"candidates": [
+			{
+				"name": "Andrew Jackson (I)",
+				"party": "Democratic",
+				"popular": "687,502",
+				"electoral": "219"
+			},			
+			{
+				"name": "Henry Clay",
+				"party": "National Republican",
+				"popular": "530,189",
+				"electoral": "49"
+			},
+			{
+				"name": "John Floyd",
+				"party": "Nullifier",
+				"popular": "Unknown",
+				"electoral": "11"
+			},			
+			{
+				"name": "William Wirt",
+				"party": "Anti-Masonic",
+				"popular": "101,051",
+				"electoral": "7"
+			}
+		],
+		"states": {
+			"AL": [
+				{"Democratic": "7"}
+			],
+			"CT": [
+				{"National Republican": "8"}
+			],
+			"DE": [
+				{"National Republican": "3"}
+			],
+			"GA": [
+				{"Democratic": "11"}
+			],
+			"IL": [
+				{"Democratic": "5"}
+			],
+			"IN": [
+				{"Democratic": "9"}
+			],
+			"KY": [
+				{"National Republican": "15"}
+			],
+			"LA": [
+				{"Democratic": "5"}
+			],			
+			"MA": [
+				{"National Republican": "14"}
+			],
+			"MD": [		
+				{"Anti-Masonic": "5"},
+				{"National Republican": "5"}
+			],
+			"ME": [		
+				{"Democratic": "10"}
+			],
+			"MO": [		
+				{"Democratic": "4"}
+			],
+			"MS": [		
+				{"Democratic": "4"}
+			],
+			"NC": [
+				{"Democratic": "15"}
+			],
+			"NH": [
+				{"Democratic": "7"}
+			],
+			"NJ": [
+				{"Democratic": "8"}
+			],
+			"NY": [
+				{"Democratic": "42"}
+			],
+			"OH": [
+				{"Democratic": "21"}
+			],
+			"PA": [
+				{"Democratic": "30"}
+			],
+			"SC": [
+				{"Nullifier": "11"}
+			],
+			"TN": [
+				{"Democratic": "15"}
+			],
+			"RI": [
+				{"National Republican": "4"}
+			],			
+			"WV": [
+				{"Democratic": "0"}
+			],			
+			"VA": [
+				{"Democratic": "23"}
+			],			
+			"VT": [
+				{"Anti-Masonic": "7"}
+			]
+		}
 	},
 
 	"1832": {
-
+		"totals": {
+			"electoral": "261",
+			"popular": "1,318,742"
+		},
+		"candidates": [
+			{
+				"name": "Andrew Jackson (I)",
+				"party": "Democratic",
+				"popular": "687,502",
+				"electoral": "219"
+			},			
+			{
+				"name": "Henry Clay",
+				"party": "National Republican",
+				"popular": "530,189",
+				"electoral": "49"
+			},
+			{
+				"name": "John Floyd",
+				"party": "Nullifier",
+				"popular": "Unknown",
+				"electoral": "11"
+			},			
+			{
+				"name": "William Wirt",
+				"party": "Anti-Masonic",
+				"popular": "101,051",
+				"electoral": "7"
+			}
+		],
+		"states": {
+			"AL": [
+				{"Democratic": "7"}
+			],
+			"CT": [
+				{"National Republican": "8"}
+			],
+			"DE": [
+				{"National Republican": "3"}
+			],
+			"GA": [
+				{"Democratic": "11"}
+			],
+			"IL": [
+				{"Democratic": "5"}
+			],
+			"IN": [
+				{"Democratic": "9"}
+			],
+			"KY": [
+				{"National Republican": "15"}
+			],
+			"LA": [
+				{"Democratic": "5"}
+			],			
+			"MA": [
+				{"National Republican": "14"}
+			],
+			"MD": [		
+				{"Anti-Masonic": "5"},
+				{"National Republican": "5"}
+			],
+			"ME": [		
+				{"Democratic": "10"}
+			],
+			"MO": [		
+				{"Democratic": "4"}
+			],
+			"MS": [		
+				{"Democratic": "4"}
+			],
+			"NC": [
+				{"Democratic": "15"}
+			],
+			"NH": [
+				{"Democratic": "7"}
+			],
+			"NJ": [
+				{"Democratic": "8"}
+			],
+			"NY": [
+				{"Democratic": "42"}
+			],
+			"OH": [
+				{"Democratic": "21"}
+			],
+			"PA": [
+				{"Democratic": "30"}
+			],
+			"SC": [
+				{"Nullifier": "11"}
+			],
+			"TN": [
+				{"Democratic": "15"}
+			],
+			"RI": [
+				{"National Republican": "4"}
+			],			
+			"WV": [
+				{"Democratic": "0"}
+			],			
+			"VA": [
+				{"Democratic": "23"}
+			],			
+			"VT": [
+				{"Anti-Masonic": "7"}
+			]
+		}
 	},
 
 	"1828": {
