@@ -8,36 +8,7 @@ import './../css/App.css';
 
 // Data
 import data from './us/history.jsx';
-
-var COLOUR_NONPARTISAN = "#5FD35F";
-
-var COLOUR_FEDERALIST = "#EA9978";
-var COLOUR_DEMOCRATIC_REPUBLICAN = "#008000";
-
-var COLOUR_NATIONAL_REPUBLICAN = "#FFE6B0";
-var COLOUR_WHIG = "#F0C862";
-
-var COLOUR_WHIG_HARRISON = "";
-var COLOUR_WHIG_WHITE = "";
-var COLOUR_WHIG_WEBSTER = "";
-var COLOUR_WHIG_PERSON = "";
-
-var COLOUR_NULLIFIER = "#0EBFB0";
-var COLOUR_ANTI_MASONIC = "#F1BA00";
-
-var COLOUR_CONSTITUTIONAL_UNION = "#F59100";
-var COLOUR_NORTHERN_DEMOCRATIC = "3333FF";
-var COLOUR_SOUTHERN_DEMOCRATIC = "#4F990C";
-
-var COLOUR_JACKSONIANS = "#7AA4E5";
-var COLOUR_CLAY = "#E8EE73";
-var COLOUR_CRAWFORD = "#FF9955";
-var COLOUR_ADAMS = "#68C468";
-
-var COLOUR_AMERICAN_INDEPENDENT = "#FF9955";
-
-var COLOUR_REPUBLICAN = "#F07763";
-var COLOUR_DEMOCRAT = "#698DC5";
+import parties from './us/parties.jsx'
 
 export default class USElection extends Component {
     
@@ -60,35 +31,7 @@ export default class USElection extends Component {
     };
 
     getColour = (party) => {
-        switch( party ) {
-            case "Independent": return 0;
-
-            case "Nonpartisan": return COLOUR_NONPARTISAN;
-            case "Territory": return "#808080";
-                
-            case "Whig": return COLOUR_WHIG;                
-            case "Federalist": return COLOUR_FEDERALIST;      
-                
-            case "Democratic-Republican": return COLOUR_DEMOCRATIC_REPUBLICAN;
-            case "Democratic-Republican (Jackson Faction)": return COLOUR_JACKSONIANS;
-            case "Democratic-Republican (Clay Faction)": return COLOUR_CLAY;
-            case "Democratic-Republican (Crawford Faction)": return COLOUR_CRAWFORD;
-            case "Democratic-Republican (Adams Faction)": return COLOUR_ADAMS;
-
-            case "National Republican": return COLOUR_NATIONAL_REPUBLICAN;
-
-            case "National Union": return COLOUR_NATIONAL_REPUBLICAN;
-            
-            case "Nullifier": return COLOUR_NULLIFIER;
-            case "Anti-Masonic": return COLOUR_ANTI_MASONIC;
-
-            case "American Independent": return COLOUR_AMERICAN_INDEPENDENT;
-
-            case "Democratic": return COLOUR_DEMOCRAT;
-            case "Republican": return COLOUR_REPUBLICAN;
-
-            default: "#EEE";
-        }
+        return parties[party].colour;
     }
 
     /* optional customization of filling per state and calling custom callbacks per state */

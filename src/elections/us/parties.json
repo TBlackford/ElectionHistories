@@ -1,0 +1,101 @@
+{
+    "Nonpartisan": {
+        "colour": "#5FD35F"
+    },
+    "Territory": {
+        "colour": "#808080"
+    },
+    "Federalist": {
+        "colour": "#EA9978"
+    },
+    "Democratic-Republican": {
+        "colour": "#008000"
+    },
+    "Democratic-Republican (Jackson Faction)": {
+        "colour": "#7AA4E5"
+    },
+    "Democratic-Republican (Clay Faction)": {
+        "colour": "#E8EE73"
+    },
+    "Democratic-Republican (Crawford Faction)": {
+        "colour": "#FF9955"
+    },
+    "Democratic-Republican (Adams Faction)": {
+        "colour": "#68C468"
+    },
+    "Whig": {
+        "colour": "#F0C862"
+    },
+    "Whig (Harrison)": {
+        "colour": "#C68B8E"
+    },
+    "Whig (White)": {
+        "colour": "#800080"
+    },
+    "Whig (Webster)": {
+        "colour": "#F88379"
+    },
+    "Whig (Magnum)": {
+        "colour": "#006D61"
+    },
+    "Nullifier": {
+        "colour": "#0EBFB0"
+    },
+    "National Republican": {
+        "colour": "#FFE6B0"
+    },
+    "Anti-Masonic": {
+        "colour": "#F1BA00"
+    },
+    "Know Nothing": {
+        "colour": "#D99FE8"
+    },
+    "Constitutional Union": {
+        "colour": "#FF7F2A"
+    },
+    "Northern Democratic": {
+        "colour": "#698DC5"
+    },
+    "Southern Democratic": {
+        "colour": "#37C837"
+    },
+    "National Union": {
+        "colour": "#F07763"
+    },
+    "Confederate State": {
+        "colour": "#552200"
+    },
+    "Unreconstructed State": {
+        "colour": "#318547"
+    },
+    "Rejected": {
+        "colour": "#808080"
+    },
+    "Populist": {
+        "colour": "#ACE1AF"
+    },
+    "Progressive": {
+        "colour": "#A2ED70"
+    },
+    "Socialist": {
+        "colour": "#CD3700"
+    },
+    "American Independent": {
+        "colour": "#FF9955"
+    },
+    "Dixiecrat": {
+        "colour": "#FF9955"
+    },
+    "Democratic": {
+        "colour": "#698DC5"
+    },
+    "Democratic (Byrd)": {
+        "colour": "#0068CF"
+    },
+    "Republican": {
+        "colour": "#F07763"
+    },
+    "Independent": {
+        "colour": "#000"
+    }
+}
