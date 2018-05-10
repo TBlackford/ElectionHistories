@@ -1,7 +1,7 @@
 import React, { Component }  from 'react';
 import ReactDOM from 'react-dom';
 
-import { BurgerMenu, push as Menu } from 'react-burger-menu';
+import { BurgerMenu, push as PushMenu } from 'react-burger-menu';
 import classNames from 'classnames';
 
 import '../css/NavigationDrawer.css';
@@ -132,13 +132,13 @@ export default class NavigationDrawer extends Component {
         return (
             <div id="navigation-container">
                 <MenuWrap wait={20}>
-                    <Menu id={'push'}>
+                    <PushMenu id={'push'}>
                         <div id="logo">
                             <h2 style={{margin: "auto", width: "50%", padding: "30px"}}><img src={require('../img/envelope.svg')} /></h2>
                         </div>
                         <a id="home" className="menu-item" href="/">Home</a>
-                        <a id="usa" className="menu-item" href="/us">United States of America</a>
-                    </Menu>
+                        <a id="usa" className="menu-item" href="/ElectionHistories/">United States of America</a>
+                    </PushMenu>
                 </MenuWrap>
             </div>
         );
