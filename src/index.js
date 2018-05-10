@@ -19,7 +19,7 @@ import USElection from './elections/us.component.jsx';
 ReactDOM.render(
   <ElectionSlider />,
   document.getElementById('election-slider')
-);*/
+);
 
 ReactDOM.render(
     <BrowserRouter>
@@ -29,6 +29,12 @@ ReactDOM.render(
         </Switch>
     </BrowserRouter>,
     document.getElementById('container')
-);
+);*/
+
+ReactDOM.render(
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Route exact path="/" component={App}/>
+    </BrowserRouter>
+, document.getElementById('container'));
 
 registerServiceWorker();
