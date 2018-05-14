@@ -5,8 +5,14 @@
     "Territory": {
         "colour": "#808080"
     },
+    "Various": {
+        "colour": "#808080"
+    },
     "Federalist": {
         "colour": "#EA9978"
+    },
+    "Anti-Federalist": {
+        "colour": "#CCFF66"
     },
     "Democratic-Republican": {
         "colour": "#008000"
@@ -41,6 +47,9 @@
     "Nullifier": {
         "colour": "#0EBFB0"
     },
+    "Free Soil": {
+        "colour": "#CCCC66"
+    },
     "National Republican": {
         "colour": "#FFE6B0"
     },
@@ -71,6 +80,9 @@
     "Rejected": {
         "colour": "#808080"
     },
+    "Greenback": {
+        "colour": "#00FF00"
+    },
     "Populist": {
         "colour": "#ACE1AF"
     },
@@ -86,6 +98,15 @@
     "Dixiecrat": {
         "colour": "#FF9955"
     },
+    "Reform": {
+        "colour": "#6A287E"
+    },
+    "Libertarian": {
+        "colour": "#ECC850"
+    },
+    "Green": {
+        "colour": "#17aa5c"
+    },
     "Democratic": {
         "colour": "#698DC5"
     },
@@ -96,6 +117,6 @@
         "colour": "#F07763"
     },
     "Independent": {
-        "colour": "#000"
+        "colour": "#DDDDDD"
     }
 }

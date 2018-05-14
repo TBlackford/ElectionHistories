@@ -33,9 +33,11 @@ export default class App extends Component {
     render() {
         return(
             <div>
-                <NavigationDrawer></NavigationDrawer>
-                <USElection year={this.state.year}></USElection>
-                <ElectionSlider updateElectionYear={this.onYearChange}></ElectionSlider>
+                <NavigationDrawer />
+                <div id="full-container">
+                    <USElection year={this.state.year} />
+                    <ElectionSlider updateElectionYear={this.onYearChange} />
+                </div>
             </div>
         )
     }

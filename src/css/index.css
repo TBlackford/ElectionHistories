@@ -26,11 +26,31 @@ path:hover {
     }
 }
 
+#full-container {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    margin: 0 auto;
+}
+
 #us-container {
     position: absolute;
     margin: 0 auto;
     top: 10%;
     width: 100%;
+}
+
+#candidates {  
+    margin: 0 auto;
+    width: 29%;
+    height: 593px;
+    float: right;
+}
+
+svg {
+    float: left;
+
+    width: 70%;    
 }
 
 #bottom-container {
@@ -40,10 +60,14 @@ path:hover {
 }
 
 #info-box {  
-    margin: auto;
+    margin: 0 auto;
     width: 80%;
     background-color: #FFF;
-    border: 1px solid #e9ebee;
+    border: 1px solid #e4e4e4;
     border-radius: 16px;
-    padding: 16px;
+}
+
+.candidate-image {
+    width: 145px;
+    height: 200px;
 }

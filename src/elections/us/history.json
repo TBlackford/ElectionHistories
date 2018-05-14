@@ -31,7 +31,7 @@
 			},
 			{
 				"name": "Dr. Evan McMullin",
-				"party": "Independant",
+				"party": "Independent",
 				"popular": "728,830",
 				"electoral": "0"
 			}
@@ -6290,6 +6290,12 @@
 				"party": "Democratic",
 				"popular": "0",
 				"electoral": "1"
+			},
+			{
+				"name": "Rejected",
+				"party": "Rejected",
+				"popular": "0",
+				"electoral": "0"
 			}
 		],
 		"states": {
@@ -6426,6 +6432,12 @@
 				"party": "Democratic",
 				"popular": "2,706,829",
 				"electoral": "80"
+			},
+			{
+				"name": "Unreconstructed State",
+				"party": "Unreconstructed State",
+				"popular": "",
+				"electoral": ""
 			}
 		],
 		"states": {
@@ -6560,6 +6572,12 @@
 				"party": "Democratic",
 				"popular": "1,812,807",
 				"electoral": "21"
+			},
+			{
+				"name": "Confederate State",
+				"party": "Confederate State",
+				"popular": "0",
+				"electoral": "0"
 			}
 		],
 		"states": {
@@ -8542,7 +8560,7 @@
 			},
 			{
 				"name": "John Adams",
-				"party": "Republican",
+				"party": "Federalist",
 				"popular": "0",
 				"electoral": "34"
 			},

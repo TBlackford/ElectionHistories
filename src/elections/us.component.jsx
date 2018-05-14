@@ -1,6 +1,7 @@
 // Libraries
 import React, { Component } from 'react';
 import USAMap from 'react-usa-map';
+import Candidates from './Candidates.component.jsx';
 
 // Logos and styles
 import logo from './../logo.svg';
@@ -8,7 +9,7 @@ import './../css/App.css';
 
 // Data
 import data from './us/history.jsx';
-import parties from './us/parties.jsx'
+import parties from './us/parties.jsx';
 
 export default class USElection extends Component {
     
@@ -61,9 +62,10 @@ export default class USElection extends Component {
         return (
             <div id="us-container">
                 <div className="App">
-                    <USAMap customize={this.statesCustomConfig()} onClick={this.mapHandler} />
-                </div>
-            </div>   
+                    <USAMap id="map" customize={this.statesCustomConfig()} onClick={this.mapHandler} />     
+                    <Candidates year={this.props.year}/>               
+                </div>                    
+            </div>     
         );
     }
 }

@@ -22,7 +22,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "cleanup": "rm -rf node_modules/gh-pages/.cache",
+    "predeploy": "rm -rf node_modules/gh-pages/.cache && npm run build",
     "deploy": "gh-pages -d build"
   }
 }
