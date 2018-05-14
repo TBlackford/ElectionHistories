@@ -59,11 +59,17 @@ export default class USElection extends Component {
     };
 
     render() {
+        var style = {}
+        if( this.props.year == "1872" ) {
+            style = {
+                "overflow-y": "scroll"
+            }
+        }
         return (
             <div id="us-container">
                 <div className="App">
                     <USAMap id="map" customize={this.statesCustomConfig()} onClick={this.mapHandler} />     
-                    <Candidates year={this.props.year}/>               
+                    <Candidates style={style} year={this.props.year}/>               
                 </div>                    
             </div>     
         );

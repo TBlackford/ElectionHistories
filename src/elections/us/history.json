@@ -1160,7 +1160,7 @@
 				"electoral": "370"
 			},
 			{
-				"name": "George Bush (I)",
+				"name": "George H. W. Bush (I)",
 				"party": "Republican",
 				"popular": "39,102,343",
 				"electoral": "168"
@@ -1351,7 +1351,7 @@
 				"electoral": "111"
 			},
 			{
-				"name": "George Bush",
+				"name": "George H. W. Bush",
 				"party": "Republican",
 				"popular": "47,946,000",
 				"electoral": "426"
@@ -1729,13 +1729,13 @@
 			{
 				"name": "John Anderson",
 				"party": "Independent",
-				"popular": "47,946,000",
+				"popular": "5,719,850",
 				"electoral": "0"
 			},
 			{
 				"name": "Ed Clark",
 				"party": "Libertarian",
-				"popular": "47,946,000",
+				"popular": "921,128",
 				"electoral": "0"
 			}
 		],
@@ -2846,7 +2846,7 @@
 				"electoral": "457"
 			},			
 			{
-				"name": "John F. Kennedy",
+				"name": "Adlai Stevenson",
 				"party": "Democratic",
 				"popular": "25,738,765",
 				"electoral": "73"
@@ -5981,13 +5981,13 @@
 				"electoral": "214"
 			},			
 			{
-				"name": "Winfield scott Hancock",
+				"name": "Winfield Scott Hancock",
 				"party": "Democratic",
 				"popular": "4,444,952",
 				"electoral": "155"
 			},			
 			{
-				"name": "James Weaver",
+				"name": "James B. Weaver",
 				"party": "Greenback",
 				"popular": "308,578",
 				"electoral": "0"
@@ -6295,7 +6295,7 @@
 				"name": "Rejected",
 				"party": "Rejected",
 				"popular": "0",
-				"electoral": "0"
+				"electoral": "14"
 			}
 		],
 		"states": {
@@ -7443,7 +7443,7 @@
 				"electoral": "14"
 			},			
 			{
-				"name": "William Wirt",
+				"name": "Willie Person Mangum",
 				"party": "Whig",
 				"popular": "-",
 				"electoral": "11"
@@ -8386,10 +8386,16 @@
 				"electoral": "71"
 			},
 			{
-				"name": "George Clinton",
+				"name": "Thomas Jefferson",
 				"party": "Democratic-Republican",
 				"popular": "0",
 				"electoral": "68"
+			},
+			{
+				"name": "Thomas Pinckney",
+				"party": "Federalist",
+				"popular": "0",
+				"electoral": "59"
 			},
 			{
 				"name": "Aaron Burr",

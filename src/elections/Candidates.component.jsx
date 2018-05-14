@@ -38,6 +38,8 @@ export default class USCandidates extends Component {
 
         var candidate_list = data[this.props.year].candidates;
 
+        candidate_list.sort(function(a, b){return b.electoral - a.electoral});
+
         var candidates = [];
 
         for(var i = 0; i < candidate_list.length; i++) {
@@ -63,7 +65,7 @@ export default class USCandidates extends Component {
             if( candidate_list[i].name != candidate_list[i].party ) {
                 candidates.push(
                     <div>
-                        <table >
+                        <table>
                             <tr>                                
                                 <td>
                                     <p style={style} ><b>Party: </b>{candidate_list[i].party}<br/>
@@ -99,7 +101,7 @@ export default class USCandidates extends Component {
         
         return (
             <div>            
-                <div id="candidates" >
+                <div id="candidates" style={this.props.style}>
                     {candidates}
                 </div>    
             </div>
