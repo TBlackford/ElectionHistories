@@ -45,10 +45,19 @@ export default class USCandidates extends Component {
                 "border-left": "6px solid " + this.getColour(candidate_list[i].party),
                 "width": "200px",
                 "margin": "0 auto",
-                "padding": "16px"
+                "padding": "16px",
+                "text-align": "left"
             }
             var right_div = {
                 "float": "right"
+            }
+
+            var image = <div />
+
+            try {
+                image = <img style={image_style} src={require('../img/us/' + candidate_list[i].name + " - " + this.props.year + ".jpg")} />
+            } catch (err) {
+                image = <img style={image_style} src={require('../img/Default.jpg')} />
             }
             
             if( candidate_list[i].name != candidate_list[i].party ) {
@@ -64,7 +73,7 @@ export default class USCandidates extends Component {
                                     </p>
                                 </td>
                                 <td>
-                                    <img style={image_style} src={'/static/img/us/' + candidate_list[i].name + " - " + this.props.year + ".jpg"} />
+                                    {image}
                                 </td>
                             </tr>
                         </table>                        
