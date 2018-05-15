@@ -9,7 +9,6 @@ body {
 path {
   stroke-width: 1px;
   stroke: white;
-  fill: steelblue;
   cursor: pointer;
 }
 
@@ -24,79 +23,85 @@ path:hover, path.highlighted {
 </style>
 <body>
 	<div id="container">
-		<div id="map" />	
+		<div class="App" />	
 	</div>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 
-//Map dimensions (in pixels)
-var width = 959,
-    height = 593;
+var make_map = function(filename) {
+    //Map dimensions (in pixels)
+    var width = 959,
+        height = 593;
 
-//Map projection
-var projection = d3.geo.albersUsa()
-    .translate([width/2,height/2]) //translate to center the map in view
+    //Map projection
+    var projection = d3.geo.albersUsa()
+        .translate([width/2,height/2]) //translate to center the map in view
 
-//Generate paths based on projection
-var path = d3.geo.path()
-    .projection(projection);
+    //Generate paths based on projection
+    var path = d3.geo.path()
+        .projection(projection);
 
-//Create an SVG
-var svg = d3.select("#map").append("svg")
-    .attr("width", width)
-    .attr("height", height);
+    //Create an SVG
+    var svg = d3.select(".App").append("svg")
+        .attr("width", width)
+        .attr("height", height);
 
-//Group for the map features
-var features = svg.append("g")
-    .attr("class","features");
+    //Group for the map features
+    var features = svg.append("g")
+        .attr("class","features");
 
-//Create zoom/pan listener
-//Change [1,Infinity] to adjust the min/max zoom scale
-/*var zoom = d3.behavior.zoom()
-    .scaleExtent([1, Infinity])
-    .on("zoom",zoomed);
+    //Create zoom/pan listener
+    //Change [1,Infinity] to adjust the min/max zoom scale
+    /*var zoom = d3.behavior.zoom()
+        .scaleExtent([1, Infinity])
+        .on("zoom",zoomed);
 
-svg.call(zoom);//*/
+    svg.call(zoom);//*/
 
-d3.json("./GeoJSON/1789030.geojson",function(error,geodata) {
-  if (error) return console.log(error); //unknown error, check the console
+    d3.json(filename, function(error,geodata) {
+        if (error) return console.log(error); //unknown error, check the console
 
-  console.log(geodata.features);
+        //Create a path for each map feature in the data
+        var d = features.selectAll("path")
+            .data(geodata.features)
+            .enter()
+            .append("path")
+            .attr("d", path)
+            .attr("data-name", function(d) { 
+                if( d.properties.STATE == null ) { 
+                    return d.properties.LABEL;
+                } else {
+                    return d.properties.STATE;
+                }
+            })
+            .attr("class", function(d) { 
+                if( d.properties.State == null ) { 
+                    return "Other";
+                } else {
+                    return d.properties.STATE + " state";
+                }
+            })
+            .attr("fill", "#D3D3D3")
+            .on("click",clicked);
+        console.log(d[0][0]);
+        console.log("");
+    });
 
-  //Create a path for each map feature in the data
-  features.selectAll("path")
-    .data(geodata.features)
-    .enter()
-    .append("path")
-	.attr("d", path)
-	.attr("data-name", function(d) { 
-		if( d.properties.STATE == null ){ 
-			return "Other";
-		} else {
-			return d.properties.STATE;
-		}
-	})
-	.attr("class", function(d) { 
-		if( d.properties.LABEL == null ){ 
-			return "Other";
-		} else {
-			return d.properties.LABEL;
-		}
-	})
-    .on("click",clicked);
-});
+    // Add optional onClick events for features here
+    // d.properties contains the attributes (e.g. d.properties.name, d.properties.population)
+    function clicked(data, index) {
+        console.log(index);
+        console.log(data.properties.LABEL, data.properties.STATE);
+    }
 
-// Add optional onClick events for features here
-// d.properties contains the attributes (e.g. d.properties.name, d.properties.population)
-function clicked(d,i) {
-	console.log(d.properties.LABEL);
+
+    //Update map on zoom/pan
+    /*function zoomed() {
+    features.attr("transform", "translate(" + zoom.translate() + ")scale(" + zoom.scale() + ")")
+        .selectAll("path").style("stroke-width", 1 / zoom.scale() + "px" );
+    }//*/
 }
 
-
-//Update map on zoom/pan
-/*function zoomed() {
-  features.attr("transform", "translate(" + zoom.translate() + ")scale(" + zoom.scale() + ")")
-      .selectAll("path").style("stroke-width", 1 / zoom.scale() + "px" );
-}//*/
+make_map("./GeoData/1789080.geojson");
 
 </script>

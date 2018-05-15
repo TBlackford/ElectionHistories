@@ -36,6 +36,7 @@
 				"electoral": "0"
 			}
 		],
+		"GeoJSON": "1959080.geojson",
 		"states": {
 			"AL": [
 				{"Republican": "9"}
@@ -228,6 +229,7 @@
 				"electoral": "0"
 			}
 		],
+		"GeoJSON": "1959080.geojson",
 		"states": {
 			"AL": [
 				{"Republican": "9"}
@@ -413,6 +415,7 @@
 				"electoral": "173"
 			}
 		],
+		"GeoJSON": "1959080.geojson",
 		"states": {
 			"AL": [
 				{"Republican": "9"}
@@ -599,6 +602,7 @@
 				"electoral": "286"
 			}
 		],
+		"GeoJSON": "1959080.geojson",
 		"states": {
 			"AL": [
 				{"Republican": "9"}
@@ -790,6 +794,7 @@
 				"electoral": "0"
 			}
 		],
+		"GeoJSON": "1959080.geojson",
 		"states": {
 			"AL": [
 				{"Republican": "9"}
@@ -966,13 +971,13 @@
 				"name": "William J. Clinton (I)",
 				"party": "Democratic",
 				"popular": "45,590,703",
-				"electoral": "266"
+				"electoral": "379"
 			},
 			{
 				"name": "Robert Dole",
 				"party": "Republican",
 				"popular": "37,816,307",
-				"electoral": "271"
+				"electoral": "159"
 			},
 			{
 				"name": "Ross Perot",
@@ -981,6 +986,7 @@
 				"electoral": "0"
 			}
 		],
+		"GeoJSON": "1959080.geojson",
 		"states": {
 			"AL": [
 				{"Republican": "9"}
@@ -1172,6 +1178,7 @@
 				"electoral": "0"
 			}
 		],
+		"GeoJSON": "1959080.geojson",
 		"states": {
 			"AL": [
 				{"Republican": "9"}
@@ -1357,6 +1364,7 @@
 				"electoral": "426"
 			}
 		],
+		"GeoJSON": "1959080.geojson",
 		"states": {
 			"AL": [
 				{"Republican": "9"}
@@ -1542,6 +1550,7 @@
 				"electoral": "525"
 			}
 		],
+		"GeoJSON": "1959080.geojson",
 		"states": {
 			"AL": [
 				{"Republican": "9"}
@@ -1739,6 +1748,7 @@
 				"electoral": "0"
 			}
 		],
+		"GeoJSON": "1959080.geojson",
 		"states": {
 			"AL": [
 				{"Republican": "9"}
@@ -1924,6 +1934,7 @@
 				"electoral": "240"
 			}
 		],
+		"GeoJSON": "1959080.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "9"}
@@ -2109,6 +2120,7 @@
 				"electoral": "520"
 			}
 		],
+		"GeoJSON": "1959080.geojson",
 		"states": {
 			"AL": [
 				{"Republican": "9"}
@@ -2300,6 +2312,7 @@
 				"electoral": "46"
 			}
 		],
+		"GeoJSON": "1959080.geojson",
 		"states": {
 			"AL": [
 				{"American Independent": "10"}
@@ -2477,15 +2490,16 @@
 				"name": "Lyndon B. Johnson (I)",
 				"party": "Democratic",
 				"popular": "42,825,463",
-				"electoral": "191"
+				"electoral": "486"
 			},
 			{
 				"name": "Barry M. Goldwater",
 				"party": "Republican",
 				"popular": "27,146,969",
-				"electoral": "520"
+				"electoral": "52"
 			}
 		],
+		"GeoJSON": "1959080.geojson",
 		"states": {
 			"AL": [
 				{"Republican": "10"}
@@ -2677,6 +2691,7 @@
 				"electoral": "15"
 			}
 		],
+		"GeoJSON": "1959080.geojson",
 		"states": {
 			"AK": [
 				{"Republican": "3"}
@@ -2852,6 +2867,7 @@
 				"electoral": "73"
 			}
 		],
+		"GeoJSON": "1921030.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "10"}
@@ -2996,6 +3012,12 @@
 			],	
 			"WY": [
 				{"Republican": "3"}
+			],
+			"Alaska Territory": [
+				{"Territory": "0"}
+			],
+			"Hawaii Territory": [
+				{"Territory": "0"}
 			]
 		}
 	},
@@ -3019,6 +3041,7 @@
 				"electoral": "89"
 			}
 		],
+		"GeoJSON": "1921030.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "11"}
@@ -3163,6 +3186,12 @@
 			],	
 			"WY": [
 				{"Republican": "3"}
+			],
+			"Alaska Territory": [
+				{"Territory": "0"}
+			],
+			"Hawaii Territory": [
+				{"Territory": "0"}
 			]
 		}
 	},
@@ -3198,6 +3227,7 @@
 				"electoral": "0"
 			}
 		],
+		"GeoJSON": "1921030.geojson",
 		"states": {
 			"AL": [
 				{"Dixiecrat": "11"}
@@ -3343,6 +3373,12 @@
 			],	
 			"WY": [
 				{"Democratic": "3"}
+			],
+			"Alaska Territory": [
+				{"Territory": "0"}
+			],
+			"Hawaii Territory": [
+				{"Territory": "0"}
 			]
 		}
 	},
@@ -3366,6 +3402,7 @@
 				"electoral": "432"
 			}
 		],
+		"GeoJSON": "1921030.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "11"}
@@ -3510,6 +3547,12 @@
 			],	
 			"WY": [
 				{"Republican": "3"}
+			],
+			"Alaska Territory": [
+				{"Territory": "0"}
+			],
+			"Hawaii Territory": [
+				{"Territory": "0"}
 			]
 		}
 	},
@@ -3533,6 +3576,7 @@
 				"electoral": "449"
 			}
 		],
+		"GeoJSON": "1921030.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "11"}
@@ -3677,6 +3721,12 @@
 			],	
 			"WY": [
 				{"Democratic": "3"}
+			],
+			"Alaska Territory": [
+				{"Territory": "0"}
+			],
+			"Hawaii Territory": [
+				{"Territory": "0"}
 			]
 		}
 	},
@@ -3700,6 +3750,7 @@
 				"electoral": "523"
 			}
 		],
+		"GeoJSON": "1921030.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "11"}
@@ -3844,6 +3895,12 @@
 			],	
 			"WY": [
 				{"Democratic": "3"}
+			],
+			"Alaska Territory": [
+				{"Territory": "0"}
+			],
+			"Hawaii Territory": [
+				{"Territory": "0"}
 			]
 		}
 	},
@@ -3867,6 +3924,7 @@
 				"electoral": "472"
 			}
 		],
+		"GeoJSON": "1921030.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "11"}
@@ -4011,6 +4069,12 @@
 			],	
 			"WY": [
 				{"Democratic": "3"}
+			],
+			"Alaska Territory": [
+				{"Territory": "0"}
+			],
+			"Hawaii Territory": [
+				{"Territory": "0"}
 			]
 		}
 	},
@@ -4034,6 +4098,7 @@
 				"electoral": "87"
 			}
 		],
+		"GeoJSON": "1921030.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "12"}
@@ -4178,6 +4243,12 @@
 			],	
 			"WY": [
 				{"Republican": "3"}
+			],
+			"Alaska Territory": [
+				{"Territory": "0"}
+			],
+			"Hawaii Territory": [
+				{"Territory": "0"}
 			]
 		}
 	},
@@ -4207,6 +4278,7 @@
 				"electoral": "13"
 			}
 		],
+		"GeoJSON": "1921030.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "12"}
@@ -4351,6 +4423,12 @@
 			],	
 			"WY": [
 				{"Republican": "3"}
+			],
+			"Alaska Territory": [
+				{"Territory": "0"}
+			],
+			"Hawaii Territory": [
+				{"Territory": "0"}
 			]
 		}
 	},
@@ -4380,6 +4458,7 @@
 				"electoral": "0"
 			}
 		],
+		"GeoJSON": "1912080.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "12"}
@@ -4524,6 +4603,12 @@
 			],	
 			"WY": [
 				{"Republican": "3"}
+			],
+			"Alaska Territory": [
+				{"Territory": "0"}
+			],
+			"Hawaii Territory": [
+				{"Territory": "0"}
 			]
 		}
 	},
@@ -4553,6 +4638,7 @@
 				"electoral": "0"
 			}
 		],
+		"GeoJSON": "1912080.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "12"}
@@ -4698,6 +4784,12 @@
 			],	
 			"WY": [
 				{"Democratic": "3"}
+			],
+			"Alaska Territory": [
+				{"Territory": "0"}
+			],
+			"Hawaii Territory": [
+				{"Territory": "0"}
 			]
 		}
 	},
@@ -4733,6 +4825,7 @@
 				"electoral": "0"
 			}
 		],
+		"GeoJSON": "1912080.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "12"}
@@ -4878,6 +4971,12 @@
 			],	
 			"WY": [
 				{"Democratic": "3"}
+			],
+			"Alaska Territory": [
+				{"Territory": "0"}
+			],
+			"Hawaii Territory": [
+				{"Territory": "0"}
 			]
 		}
 	},
@@ -4900,7 +4999,8 @@
 				"popular": "6,409,104",
 				"electoral": "162"
 			}
-		],
+		],		
+		"GeoJSON": "1907110.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "11"}
@@ -5040,6 +5140,18 @@
 			],	
 			"WY": [
 				{"Republican": "3"}
+			],
+			"District of Alaska": [
+				{"Territory": "0"}
+			],
+			"Hawaii Territory": [
+				{"Territory": "0"}
+			],
+			"New Mexico Territory": [
+				{"Territory": "0"}
+			],
+			"Arizona Territory": [
+				{"Territory": "0"}
 			]
 		}
 	},
@@ -5068,7 +5180,8 @@
 				"popular": "402,895",
 				"electoral": "0"
 			}
-		],
+		],		
+		"GeoJSON": "1903100.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "11"}
@@ -5205,6 +5318,24 @@
 			],	
 			"WY": [
 				{"Republican": "3"}
+			],
+			"District of Alaska": [
+				{"Territory": "0"}
+			],
+			"Hawaii Territory": [
+				{"Territory": "0"}
+			],
+			"New Mexico Territory": [
+				{"Territory": "0"}
+			],
+			"Arizona Territory": [
+				{"Territory": "0"}
+			],
+			"NU": [
+				{"Territory": "0"}
+			],
+			"Indian territory (Unorganized)": [
+				{"Territory": "0"}
 			]
 		}
 	},
@@ -5228,6 +5359,7 @@
 				"electoral": "155"
 			}
 		],
+		"GeoJSON": "1900060.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "11"}
@@ -5363,6 +5495,24 @@
 			],	
 			"WY": [
 				{"Republican": "3"}
+			],
+			"District of Alaska": [
+				{"Territory": "0"}
+			],
+			"Hawaii Territory": [
+				{"Territory": "0"}
+			],
+			"New Mexico Territory": [
+				{"Territory": "0"}
+			],
+			"Arizona Territory": [
+				{"Territory": "0"}
+			],
+			"NU": [
+				{"Territory": "0"}
+			],
+			"Indian territory (Unorganized)": [
+				{"Territory": "0"}
 			]
 		}
 	},
@@ -5386,6 +5536,7 @@
 				"electoral": "176"
 			}
 		],
+		"GeoJSON": "1896050.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "11"}
@@ -5523,6 +5674,21 @@
 			],	
 			"WY": [
 				{"Democratic": "3"}
+			],
+			"District of Alaska": [
+				{"Territory": "0"}
+			],
+			"New Mexico Territory": [
+				{"Territory": "0"}
+			],
+			"Arizona Territory": [
+				{"Territory": "0"}
+			],
+			"NU": [
+				{"Territory": "0"}
+			],
+			"Indian territory (Unorganized)": [
+				{"Territory": "0"}
 			]
 		}
 	},
@@ -5552,6 +5718,7 @@
 				"electoral": "22"
 			}
 		],
+		"GeoJSON": "1890071.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "11"}
@@ -5690,6 +5857,27 @@
 			],			
 			"VT": [
 				{"Republican": "4"}
+			],
+			"District of Alaska": [
+				{"Territory": "0"}
+			],
+			"New Mexico Territory": [
+				{"Territory": "0"}
+			],
+			"Arizona Territory": [
+				{"Territory": "0"}
+			],
+			"Utah Territory": [
+				{"Territory": "0"}
+			],
+			"NU": [
+				{"Territory": "0"}
+			],
+			"Indian territory (Unorganized)": [
+				{"Territory": "0"}
+			],
+			"Greer County (Disputed between Texas and Oklahoma Territory)": [
+				{"Disputed": "0"}
 			]
 		}
 	},
@@ -5713,6 +5901,7 @@
 				"electoral": "168"
 			}
 		],
+		"GeoJSON": "1884050.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "10"}
@@ -5827,6 +6016,45 @@
 			],			
 			"VT": [
 				{"Republican": "4"}
+			],
+			"New Mexico Territory": [
+				{"Territory": "0"}
+			],
+			"Arizona Territory": [
+				{"Territory": "0"}
+			],
+			"District of Alaska": [
+				{"Territory": "0"}
+			],
+			"Utah Territory": [
+				{"Territory": "0"}
+			],
+			"Idaho Territory": [
+				{"Territory": "0"}
+			],
+			"Montana Territory": [
+				{"Territory": "0"}
+			],
+			"Dakota Territory": [
+				{"Territory": "0"}
+			],
+			"Wyoming Territory": [
+				{"Territory": "0"}
+			],
+			"Washington Territory": [
+				{"Territory": "0"}
+			],
+			"NU": [
+				{"Territory": "0"}
+			],
+			"Indian territory (Unorganized)": [
+				{"Territory": "0"}
+			],
+			"Neutral Strip": [
+				{"Disputed": "0"}
+			],
+			"Greer County (Disputed between Texas and Indian Territory)": [
+				{"Disputed": "0"}
 			]
 		}
 	},
@@ -5849,7 +6077,8 @@
 				"popular": "4,874,986",
 				"electoral": "155"
 			}
-		],
+		],		
+		"GeoJSON": "1884050.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "10"}
@@ -5964,6 +6193,45 @@
 			],			
 			"VT": [
 				{"Republican": "4"}
+			],
+			"New Mexico Territory": [
+				{"Territory": "0"}
+			],
+			"Arizona Territory": [
+				{"Territory": "0"}
+			],
+			"District of Alaska": [
+				{"Territory": "0"}
+			],
+			"Utah Territory": [
+				{"Territory": "0"}
+			],
+			"Idaho Territory": [
+				{"Territory": "0"}
+			],
+			"Montana Territory": [
+				{"Territory": "0"}
+			],
+			"Dakota Territory": [
+				{"Territory": "0"}
+			],
+			"Wyoming Territory": [
+				{"Territory": "0"}
+			],
+			"Washington Territory": [
+				{"Territory": "0"}
+			],
+			"NU": [
+				{"Territory": "0"}
+			],
+			"Indian territory (Unorganized)": [
+				{"Territory": "0"}
+			],
+			"Neutral Strip": [
+				{"Disputed": "0"}
+			],
+			"Greer County (Disputed between Texas and Indian Territory)": [
+				{"Disputed": "0"}
 			]
 		}
 	},
@@ -5993,6 +6261,7 @@
 				"electoral": "0"
 			}
 		],
+		"GeoJSON": "1876080.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "10"}
@@ -6108,6 +6377,45 @@
 			],			
 			"VT": [
 				{"Republican": "5"}
+			],
+			"New Mexico Territory": [
+				{"Territory": "0"}
+			],
+			"Arizona Territory": [
+				{"Territory": "0"}
+			],
+			"Department of Alaska": [
+				{"Territory": "0"}
+			],
+			"Utah Territory": [
+				{"Territory": "0"}
+			],
+			"Idaho Territory": [
+				{"Territory": "0"}
+			],
+			"Montana Territory": [
+				{"Territory": "0"}
+			],
+			"Dakota Territory": [
+				{"Territory": "0"}
+			],
+			"Wyoming Territory": [
+				{"Territory": "0"}
+			],
+			"Washington Territory": [
+				{"Territory": "0"}
+			],
+			"NU": [
+				{"Territory": "0"}
+			],
+			"Indian territory (Unorganized)": [
+				{"Territory": "0"}
+			],
+			"Neutral Strip": [
+				{"Disputed": "0"}
+			],
+			"Greer County (Disputed between Texas and Indian Territory)": [
+				{"Disputed": "0"}
 			]
 		}
 	},
@@ -6131,6 +6439,7 @@
 				"electoral": "184"
 			}
 		],
+		"GeoJSON": "1876080.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "10"}
@@ -6245,6 +6554,45 @@
 			],			
 			"VT": [
 				{"Republican": "5"}
+			],
+			"New Mexico Territory": [
+				{"Territory": "0"}
+			],
+			"Arizona Territory": [
+				{"Territory": "0"}
+			],
+			"Department of Alaska": [
+				{"Territory": "0"}
+			],
+			"Utah Territory": [
+				{"Territory": "0"}
+			],
+			"Idaho Territory": [
+				{"Territory": "0"}
+			],
+			"Montana Territory": [
+				{"Territory": "0"}
+			],
+			"Dakota Territory": [
+				{"Territory": "0"}
+			],
+			"Wyoming Territory": [
+				{"Territory": "0"}
+			],
+			"Washington Territory": [
+				{"Territory": "0"}
+			],
+			"NU": [
+				{"Territory": "0"}
+			],
+			"Indian territory (Unorganized)": [
+				{"Territory": "0"}
+			],
+			"Neutral Strip": [
+				{"Disputed": "0"}
+			],
+			"Greer County (Disputed between Texas and Indian Territory)": [
+				{"Disputed": "0"}
 			]
 		}
 	},
@@ -6298,6 +6646,7 @@
 				"electoral": "14"
 			}
 		],
+		"GeoJSON": "1872100.geojson",
 		"states": {
 			"AL": [
 				{"Republican": "10"}
@@ -6411,6 +6760,48 @@
 			],			
 			"VT": [
 				{"Republican": "5"}
+			],
+			"New Mexico Territory": [
+				{"Territory": "0"}
+			],
+			"Arizona Territory": [
+				{"Territory": "0"}
+			],
+			"Department of Alaska": [
+				{"Territory": "0"}
+			],
+			"Colorado Territory": [
+				{"Territory": "0"}
+			],
+			"Utah Territory": [
+				{"Territory": "0"}
+			],
+			"Idaho Territory": [
+				{"Territory": "0"}
+			],
+			"Montana Territory": [
+				{"Territory": "0"}
+			],
+			"Dakota Territory": [
+				{"Territory": "0"}
+			],
+			"Wyoming Territory": [
+				{"Territory": "0"}
+			],
+			"Washington Territory": [
+				{"Territory": "0"}
+			],
+			"NU": [
+				{"Territory": "0"}
+			],
+			"Indian territory (Unorganized)": [
+				{"Territory": "0"}
+			],
+			"Neutral Strip": [
+				{"Disputed": "0"}
+			],
+			"Greer County (Disputed between Texas and Indian Territory)": [
+				{"Disputed": "0"}
 			]
 		}
 	},
@@ -6440,6 +6831,7 @@
 				"electoral": ""
 			}
 		],
+		"GeoJSON": "1868073.geojson",
 		"states": {
 			"AL": [
 				{"Republican": "8"}
@@ -6551,6 +6943,48 @@
 			],			
 			"VT": [
 				{"Republican": "5"}
+			],
+			"New Mexico Territory": [
+				{"Territory": "0"}
+			],
+			"Department of Alaska": [
+				{"Territory": "0"}
+			],
+			"Arizona Territory": [
+				{"Territory": "0"}
+			],
+			"Colorado Territory": [
+				{"Territory": "0"}
+			],
+			"Utah Territory": [
+				{"Territory": "0"}
+			],
+			"Idaho Territory": [
+				{"Territory": "0"}
+			],
+			"Montana Territory": [
+				{"Territory": "0"}
+			],
+			"Dakota Territory": [
+				{"Territory": "0"}
+			],
+			"Wyoming Territory": [
+				{"Territory": "0"}
+			],
+			"Washington Territory": [
+				{"Territory": "0"}
+			],
+			"NU": [
+				{"Territory": "0"}
+			],
+			"Indian territory (Unorganized)": [
+				{"Territory": "0"}
+			],
+			"Neutral Strip": [
+				{"Disputed": "0"}
+			],
+			"Greer County (Disputed between Texas and Indian Territory)": [
+				{"Disputed": "0"}
 			]
 		}
 	},
@@ -6580,6 +7014,7 @@
 				"electoral": "0"
 			}
 		],
+		"GeoJSON": "1864100.geojson",
 		"states": {
 			"AL": [
 				{"Confederate State": "0"}
@@ -6690,6 +7125,48 @@
 			],			
 			"VT": [
 				{"National Union": "5"}
+			],
+			"New Mexico Territory": [
+				{"Territory": "0"}
+			],
+			"Arizona Territory": [
+				{"Territory": "0"}
+			],
+			"Arizona Territory (CSA)": [
+				{"Territory": "0"}
+			],
+			"Colorado Territory": [
+				{"Territory": "0"}
+			],
+			"Utah Territory": [
+				{"Territory": "0"}
+			],
+			"Idaho Territory": [
+				{"Territory": "0"}
+			],
+			"Montana Territory": [
+				{"Territory": "0"}
+			],
+			"Dakota Territory": [
+				{"Territory": "0"}
+			],
+			"Nebraska Territory": [
+				{"Territory": "0"}
+			],
+			"Washington Territory": [
+				{"Territory": "0"}
+			],
+			"NU": [
+				{"Territory": "0"}
+			],
+			"Indian territory (Unorganized)": [
+				{"Territory": "0"}
+			],
+			"Neutral Strip": [
+				{"Disputed": "0"}
+			],
+			"Greer County (Disputed between Texas and Indian Territory)": [
+				{"Disputed": "0"}
 			]
 		}
 	},
@@ -6725,6 +7202,7 @@
 				"electoral": "12"
 			}
 		],
+		"GeoJSON": "1860020.geojson",
 		"states": {
 			"AL": [
 				{"Southern Democratic": "9"}
@@ -6828,6 +7306,42 @@
 			],			
 			"VT": [
 				{"Republican": "5"}
+			],
+			"New Mexico Territory": [
+				{"Territory": "0"}
+			],
+			"Arizona Territory": [
+				{"Territory": "0"}
+			],
+			"Colorado Territory": [
+				{"Territory": "0"}
+			],
+			"Utah Territory": [
+				{"Territory": "0"}
+			],
+			"Unorganized Territory": [
+				{"Territory": "0"}
+			],
+			"Nebraska Territory": [
+				{"Territory": "0"}
+			],
+			"Kansas Territory": [
+				{"Territory": "0"}
+			],
+			"Washington Territory": [
+				{"Territory": "0"}
+			],
+			"NU": [
+				{"Territory": "0"}
+			],
+			"Indian territory (Unorganized)": [
+				{"Territory": "0"}
+			],
+			"Neutral Strip": [
+				{"Disputed": "0"}
+			],
+			"Greer County (Disputed between Texas and Indian Territory)": [
+				{"Disputed": "0"}
 			]
 		}
 	},
@@ -6857,6 +7371,7 @@
 				"electoral": "8"
 			}
 		],
+		"GeoJSON": "1854050.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "9"}
@@ -6953,6 +7468,42 @@
 			],			
 			"VT": [
 				{"Republican": "5"}
+			],
+			"New Mexico Territory": [
+				{"Territory": "0"}
+			],
+			"Arizona Territory": [
+				{"Territory": "0"}
+			],
+			"Colorado Territory": [
+				{"Territory": "0"}
+			],
+			"Utah Territory": [
+				{"Territory": "0"}
+			],
+			"Minnesota Territory": [
+				{"Territory": "0"}
+			],
+			"Nebraska Territory": [
+				{"Territory": "0"}
+			],
+			"Kansas Territory": [
+				{"Territory": "0"}
+			],
+			"Washington Territory": [
+				{"Territory": "0"}
+			],
+			"Oregon Territory": [
+				{"Territory": "0"}
+			],
+			"NU": [
+				{"Territory": "0"}
+			],
+			"Indian Territory (Unorganized)": [
+				{"Territory": "0"}
+			],
+			"Neutral Strip": [
+				{"Disputed": "0"}
 			]
 		}
 	},
@@ -6982,6 +7533,7 @@
 				"electoral": "0"
 			}
 		],
+		"GeoJSON": "1850090.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "9"}
@@ -7078,6 +7630,33 @@
 			],			
 			"VT": [
 				{"Whig": "5"}
+			],
+			"New Mexico Territory": [
+				{"Territory": "0"}
+			],
+			"Colorado Territory": [
+				{"Territory": "0"}
+			],
+			"Utah Territory": [
+				{"Territory": "0"}
+			],
+			"Minnesota Territory": [
+				{"Territory": "0"}
+			],
+			"Nebraska Territory": [
+				{"Territory": "0"}
+			],
+			"Kansas Territory": [
+				{"Territory": "0"}
+			],
+			"Unorganized Territory": [
+				{"Territory": "0"}
+			],
+			"Oregon Territory": [
+				{"Territory": "0"}
+			],
+			"Neutral Strip": [
+				{"Disputed": "0"}
 			]
 		}
 	},
@@ -7106,7 +7685,8 @@
 				"popular": "291,501",
 				"electoral": "0"
 			}
-		],
+		],		
+		"GeoJSON": "1848080.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "9"}
@@ -7200,6 +7780,15 @@
 			],			
 			"VT": [
 				{"Whig": "6"}
+			],
+			"Unorganized Territory": [
+				{"Territory": "0"}
+			],
+			"Mexican Cession (Unorganized territory)": [
+				{"Territory": "0"}
+			],
+			"Oregon Territory": [
+				{"Territory": "0"}
 			]
 		}
 	},
@@ -7222,7 +7811,8 @@
 				"popular": "1,300,004",
 				"electoral": "105"
 			}
-		],
+		],		
+		"GeoJSON": "1842110.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "9"}
@@ -7304,6 +7894,27 @@
 			],			
 			"VT": [
 				{"Whig": "6"}
+			],
+			"Oregon Country (Shared with UK)": [
+				{"Disputed": "0"}
+			],
+			"Disputed between Mexico and Texas": [
+				{"Disputed": "0"}
+			],
+			"Miller County (disputed between Texas and Arkansas)": [
+				{"Disputed": "0"}
+			],
+			"Unorganized Territory": [
+				{"Territory": "0"}
+			],
+			"Iowa Territory": [
+				{"Territory": "0"}
+			],
+			"Wisconsin Territory": [
+				{"Territory": "0"}
+			],
+			"Florida Territory": [
+				{"Territory": "0"}
 			]
 		}
 	},
@@ -7327,6 +7938,7 @@
 				"electoral": "234"
 			}
 		],
+		"GeoJSON": "1838070.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "7"}
@@ -7408,6 +8020,33 @@
 			],			
 			"VT": [
 				{"Whig": "7"}
+			],
+			"Oregon Country (Shared with UK)": [
+				{"Disputed": "0"}
+			],
+			"Disputed between Mexico and Texas": [
+				{"Disputed": "0"}
+			],
+			"Miller County (disputed between Texas and Arkansas)": [
+				{"Disputed": "0"}
+			],
+			"Unorganized Territory": [
+				{"Territory": "0"}
+			],
+			"Iowa Territory": [
+				{"Territory": "0"}
+			],
+			"Wisconsin Territory": [
+				{"Territory": "0"}
+			],
+			"Florida Territory": [
+				{"Territory": "0"}
+			],
+			"Disputed between Wisconsin Territory and Rupert's Land": [
+				{"Disputed": "0"}
+			],
+			"Disputed between Maine and Colony of New Brunswick": [
+				{"Disputed": "0"}
 			]
 		}
 	},
@@ -7426,32 +8065,36 @@
 			},			
 			{
 				"name": "William H. Harrison",
-				"party": "Whig",
+				"party": "Whig (Harrison)",
 				"popular": "550,816",
 				"electoral": "79"
 			},
 			{
 				"name": "Hugh L. White",
-				"party": "Whig",
+				"party": "Whig (White)",
 				"popular": "146,109",
 				"electoral": "26"
 			},			
 			{
 				"name": "Daniel Webster",
-				"party": "Whig",
+				"party": "Whig (Webster)",
 				"popular": "41,201",
 				"electoral": "14"
 			},			
 			{
 				"name": "Willie Person Mangum",
-				"party": "Whig",
-				"popular": "-",
+				"party": "Whig (Magnum)",
+				"popular": "0",
 				"electoral": "11"
 			}
 		],
+		"GeoJSON": "1836070.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "7"}
+			],
+			"AR": [
+				{"Democratic": "3"}
 			],
 			"CT": [
 				{"Democratic": "8"}
@@ -7524,6 +8167,36 @@
 			],			
 			"VT": [
 				{"Whig (Harrison)": "7"}
+			],
+			"Oregon Country (Shared with UK)": [
+				{"Disputed": "0"}
+			],
+			"Disputed between Mexico and Texas": [
+				{"Disputed": "0"}
+			],
+			"Miller County (disputed between Texas and Arkansas)": [
+				{"Disputed": "0"}
+			],
+			"Unorganized Territory": [
+				{"Territory": "0"}
+			],
+			"Iowa Territory": [
+				{"Territory": "0"}
+			],
+			"Wisconsin Territory": [
+				{"Territory": "0"}
+			],
+			"Michigan Territory": [
+				{"Territory": "0"}
+			],
+			"Florida Territory": [
+				{"Territory": "0"}
+			],
+			"Disputed between Wisconsin Territory and Rupert's Land": [
+				{"Disputed": "0"}
+			],
+			"Disputed between Maine and Colony of New Brunswick": [
+				{"Disputed": "0"}
 			]
 		}
 	},
@@ -7559,6 +8232,7 @@
 				"electoral": "7"
 			}
 		],
+		"GeoJSON": "1828050.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "7"}
@@ -7635,6 +8309,33 @@
 			],			
 			"VT": [
 				{"Anti-Masonic": "7"}
+			],
+			"Oregon Country (Shared with UK)": [
+				{"Disputed": "0"}
+			],
+			"Disputed between Mexico and Texas": [
+				{"Disputed": "0"}
+			],
+			"Miller County (disputed between Mexico and Arkansas Territory)": [
+				{"Disputed": "0"}
+			],
+			"Unorganized Territory": [
+				{"Territory": "0"}
+			],
+			"Michigan Territory": [
+				{"Territory": "0"}
+			],
+			"Arkansas Territory": [
+				{"Territory": "0"}
+			],
+			"Florida Territory": [
+				{"Territory": "0"}
+			],
+			"Disputed between Northwest Territory and Rupert's Land": [
+				{"Disputed": "0"}
+			],
+			"Disputed between Maine and Colony of New Brunswick": [
+				{"Disputed": "0"}
 			]
 		}
 	},
@@ -7658,6 +8359,7 @@
 				"electoral": "83"
 			}
 		],
+		"GeoJSON": "1828050.geojson",
 		"states": {
 			"AL": [
 				{"Democratic": "5"}
@@ -7736,6 +8438,33 @@
 			],			
 			"VT": [
 				{"National Republican": "7"}
+			],
+			"Oregon Country (Shared with UK)": [
+				{"Disputed": "0"}
+			],
+			"Disputed between Mexico and Texas": [
+				{"Disputed": "0"}
+			],
+			"Miller County (disputed between Mexico and Arkansas Territory)": [
+				{"Disputed": "0"}
+			],
+			"Unorganized Territory": [
+				{"Territory": "0"}
+			],
+			"Michigan Territory": [
+				{"Territory": "0"}
+			],
+			"Arkansas Territory": [
+				{"Territory": "0"}
+			],
+			"Florida Territory": [
+				{"Territory": "0"}
+			],
+			"Disputed between Northwest Territory and Rupert's Land": [
+				{"Disputed": "0"}
+			],
+			"Disputed between Maine and Colony of New Brunswick": [
+				{"Disputed": "0"}
 			]
 		}
 	},
@@ -7771,6 +8500,7 @@
 				"electoral": "37"
 			}
 		],
+		"GeoJSON": "1824110.geojson",
 		"states": {
 			"AL": [
 				{"Democratic-Republican (Jackson Faction)": "5"}
@@ -7854,6 +8584,33 @@
 			],			
 			"VT": [
 				{"Democratic-Republican (Adams Faction)": "7"}
+			],
+			"Oregon Country (Shared with UK)": [
+				{"Disputed": "0"}
+			],
+			"Disputed between Mexico and Texas": [
+				{"Disputed": "0"}
+			],
+			"Miller County (disputed between Mexico and Arkansas Territory)": [
+				{"Disputed": "0"}
+			],
+			"Unorganized Territory": [
+				{"Territory": "0"}
+			],
+			"Michigan Territory": [
+				{"Territory": "0"}
+			],
+			"Arkansas Territory": [
+				{"Territory": "0"}
+			],
+			"Florida Territory": [
+				{"Territory": "0"}
+			],
+			"Disputed between Northwest Territory and Rupert's Land": [
+				{"Disputed": "0"}
+			],
+			"Disputed between Maine and Colony of New Brunswick": [
+				{"Disputed": "0"}
 			]
 		}
 	},
@@ -7877,6 +8634,7 @@
 				"electoral": "1"
 			}
 		],
+		"GeoJSON": "1820030.geojson",
 		"states": {
 			"AL": [
 				{"Democratic-Republican": "3"}
@@ -7953,6 +8711,36 @@
 			],			
 			"VT": [
 				{"Democratic-Republican": "8"}
+			],
+			"Oregon Country (Shared with UK)": [
+				{"Disputed": "0"}
+			],
+			"Missouri Territory": [
+				{"Territory": "0"}
+			],
+			"Michigan Territory": [
+				{"Territory": "0"}
+			],
+			"Arkansaw Territory": [
+				{"Territory": "0"}
+			],
+			"Florida Territory": [
+				{"Territory": "0"}
+			],
+			"Disputed between Northwest Territory and Rupert's Land": [
+				{"Disputed": "0"}
+			],
+			"Disputed between Maine and Colony of New Brunswick": [
+				{"Disputed": "0"}
+			],
+			"Disputed between United States and West Florida": [
+				{"Disputed": "0"}
+			],
+			"Disputed between West Florida and Mississippi": [
+				{"Disputed": "0"}
+			],
+			"Disputed between West Florida and Alabama Territory": [
+				{"Disputed": "0"}
 			]
 		}
 	},
@@ -7976,6 +8764,7 @@
 				"electoral": "34"
 			}
 		],
+		"GeoJSON": "1816120.geojson",
 		"states": {
 			"CT": [
 				{"Federalist": "9"}
@@ -8036,6 +8825,33 @@
 			],			
 			"VT": [
 				{"Democratic-Republican": "8"}
+			],
+			"Mississippi Territory": [
+				{"Territory": "0"}
+			],
+			"Missouri Territory": [
+				{"Territory": "0"}
+			],
+			"Illinois Territory": [
+				{"Territory": "0"}
+			],
+			"Unorganized Territory": [
+				{"Territory": "0"}
+			],
+			"Michigan Territory": [
+				{"Territory": "0"}
+			],
+			"Disputed between West Florida and Mississippi Territory": [
+				{"Disputed": "0"}
+			],
+			"Disputed between United States and West Florida": [
+				{"Disputed": "0"}
+			],
+			"Disputed between Northwest Territory and Rupert's Land": [
+				{"Disputed": "0"}
+			],
+			"Disputed between Massachusetts and Colony of New Brunswick": [
+				{"Disputed": "0"}
 			]
 		}
 	},
@@ -8059,6 +8875,7 @@
 				"electoral": "89"
 			}
 		],
+		"GeoJSON": "1812060.geojson",
 		"states": {
 			"CT": [
 				{"Federalist": "9"}
@@ -8117,6 +8934,33 @@
 			],			
 			"VT": [
 				{"Democratic-Republican": "8"}
+			],
+			"Mississippi Territory": [
+				{"Territory": "0"}
+			],
+			"Missouri Territory": [
+				{"Territory": "0"}
+			],
+			"Illinois Territory": [
+				{"Territory": "0"}
+			],
+			"Indiana Territory": [
+				{"Territory": "0"}
+			],
+			"Michigan Territory": [
+				{"Territory": "0"}
+			],
+			"Disputed between West Florida and Mississippi Territory": [
+				{"Disputed": "0"}
+			],
+			"Disputed between United States and West Florida": [
+				{"Disputed": "0"}
+			],
+			"Disputed between Northwest Territory and Rupert's Land": [
+				{"Disputed": "0"}
+			],
+			"Disputed between Massachusetts and Colony of New Brunswick": [
+				{"Disputed": "0"}
 			]
 		}
 	},
@@ -8146,6 +8990,7 @@
 				"electoral": "6"
 			}
 		],
+		"GeoJSON": "1805070.geojson",
 		"states": {
 			"CT": [
 				{"Federalist": "9"}
@@ -8202,6 +9047,30 @@
 			],			
 			"VT": [
 				{"Democratic-Republican": "6"}
+			],
+			"Indiana Territory": [
+				{"Territory": "0"}
+			],
+			"Michigan Territory": [
+				{"Territory": "0"}
+			],
+			"Mississippi Territory": [
+				{"Territory": "0"}
+			],
+			"Orleans Territory": [
+				{"Territory": "0"}
+			],
+			"Louisiana Territory": [
+				{"Territory": "0"}
+			],
+			"Disputed between United States and West Florida": [
+				{"Disputed": "0"}
+			],
+			"Disputed between Massachusetts and Colony of New Brunswick": [
+				{"Disputed": "0"}
+			],
+			"Disputed between Northwest Territory and Rupert's Land": [
+				{"Disputed": "0"}
 			]
 		}
 	},
@@ -8225,6 +9094,7 @@
 				"electoral": "14"
 			}
 		],
+		"GeoJSON": "1804100.geojson",
 		"states": {
 			"CT": [
 				{"Federalist": "9"}
@@ -8280,6 +9150,30 @@
 			],			
 			"VT": [
 				{"Democratic-Republican": "6"}
+			],
+			"Indiana Territory": [
+				{"Territory": "0"}
+			],
+			"Michigan Territory": [
+				{"Territory": "0"}
+			],
+			"Mississippi Territory": [
+				{"Territory": "0"}
+			],
+			"Orleans Territory": [
+				{"Territory": "0"}
+			],
+			"District of Louisiana": [
+				{"Territory": "0"}
+			],
+			"Disputed between United States and West Florida": [
+				{"Disputed": "0"}
+			],
+			"Disputed between Massachusetts and Colony of New Brunswick": [
+				{"Disputed": "0"}
+			],
+			"Disputed between Northwest Territory and Rupert's Land": [
+				{"Disputed": "0"}
 			]
 		}
 	},
@@ -8315,6 +9209,7 @@
 				"electoral": "64"
 			}
 		],
+		"GeoJSON": "1800100.geojson",
 		"states": {
 			"CT": [
 				{"Federalist": "9"}
@@ -8369,6 +9264,24 @@
 			],			
 			"VT": [
 				{"Federalist": "4"}
+			],
+			"Indiana Territory": [
+				{"Territory": "0"}
+			],
+			"Northwest Territory": [
+				{"Territory": "0"}
+			],
+			"Mississippi Territory": [
+				{"Territory": "0"}
+			],
+			"Disputed between United States and Georgia": [
+				{"Disputed": "0"}
+			],
+			"Disputed between Massachusetts and Colony of New Brunswick": [
+				{"Disputed": "0"}
+			],
+			"Disputed between Northwest Territory and Rupert's Land": [
+				{"Disputed": "0"}
 			]
 		}
 	},
@@ -8410,6 +9323,7 @@
 				"electoral": "48"
 			}
 		],
+		"GeoJSON": "1796060.geojson",
 		"states": {
 			"CT": [
 				{"Federalist": "9"}
@@ -8465,6 +9379,15 @@
 			],			
 			"VT": [
 				{"Federalist": "4"}
+			],
+			"Northwest Territory": [
+				{"Territory": "0"}
+			],
+			"Disputed between Massachusetts and Colony of New Brunswick": [
+				{"Disputed": "0"}
+			],
+			"Disputed between Northwest Territory and Rupert's Land": [
+				{"Disputed": "0"}
 			]
 		}
 	},
@@ -8500,6 +9423,7 @@
 				"electoral": "5"
 			}
 		],
+		"GeoJSON": "1792060.geojson",
 		"states": {
 			"CT": [
 				{"Nonpartisan": "9"}
@@ -8548,6 +9472,21 @@
 			],			
 			"VT": [
 				{"Nonpartisan": "3"}
+			],
+			"Northwest Territory": [
+				{"Territory": "0"}
+			],
+			"Southwest Territory": [
+				{"Territory": "0"}
+			],
+			"Disputed between Massachusetts and Colony of New Brunswick": [
+				{"Disputed": "0"}
+			],
+			"Disputed between United States and West Florida": [
+				{"Disputed": "0"}
+			],
+			"Disputed between Northwest Territory and Rupert's Land": [
+				{"Disputed": "0"}
 			]
 		}
 	},
@@ -8577,6 +9516,7 @@
 				"electoral": "35"
 			}
 		],
+		"GeoJSON": "1789080.geojson",
 		"states": {
 			"CT": [
 				{"Nonpartisan": "7"}
@@ -8594,7 +9534,7 @@
 				{"Nonpartisan": "10"}
 			],
 			"NC": [
-				{"Territory": "0"}
+				{"Did Not Vote": "0"}
 			],
 			"NH": [
 				{"Nonpartisan": "5"}
@@ -8603,13 +9543,13 @@
 				{"Nonpartisan": "6"}
 			],
 			"NY": [
-				{"Territory": "0"}
+				{"Did Not Vote": "0"}
 			],
 			"PA": [
 				{"Nonpartisan": "10"}
 			],
 			"RI": [
-				{"Territory": "0"}
+				{"Did Not Vote": "0"}
 			],
 			"SC": [
 				{"Nonpartisan": "7"}
@@ -8619,6 +9559,24 @@
 			],			
 			"VA": [
 				{"Nonpartisan": "10"}
+			],			
+			"Vermont Republic": [
+				{"Did Not Vote": "0"}
+			],
+			"Northwest Territory": [
+				{"Territory": "0"}
+			],
+			"Eerie Triangle ": [
+				{"Territory": "0"}
+			],
+			"Disputed between United States and West Florida": [
+				{"Disputed": "0"}
+			],
+			"Disputed between United States and Rupert's Land": [
+				{"Disputed": "0"}
+			],
+			"Disputed between Massachusetts and Colony of New Brunswick": [
+				{"Disputed": "0"}
 			]
 		}
 	}

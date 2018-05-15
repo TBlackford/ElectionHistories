@@ -5,6 +5,12 @@
     "Territory": {
         "colour": "#808080"
     },
+    "Did Not Vote": {
+        "colour": "#404040"
+    },
+    "Disputed": {
+        "colour": "#4d402a"
+    },
     "Various": {
         "colour": "#808080"
     },

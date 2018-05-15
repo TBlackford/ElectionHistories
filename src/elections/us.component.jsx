@@ -1,6 +1,7 @@
 // Libraries
 import React, { Component } from 'react';
 import USAMap from 'react-usa-map';
+import Map from './Map.component'
 import Candidates from './Candidates.component.jsx';
 
 // Logos and styles
@@ -24,6 +25,12 @@ export default class USElection extends Component {
     setYear = (year) => {
         this.setState({ year: year });
     }
+
+    getGeoJSON = () => {
+        var geojson = data[this.props.year].GeoJSON;
+
+        return geojson;
+    };
     
     /* mandatory click event */
     mapHandler = (event) => {
@@ -44,6 +51,7 @@ export default class USElection extends Component {
         // Go through every state
         for( var state in state_list ) {
             for( var k = 0; k < Object.keys( state_list[state] ).length; k++ ) {
+                //console.log(state, state_list[state]);
 
                 // Set the custom data
                 var d = {
@@ -68,7 +76,7 @@ export default class USElection extends Component {
         return (
             <div id="us-container">
                 <div className="App">
-                    <USAMap id="map" customize={this.statesCustomConfig()} onClick={this.mapHandler} />     
+                    <Map id="map" title={this.props.year + " Election"} geojson={this.getGeoJSON()} customize={this.statesCustomConfig()} onClick={this.mapHandler} />     
                     <Candidates style={style} year={this.props.year}/>               
                 </div>                    
             </div>     
