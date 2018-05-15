@@ -85,6 +85,15 @@ export default class USElection extends Component {
                 "overflow-y": "scroll"
             }
         }
+        
+        return (
+            <div id="us-container">
+                <div className="App">
+                    <Map id="map" title={this.props.year + " Election"} geojson={this.getGeoJSON()} customize={this.statesCustomConfig()} onClick={this.mapHandler} />  
+                    <Candidates style={style} year={this.props.year}/>               
+                </div>                    
+            </div>     
+        );
         return (
             <div id="us-container">
                 <div className="App">
@@ -98,14 +107,6 @@ export default class USElection extends Component {
                             </div>
                         </ReactHover.Hover>
                     </ReactHover>   
-                    <Candidates style={style} year={this.props.year}/>               
-                </div>                    
-            </div>     
-        );
-        return (
-            <div id="us-container">
-                <div className="App">
-                    <Map id="map" title={this.props.year + " Election"} geojson={this.getGeoJSON()} customize={this.statesCustomConfig()} onClick={this.mapHandler} />  
                     <Candidates style={style} year={this.props.year}/>               
                 </div>                    
             </div>     

@@ -216,7 +216,7 @@ class Map extends Component {
 
         //Group for the map features
         var features = svg.append("g")
-            .attr("class","features");
+            .attr("class","outlines");
 
         var dataname = this.getDataName;
         var classname = this.getClassName;
@@ -241,15 +241,24 @@ class Map extends Component {
     makePaths = () => {
         var paths = []
 
-        json(require("./us/GeoData/" + this.props.geojson), function(error, geodata) {
-            
+        var dataname = this.getDataName;
+        var classname = this.getClassName;
+        var fillcolour = this.fillStateColor;
+        var clickhandler = this.stateClickHandler;
+
+        json(require("./us/GeoData/" + this.props.geojson), function(error, geodata) {   
+            if( error ) {
+                console.log("ERROR", error);
+                return;
+            }      
 
             for( var feature in geodata.features ) {
                 var data = geodata.features[feature];
-                console.log(data);
+                var dimensions = geodata.features[feature].geometry;
+                console.log(dimensions);
+                const d = <USAState key={dataname(data)} dimensions={dimensions} fill={fillcolour(data)} dimensions={dimensions} data-name={dataname(data)} className={classname(data)} onClickState={clickhandler}/>;
+                paths.push(d);
             }
-
-            //paths.push(<USAState fill={this.fillStateColor})
         });
 
         return paths;
@@ -266,7 +275,7 @@ class Map extends Component {
         var features = dict.features;
         var path = dict.path;
 
-        this.makePaths();
+        //var paths = this.makePaths();
 
         var paths = this.buildPaths(features, path);
 

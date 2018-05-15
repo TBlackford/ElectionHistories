@@ -14,6 +14,7 @@ const USAState = (props) => {
         "height": "150px",
         "border": "1px solid #ccc"
     }
+    console.log(props);
     return (        
         <ReactHover options={optionsCursorTrueWithMargin}>
             <ReactHover.Trigger type='trigger'>
@@ -24,7 +25,7 @@ const USAState = (props) => {
                     <p>--Albert Einstein</p>
                 </div>
             </ReactHover.Hover>
-        </ReactHover>           
+        </ReactHover>
     );
 }
 export default USAState;
