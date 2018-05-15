@@ -71,7 +71,7 @@ export default class USElection extends Component {
         var style = {}
         if( this.props.year == "1872" ) {
             style = {
-                "overflow-y": "scroll"
+                "overflowY": "scroll"
             }
         }        
         

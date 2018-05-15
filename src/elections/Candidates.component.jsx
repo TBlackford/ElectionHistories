@@ -13,12 +13,7 @@ export default class USCandidates extends Component {
 
         this.state = {
             year: this.props.year,
-            failed: false
         };
-    }
-
-    _onError = () => {
-        this.setState({ failed: true });
     }
 
     setYear = (year) => {
@@ -33,7 +28,7 @@ export default class USCandidates extends Component {
         var image_style = {
             "float": "left",
             "height": "104px",
-            "min-width": "100%",
+            "minWidth": "100%",
         }
         var div_style = {
             height: "104px",
@@ -49,11 +44,11 @@ export default class USCandidates extends Component {
 
         for(var i = 0; i < candidate_list.length; i++) {
             var style = {
-                "border-left": "6px solid " + this.getColour(candidate_list[i].party),
+                "borderLeft": "6px solid " + this.getColour(candidate_list[i].party),
                 "width": "200px",
                 "margin": "0 auto",
                 "padding": "16px",
-                "text-align": "left",
+                "textAlign": "left",
             }
             var right_div = {
                 "float": "right"
@@ -71,6 +66,7 @@ export default class USCandidates extends Component {
                 candidates.push(
                     <div>
                         <table>
+                            <tbody>
                             <tr>                                
                                 <td>
                                     <p style={style} ><b>Party: </b>{candidate_list[i].party}<br/>
@@ -85,13 +81,15 @@ export default class USCandidates extends Component {
                                     </div>
                                 </td>
                             </tr>
+                            </tbody>
                         </table>                        
                     </div>
                 )
             } else {
                 candidates.push(
                     <div>
-                        <table >
+                        <table>
+                            <tbody>
                             <tr>                                
                                 <td>
                                     <p style={style} ><b>Party: </b>{candidate_list[i].party}<br/>
@@ -100,6 +98,7 @@ export default class USCandidates extends Component {
                                     </p>
                                 </td>
                             </tr>
+                            </tbody>
                         </table>    
                     </div>
                 )

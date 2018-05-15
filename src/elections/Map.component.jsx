@@ -123,6 +123,9 @@ class Map extends Component {
     };
 
     getTooltipName = (data) => {
+        if(data.properties.LABEL == "NU") {
+            return this.getDataName(data);
+        }
         return data.properties.LABEL;
     }
 
@@ -167,7 +170,6 @@ class Map extends Component {
             
             var tooltip = selectAll(".tooltip:not(.css)");
             var HTMLmouseTip = select("div.tooltip.mouse");
-            //data-tip="=( •̀д•́)" data-for="svgTooltip"
             
             //Create a path for each map feature in the data
             features.selectAll("path")
@@ -178,8 +180,6 @@ class Map extends Component {
                 .attr("data-name", dataname)
                 .attr("class", classname)
                 .attr("fill", fillcolour)
-                //.attr("data-tip", "foo")
-                //.attr("data-for", "svgTooltip")
                 .on("click", clickhandler)
                 .on("mouseover", function (d) {
                     tooltip.style("opacity", "1");
@@ -198,10 +198,10 @@ class Map extends Component {
                             border-left:6px solid ${fillcolour(d)};
                             width: 100%;
                             margin: 0 auto;
-                            padding; 16px;
+                            padding; 16px!important;
                             text-align:left;
                         ">
-                        <b>Name: </b>${dataname(d)}<br/>
+                        <b>Name: </b>${tooltipname(d)}<br/>
                         </p><td></tr>`;//*/
                     }
 
@@ -209,14 +209,26 @@ class Map extends Component {
                         html += simple_html();
                     } else {
                         for(var i in state_vote_list) {
-                            if( Object.keys(state_vote_list[i]) == "Territory" || Object.keys(state_vote_list[i]) == "Disputed" ) {
-                                html += simple_html();
+                            if( Object.keys(state_vote_list[i]) == "Territory" || Object.keys(state_vote_list[i]) == "Disputed Territory" ) {
+                                html += `<tr><td><p style="
+                                    border-left:6px solid ${fillcolour(d)};
+                                    width: 100%;
+                                    margin: 0 auto;
+                                    padding; 16px!important;
+                                    text-align:left;
+                                ">
+                                <b>Name: </b>${tooltipname(d)}<br/>`;
+                                if(Object.keys(state_vote_list[i]) != undefined ) {
+                                    html += `<b>${Object.keys(state_vote_list[i])}</b><br/>`
+                                }
+                                
+                                html += `</p><td></tr>`;//*/
                             } else {
-                            html += `<tr><td><p style="
+                                html += `<tr><td style=""><p style="
                                         border-left:6px solid ${partycolour(Object.keys(state_vote_list[i]))};
                                         width: 100%;
                                         margin: 0 auto;
-                                        padding; 16px;
+                                        padding; 16px!important;
                                         text-align:left;
                                     ">
                                     <b>Name: </b>${tooltipname(d)}<br/>
@@ -229,17 +241,7 @@ class Map extends Component {
 
                     html += "</table>";
 
-                    tooltip.html(html);
-           
-                    /*tooltip.text(function() {
-                        var votes = []
-                        data[year].states[dataname(d)]
-                        try {
-                            return Object.keys(data[year].states[dataname(d)][0]) + " - " + data[year].states[dataname(d)][0][Object.keys(data[year].states[dataname(d)][0])]
-                        } catch(err) {
-                            return dataname(d);
-                        }
-                    });//*/              
+                    tooltip.html(html);        
                 })
                 .on("mousemove", function () {               
                     HTMLmouseTip
@@ -259,7 +261,6 @@ class Map extends Component {
             shiftY: -80
         } 
         
-
         var style = {
             "pointer-events":"none",
             "opacity":"0",

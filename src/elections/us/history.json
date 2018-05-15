@@ -5877,7 +5877,7 @@
 				{"Territory": "0"}
 			],
 			"Greer County (Disputed between Texas and Oklahoma Territory)": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			]
 		}
 	},
@@ -6051,10 +6051,10 @@
 				{"Territory": "0"}
 			],
 			"Neutral Strip": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Greer County (Disputed between Texas and Indian Territory)": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			]
 		}
 	},
@@ -6228,10 +6228,10 @@
 				{"Territory": "0"}
 			],
 			"Neutral Strip": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Greer County (Disputed between Texas and Indian Territory)": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			]
 		}
 	},
@@ -6412,10 +6412,10 @@
 				{"Territory": "0"}
 			],
 			"Neutral Strip": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Greer County (Disputed between Texas and Indian Territory)": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			]
 		}
 	},
@@ -6589,10 +6589,10 @@
 				{"Territory": "0"}
 			],
 			"Neutral Strip": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Greer County (Disputed between Texas and Indian Territory)": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			]
 		}
 	},
@@ -6653,7 +6653,7 @@
 			],
 			"AR": [
 				{"Republican": "6"},
-				{"Rejected": "0"}
+				{"Rejected": "6"}
 			],
 			"CA": [
 				{"Republican": "6"}
@@ -6687,7 +6687,7 @@
 			],
 			"LA": [
 				{"Republican": "8"},
-				{"Rejected": "0"}
+				{"Rejected": "8"}
 			],			
 			"MA": [
 				{"Republican": "13"}
@@ -6798,10 +6798,10 @@
 				{"Territory": "0"}
 			],
 			"Neutral Strip": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Greer County (Disputed between Texas and Indian Territory)": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			]
 		}
 	},
@@ -6981,10 +6981,10 @@
 				{"Territory": "0"}
 			],
 			"Neutral Strip": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Greer County (Disputed between Texas and Indian Territory)": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			]
 		}
 	},
@@ -7163,10 +7163,10 @@
 				{"Territory": "0"}
 			],
 			"Neutral Strip": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Greer County (Disputed between Texas and Indian Territory)": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			]
 		}
 	},
@@ -7338,10 +7338,10 @@
 				{"Territory": "0"}
 			],
 			"Neutral Strip": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Greer County (Disputed between Texas and Indian Territory)": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			]
 		}
 	},
@@ -7503,7 +7503,7 @@
 				{"Territory": "0"}
 			],
 			"Neutral Strip": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			]
 		}
 	},
@@ -7656,7 +7656,7 @@
 				{"Territory": "0"}
 			],
 			"Neutral Strip": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			]
 		}
 	},
@@ -7896,13 +7896,13 @@
 				{"Whig": "6"}
 			],
 			"Oregon Country (Shared with UK)": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between Mexico and Texas": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Miller County (disputed between Texas and Arkansas)": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Unorganized Territory": [
 				{"Territory": "0"}
@@ -8022,13 +8022,13 @@
 				{"Whig": "7"}
 			],
 			"Oregon Country (Shared with UK)": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between Mexico and Texas": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Miller County (disputed between Texas and Arkansas)": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Unorganized Territory": [
 				{"Territory": "0"}
@@ -8043,10 +8043,10 @@
 				{"Territory": "0"}
 			],
 			"Disputed between Wisconsin Territory and Rupert's Land": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between Maine and Colony of New Brunswick": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			]
 		}
 	},
@@ -8169,13 +8169,13 @@
 				{"Whig (Harrison)": "7"}
 			],
 			"Oregon Country (Shared with UK)": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between Mexico and Texas": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Miller County (disputed between Texas and Arkansas)": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Unorganized Territory": [
 				{"Territory": "0"}
@@ -8193,10 +8193,10 @@
 				{"Territory": "0"}
 			],
 			"Disputed between Wisconsin Territory and Rupert's Land": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between Maine and Colony of New Brunswick": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			]
 		}
 	},
@@ -8311,13 +8311,13 @@
 				{"Anti-Masonic": "7"}
 			],
 			"Oregon Country (Shared with UK)": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between Mexico and Texas": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Miller County (disputed between Mexico and Arkansas Territory)": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Unorganized Territory": [
 				{"Territory": "0"}
@@ -8332,10 +8332,10 @@
 				{"Territory": "0"}
 			],
 			"Disputed between Northwest Territory and Rupert's Land": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between Maine and Colony of New Brunswick": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			]
 		}
 	},
@@ -8440,13 +8440,13 @@
 				{"National Republican": "7"}
 			],
 			"Oregon Country (Shared with UK)": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between Mexico and Texas": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Miller County (disputed between Mexico and Arkansas Territory)": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Unorganized Territory": [
 				{"Territory": "0"}
@@ -8461,10 +8461,10 @@
 				{"Territory": "0"}
 			],
 			"Disputed between Northwest Territory and Rupert's Land": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between Maine and Colony of New Brunswick": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			]
 		}
 	},
@@ -8586,13 +8586,13 @@
 				{"Democratic-Republican (Adams Faction)": "7"}
 			],
 			"Oregon Country (Shared with UK)": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between Mexico and Texas": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Miller County (disputed between Mexico and Arkansas Territory)": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Unorganized Territory": [
 				{"Territory": "0"}
@@ -8607,10 +8607,10 @@
 				{"Territory": "0"}
 			],
 			"Disputed between Northwest Territory and Rupert's Land": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between Maine and Colony of New Brunswick": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			]
 		}
 	},
@@ -8713,7 +8713,7 @@
 				{"Democratic-Republican": "8"}
 			],
 			"Oregon Country (Shared with UK)": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Missouri Territory": [
 				{"Territory": "0"}
@@ -8728,19 +8728,19 @@
 				{"Territory": "0"}
 			],
 			"Disputed between Northwest Territory and Rupert's Land": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between Maine and Colony of New Brunswick": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between United States and West Florida": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between West Florida and Mississippi": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between West Florida and Alabama Territory": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			]
 		}
 	},
@@ -8842,16 +8842,16 @@
 				{"Territory": "0"}
 			],
 			"Disputed between West Florida and Mississippi Territory": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between United States and West Florida": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between Northwest Territory and Rupert's Land": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between Massachusetts and Colony of New Brunswick": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			]
 		}
 	},
@@ -8951,16 +8951,16 @@
 				{"Territory": "0"}
 			],
 			"Disputed between West Florida and Mississippi Territory": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between United States and West Florida": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between Northwest Territory and Rupert's Land": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between Massachusetts and Colony of New Brunswick": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			]
 		}
 	},
@@ -9064,13 +9064,13 @@
 				{"Territory": "0"}
 			],
 			"Disputed between United States and West Florida": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between Massachusetts and Colony of New Brunswick": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between Northwest Territory and Rupert's Land": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			]
 		}
 	},
@@ -9167,13 +9167,13 @@
 				{"Territory": "0"}
 			],
 			"Disputed between United States and West Florida": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between Massachusetts and Colony of New Brunswick": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between Northwest Territory and Rupert's Land": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			]
 		}
 	},
@@ -9275,13 +9275,13 @@
 				{"Territory": "0"}
 			],
 			"Disputed between United States and Georgia": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between Massachusetts and Colony of New Brunswick": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between Northwest Territory and Rupert's Land": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			]
 		}
 	},
@@ -9384,10 +9384,10 @@
 				{"Territory": "0"}
 			],
 			"Disputed between Massachusetts and Colony of New Brunswick": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between Northwest Territory and Rupert's Land": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			]
 		}
 	},
@@ -9480,13 +9480,13 @@
 				{"Territory": "0"}
 			],
 			"Disputed between Massachusetts and Colony of New Brunswick": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between United States and West Florida": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between Northwest Territory and Rupert's Land": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			]
 		}
 	},
@@ -9570,13 +9570,13 @@
 				{"Territory": "0"}
 			],
 			"Disputed between United States and West Florida": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between United States and Rupert's Land": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			],
 			"Disputed between Massachusetts and Colony of New Brunswick": [
-				{"Disputed": "0"}
+				{"Disputed Territory": "0"}
 			]
 		}
 	}
