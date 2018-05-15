@@ -12,7 +12,10 @@ const USAState = (props) => {
         "background-color": "white",
         "width": "300px",
         "height": "150px",
-        "border": "1px solid #ccc"
+        "border": "1px solid #ccc",
+        followCursor: true,
+        shiftX: 20,
+        shiftY: 0
     }
     console.log(props);
     return (        

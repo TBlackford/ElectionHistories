@@ -32,8 +32,13 @@ export default class USCandidates extends Component {
     render() {
         var image_style = {
             "float": "left",
-            "width:": "100px",
-            "height": "104px"
+            "height": "104px",
+            "min-width": "100%",
+        }
+        var div_style = {
+            height: "104px",
+            width: "70px",
+            overflow: "hidden",
         }
 
         var candidate_list = data[this.props.year].candidates;
@@ -48,7 +53,7 @@ export default class USCandidates extends Component {
                 "width": "200px",
                 "margin": "0 auto",
                 "padding": "16px",
-                "text-align": "left"
+                "text-align": "left",
             }
             var right_div = {
                 "float": "right"
@@ -75,7 +80,9 @@ export default class USCandidates extends Component {
                                     </p>
                                 </td>
                                 <td>
-                                    {image}
+                                    <div style={div_style}>
+                                        {image}
+                                    </div>
                                 </td>
                             </tr>
                         </table>                        

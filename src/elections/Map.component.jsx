@@ -5,8 +5,12 @@ import ReactHover from 'react-hover';
 
 import USAState from "./us/USAState.component";
 import { geoAlbersUsa, geoPath } from 'd3-geo';
-import { selectAll, select } from 'd3-selection';
+import { selectAll, select, event } from 'd3-selection';
 import { json } from 'd3-request';
+import ReactTooltip from 'react-tooltip';
+
+import data from './us/history.jsx';
+import parties from './us/parties.jsx';
 
 class Map extends Component {   
     constructor() {
@@ -87,6 +91,10 @@ class Map extends Component {
         return this.props.defaultFill;
     };    
 
+    getPartyColor = (party) => {
+        return parties[party].colour;
+    }
+
     stateClickHandler = (data) => {
         var state = data.properties.STATE;
 
@@ -114,78 +122,9 @@ class Map extends Component {
         }
     };
 
-    makeBaseSVG = () => {
-        //Map dimensions (in pixels)
-        var width = this.props.width,
-            height = this.props.height;
-
-        //Map projection
-        var projection = geoAlbersUsa()
-            .translate([width/2,height/2]) //translate to center the map in view
-
-        //Generate paths based on projection
-        var path = geoPath()
-            .projection(projection);
-
-        var test = select("#SVGContainer").select("svg");
-        if( test._groups[0][0] !== undefined) {
-            select("#SVGContainer").select("svg").remove();
-        }       
-
-        //Create an SVG
-        var svg = select("#SVGContainer").append("svg")
-            .attr("width", width)
-            .attr("height", height)
-            .attr("viewBox", "0 0 959 593");
-
-        svg.append("svg:title").text(this.props.title);
-
-        //Group for the map features
-        var features = svg.append("g")
-            .attr("class", "features");
-
-        return {"features": features, "path": path};
-    };
-
-    /*buildPaths = (features, path) => {    
-        var dataname = this.getDataName;
-        var classname = this.getClassName;
-        var fillcolour = this.fillStateColor;
-        var clickhandler = this.stateClickHandler;
-
-        var paths = []
-
-        json(require("./us/GeoData/" + this.props.geojson), function(error, geodata) {
-            if (error) return console.log(error); //unknown error, check the console          
-            //Create a path for each map feature in the data
-            //features.selectAll("path")
-            //    .data(geodata.features)
-            //    .enter()
-            //    .append("path")
-            //    .attr("d", path)
-            //    .attr("data-name", dataname)
-            //    .attr("class", classname)
-            //    .attr("fill", fillcolour)
-            //    .on("click", clickhandler);
-                
-            var path = features.selectAll("path")
-                .data(geodata.features)
-                .enter()
-                .append("path")
-                .attr("d", path)
-                .attr("data-name", dataname)
-                .attr("class", classname)
-                .attr("fill", fillcolour)
-                .on("click", clickhandler);
-
-            console.log(path._groups[0]);
-            for(var p in path._groups[0]) {                
-                paths.push(path._groups[0][p].outerHTML);
-            } 
-        });
-
-        return paths;
-    };//*/
+    getTooltipName = (data) => {
+        return data.properties.LABEL;
+    }
 
     buildPaths = () => {
 
@@ -201,18 +140,15 @@ class Map extends Component {
         var path = geoPath()
             .projection(projection);
 
-        var test = select("#SVGContainer").select("svg");
-        if( test._groups[0][0] !== undefined) {
-            select("#SVGContainer").select("svg").remove();
-        }       
+        select("#SVGContainer").selectAll("path").remove();     
+        const optionsCursorTrueWithMargin = {
+            followCursor: true,
+            shiftX: 20,
+            shiftY: 0
+        }
 
         //Create an SVG
-        var svg = select("#SVGContainer").append("svg")
-            .attr("width", width)
-            .attr("height", height)
-            .attr("viewBox", "0 0 959 593");
-
-        svg.append("svg:title").text(this.props.title);
+        var svg = select("#SVGContainer").select("#map");
 
         //Group for the map features
         var features = svg.append("g")
@@ -221,10 +157,18 @@ class Map extends Component {
         var dataname = this.getDataName;
         var classname = this.getClassName;
         var fillcolour = this.fillStateColor;
+        var partycolour = this.getPartyColor;
         var clickhandler = this.stateClickHandler;
+        var tooltipname = this.getTooltipName;
+        var year = this.props.year;
 
         json(require("./us/GeoData/" + this.props.geojson), function(error, geodata) {
-            if (error) return console.log(error); //unknown error, check the console          
+            if (error) return console.log("ERROR", error); //unknown error, check the console    
+            
+            var tooltip = selectAll(".tooltip:not(.css)");
+            var HTMLmouseTip = select("div.tooltip.mouse");
+            //data-tip="=( •̀д•́)" data-for="svgTooltip"
+            
             //Create a path for each map feature in the data
             features.selectAll("path")
                 .data(geodata.features)
@@ -234,68 +178,109 @@ class Map extends Component {
                 .attr("data-name", dataname)
                 .attr("class", classname)
                 .attr("fill", fillcolour)
-                .on("click", clickhandler);            
+                //.attr("data-tip", "foo")
+                //.attr("data-for", "svgTooltip")
+                .on("click", clickhandler)
+                .on("mouseover", function (d) {
+                    tooltip.style("opacity", "1");
+                    //tooltip.style("color", this.getAttribute("fill") );
+                    var matrix = this.getScreenCTM()
+                            .translate(+this.getAttribute("cx"),
+                                     +this.getAttribute("cy"));  
+
+                    var candidate_list = data[year].candidates;  
+                    var state_vote_list = data[year].states[dataname(d)]  
+
+                    var html = "<table>"
+
+                    function simple_html() {
+                        return `<tr><td><p style="
+                            border-left:6px solid ${fillcolour(d)};
+                            width: 100%;
+                            margin: 0 auto;
+                            padding; 16px;
+                            text-align:left;
+                        ">
+                        <b>Name: </b>${dataname(d)}<br/>
+                        </p><td></tr>`;//*/
+                    }
+
+                    if( state_vote_list == undefined ) {
+                        html += simple_html();
+                    } else {
+                        for(var i in state_vote_list) {
+                            if( Object.keys(state_vote_list[i]) == "Territory" || Object.keys(state_vote_list[i]) == "Disputed" ) {
+                                html += simple_html();
+                            } else {
+                            html += `<tr><td><p style="
+                                        border-left:6px solid ${partycolour(Object.keys(state_vote_list[i]))};
+                                        width: 100%;
+                                        margin: 0 auto;
+                                        padding; 16px;
+                                        text-align:left;
+                                    ">
+                                    <b>Name: </b>${tooltipname(d)}<br/>
+                                    <b>Party: </b>${Object.keys(state_vote_list[i])}<br/>
+                                    <b>Electoral votes: </b>${state_vote_list[i][Object.keys(state_vote_list[i])]}<br/>
+                                    </p><td></tr>`;//*/
+                            }
+                        }
+                    }            
+
+                    html += "</table>";
+
+                    tooltip.html(html);
+           
+                    /*tooltip.text(function() {
+                        var votes = []
+                        data[year].states[dataname(d)]
+                        try {
+                            return Object.keys(data[year].states[dataname(d)][0]) + " - " + data[year].states[dataname(d)][0][Object.keys(data[year].states[dataname(d)][0])]
+                        } catch(err) {
+                            return dataname(d);
+                        }
+                    });//*/              
+                })
+                .on("mousemove", function () {               
+                    HTMLmouseTip
+                        .style("left", Math.max(0, event.pageX) + "px")
+                        .style("top", (event.pageY - 80) + "px");
+                })
+                .on("mouseout", function () {
+                    return tooltip.style("opacity", "0");
+                });///*/
         });
     };//*/
-
-    makePaths = () => {
-        var paths = []
-
-        var dataname = this.getDataName;
-        var classname = this.getClassName;
-        var fillcolour = this.fillStateColor;
-        var clickhandler = this.stateClickHandler;
-
-        json(require("./us/GeoData/" + this.props.geojson), function(error, geodata) {   
-            if( error ) {
-                console.log("ERROR", error);
-                return;
-            }      
-
-            for( var feature in geodata.features ) {
-                var data = geodata.features[feature];
-                var dimensions = geodata.features[feature].geometry;
-                console.log(dimensions);
-                const d = <USAState key={dataname(data)} dimensions={dimensions} fill={fillcolour(data)} dimensions={dimensions} data-name={dataname(data)} className={classname(data)} onClickState={clickhandler}/>;
-                paths.push(d);
-            }
-        });
-
-        return paths;
-    }
 
     render() {
         const optionsCursorTrueWithMargin = {
             followCursor: true,
-            shiftX: 20,
-            shiftY: 0
+            shiftX: 0,
+            shiftY: -80
+        } 
+        
+
+        var style = {
+            "pointer-events":"none",
+            "opacity":"0",
+            "transition": "opacity 0.3s",
+            "background-color": "white",
+            "width": "300px",
+            "border": "1px solid #ccc",
+            "position": "absolute"
         }
 
-        var dict = this.makeBaseSVG();
-        var features = dict.features;
-        var path = dict.path;
-
-        //var paths = this.makePaths();
-
-        var paths = this.buildPaths(features, path);
+        var paths = this.buildPaths();
 
         return (
             <div id="SVGContainer">
-                <svg width={this.props.width} height={this.props.height}>
+                <svg id="map" width={this.props.width} height={this.props.height} viewBox={"0 0 959 593"}>
                     <title>{this.props.title}</title>
                     <g className="outlines">
-                        <ReactHover options={optionsCursorTrueWithMargin}>
-                            <ReactHover.Trigger type='trigger'>
-                                <div>{paths}</div>
-                            </ReactHover.Trigger>
-                            <ReactHover.Hover type='hover'>
-                                <div>
-                                    <p>--Albert Einstein</p>
-                                </div>
-                            </ReactHover.Hover>
-                        </ReactHover>    
+                        {paths}
                     </g>
-                </svg>           
+                </svg>
+                <div style={style} class="mouse tooltip">Mouse-tracking HTML Tip</div>
             </div>
         );
 
