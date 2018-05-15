@@ -12,7 +12,7 @@ body {
 
 path {
     pointer-events: all;
-    stroke: black;
+    stroke: #2F2F2F;
     stroke-width: 1;
 }
 

@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import USAMap from 'react-usa-map';
 import Map from './Map.component'
 import Candidates from './Candidates.component.jsx';
+import ReactHover from 'react-hover';
 
 // Logos and styles
 import logo from './../logo.svg';
@@ -66,7 +67,18 @@ export default class USElection extends Component {
         return fills;
     };
 
-    render() {
+    render() {       
+        const optionsCursorTrueWithMargin = {
+            followCursor: true,
+            shiftX: 0,
+            shiftY: -80
+        } 
+        const hoverStyle = {
+           "background-color": "white",
+           "width": "300px",
+           "height": "150px",
+           "border": "1px solid #ccc"
+        }
         var style = {}
         if( this.props.year == "1872" ) {
             style = {
@@ -76,7 +88,24 @@ export default class USElection extends Component {
         return (
             <div id="us-container">
                 <div className="App">
-                    <Map id="map" title={this.props.year + " Election"} geojson={this.getGeoJSON()} customize={this.statesCustomConfig()} onClick={this.mapHandler} />     
+                    <ReactHover options={optionsCursorTrueWithMargin}>
+                        <ReactHover.Trigger type='trigger'>
+                            <Map id="map" title={""} geojson={this.getGeoJSON()} customize={this.statesCustomConfig()} onClick={this.mapHandler} />
+                        </ReactHover.Trigger>
+                        <ReactHover.Hover type='hover'>
+                            <div style={hoverStyle}>
+                                <p>--Albert Einstein</p>
+                            </div>
+                        </ReactHover.Hover>
+                    </ReactHover>   
+                    <Candidates style={style} year={this.props.year}/>               
+                </div>                    
+            </div>     
+        );
+        return (
+            <div id="us-container">
+                <div className="App">
+                    <Map id="map" title={this.props.year + " Election"} geojson={this.getGeoJSON()} customize={this.statesCustomConfig()} onClick={this.mapHandler} />  
                     <Candidates style={style} year={this.props.year}/>               
                 </div>                    
             </div>     
