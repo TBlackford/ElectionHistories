@@ -265,7 +265,6 @@ class Map extends Component {
             "opacity":"0",
             "transition": "opacity 0.3s",
             "background-color": "white",
-            "width": "300px",
             "border": "1px solid #ccc",
             "position": "absolute"
         }
