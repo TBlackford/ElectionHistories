@@ -30,7 +30,7 @@ export default class App extends Component {
         this.setYear(year);
     }
     
-    render() {
+    render() {        
         return(
             <div>
                 <NavigationDrawer />

@@ -4,6 +4,7 @@ import USAMap from 'react-usa-map';
 import Map from './Map.component'
 import Candidates from './Candidates.component.jsx';
 import ReactHover from 'react-hover';
+import Results from './Results.component';
 
 // Logos and styles
 import logo from './../logo.svg';
@@ -67,19 +68,28 @@ export default class USElection extends Component {
         return fills;
     };
 
-    render() {       
-        var style = {}
-        if( this.props.year == "1872" ) {
-            style = {
-                "overflowY": "scroll"
-            }
-        }        
+    render() {        
+
+        var style = {
+            display:"flex",
+            justifyContent: "center",
+            alignItems: "center",
+            marginTop: "-138px",
+            top: "0",
+            left: "0",
+            right: "0",
+            bottom: "0",
+            position: "absolute"
+        }
         
         return (
             <div id="us-container">
                 <div className="App">
-                    <Map id="map" title={""} year={this.props.year} geojson={this.getGeoJSON(this.props.year)} customize={this.statesCustomConfig()} onClick={this.mapHandler} />
-                    <Candidates style={style} year={this.props.year}/>               
+                    <Results year={this.props.year} />
+                    <div style={style}>
+                        <Map id="map" title={""} year={this.props.year} geojson={this.getGeoJSON(this.props.year)} customize={this.statesCustomConfig()} onClick={this.mapHandler} />
+                        <Candidates year={this.props.year}/>    
+                    </div>           
                 </div>                    
             </div>     
         );

@@ -1,13 +1,11 @@
 // Libraries
 import React, { Component } from 'react';
 import PropTypes from "prop-types";
-import ReactHover from 'react-hover';
 
 import USAState from "./us/USAState.component";
 import { geoAlbersUsa, geoPath } from 'd3-geo';
 import { selectAll, select, event } from 'd3-selection';
-import { json } from 'd3-request';
-import ReactTooltip from 'react-tooltip';
+import { json } from 'd3-request'
 
 import data from './us/history.jsx';
 import parties from './us/parties.jsx';
@@ -130,8 +128,6 @@ class Map extends Component {
     }
 
     buildPaths = () => {
-        console.log("Build paths")
-
         //Map dimensions (in pixels)
         var width = this.props.width,
             height = this.props.height;
@@ -149,19 +145,8 @@ class Map extends Component {
         const optionsCursorTrueWithMargin = {
             followCursor: true,
             shiftX: 20,
-            shiftY: 0
+            shiftY: -80
         }
-
-        //Create an SVG
-        var svg = select("#SVGContainer").select("#map").select("g");
-
-        // Remove the old 'g' tag
-        //svg.selectAll("g").remove();
-
-        //svg.append("g").attr("class","outlines");
-
-        //Group for the map features
-        var features = svg;
 
         var dataname = this.getDataName;
         var classname = this.getClassName;
@@ -173,16 +158,13 @@ class Map extends Component {
 
         json(require("./us/GeoData/" + this.props.geojson), function(error, geodata) {
             if (error) return console.log("ERROR", error); //unknown error, check the console    
-            console.log("JSON")
             
             var tooltip = selectAll(".tooltip:not(.css)");
             var HTMLmouseTip = select("div.tooltip.mouse");
-
-            console.log(features);
             
             //Create a path for each map feature in the data
             select("#SVGContainer").select("#map").select("g").selectAll("path")
-                .data(function() { console.log("yeet"); return geodata.features})
+                .data(geodata.features)
                 .enter()
                 .append("path")
                 .attr("d", path)
@@ -240,9 +222,11 @@ class Map extends Component {
                                         padding; 16px!important;
                                         text-align:left;
                                     ">
-                                    <b>Name: </b>${tooltipname(d)}<br/>
-                                    <b>Party: </b>${Object.keys(state_vote_list[i])}<br/>
-                                    <b>Electoral votes: </b>${state_vote_list[i][Object.keys(state_vote_list[i])]}<br/>
+                                    <b>&nbsp;</b><br/>
+                                    <b>&nbsp;&nbsp;&nbsp;Name: </b>${tooltipname(d)}&nbsp;&nbsp;<br/>
+                                    <b>&nbsp;&nbsp;&nbsp;Party: </b>${Object.keys(state_vote_list[i])}&nbsp;&nbsp;<br/>
+                                    <b>&nbsp;&nbsp;&nbsp;Electoral votes: </b>${state_vote_list[i][Object.keys(state_vote_list[i])]}&nbsp;&nbsp;<br/>
+                                    <b>&nbsp;</b>
                                     </p><td></tr>`;//*/
                             }
                         }
@@ -264,22 +248,15 @@ class Map extends Component {
     };//*/
 
     render() {
-        const optionsCursorTrueWithMargin = {
-            followCursor: true,
-            shiftX: 0,
-            shiftY: -80
-        } 
-        
         var style = {
             "pointerEvents":"none",
             "opacity":"0",
             "transition": "opacity 0.3s",
             "backgroundColor": "white",
             "border": "1px solid #ccc",
+            "marginTop": "12%",
             "position": "absolute"
         }
-
-        //var paths = this.buildPaths();
 
         return (
             <div id="SVGContainer">
@@ -289,7 +266,7 @@ class Map extends Component {
                         {this.buildPaths()}
                     </g>
                 </svg>
-                <div style={style} className="mouse tooltip">Mouse-tracking HTML Tip</div>
+                <div style={style} className="mouse tooltip"></div>
             </div>
         );
     }
