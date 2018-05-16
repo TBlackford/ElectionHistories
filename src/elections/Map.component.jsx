@@ -192,8 +192,9 @@ class Map extends Component {
                             padding; 16px!important;
                             text-align:left;
                         ">
-                        <b>Name: </b>${tooltipname(d)}<br/>
-                        </p><td></tr>`;//*/
+                        <b>&nbsp;</b><br/>
+                        <b>&nbsp;&nbsp;&nbsp;Name: </b>${tooltipname(d)}&nbsp;&nbsp;<br/>
+                        <b>&nbsp;</b><br/></p><td></tr>`;//*/
                     }
 
                     if( state_vote_list == undefined ) {
@@ -208,12 +209,13 @@ class Map extends Component {
                                     padding; 16px!important;
                                     text-align:left;
                                 ">
-                                <b>Name: </b>${tooltipname(d)}<br/>`;
+                                <b>&nbsp;</b><br/>
+                                <b>&nbsp;&nbsp;&nbsp;Name: </b>${tooltipname(d)}&nbsp;&nbsp;<br/>`;
                                 if(Object.keys(state_vote_list[i]) != undefined ) {
-                                    html += `<b>${Object.keys(state_vote_list[i])}</b><br/>`
+                                    html += `<b>&nbsp;&nbsp;&nbsp;${Object.keys(state_vote_list[i])}&nbsp;&nbsp</b><br/>`
                                 }
                                 
-                                html += `</p><td></tr>`;//*/
+                                html += `<b>&nbsp;</b><br/></p><td></tr>`;//*/
                             } else {
                                 html += `<tr><td style=""><p style="
                                         border-left:6px solid ${partycolour(Object.keys(state_vote_list[i]))};

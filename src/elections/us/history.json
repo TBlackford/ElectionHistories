@@ -6827,8 +6827,8 @@
 			{
 				"name": "Unreconstructed State",
 				"party": "Unreconstructed State",
-				"popular": "",
-				"electoral": ""
+				"popular": "0",
+				"electoral": "0"
 			}
 		],
 		"GeoJSON": "1868073.geojson",
