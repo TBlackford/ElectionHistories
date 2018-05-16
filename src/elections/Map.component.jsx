@@ -130,6 +130,7 @@ class Map extends Component {
     }
 
     buildPaths = () => {
+        console.log("Build paths")
 
         //Map dimensions (in pixels)
         var width = this.props.width,
@@ -143,7 +144,8 @@ class Map extends Component {
         var path = geoPath()
             .projection(projection);
 
-        select("#SVGContainer").selectAll("path").remove();     
+        select("#SVGContainer").selectAll("path").remove();   
+
         const optionsCursorTrueWithMargin = {
             followCursor: true,
             shiftX: 20,
@@ -151,11 +153,15 @@ class Map extends Component {
         }
 
         //Create an SVG
-        var svg = select("#SVGContainer").select("#map");
+        var svg = select("#SVGContainer").select("#map").select("g");
+
+        // Remove the old 'g' tag
+        //svg.selectAll("g").remove();
+
+        //svg.append("g").attr("class","outlines");
 
         //Group for the map features
-        var features = svg.append("g")
-            .attr("class","outlines");
+        var features = svg;
 
         var dataname = this.getDataName;
         var classname = this.getClassName;
@@ -167,13 +173,16 @@ class Map extends Component {
 
         json(require("./us/GeoData/" + this.props.geojson), function(error, geodata) {
             if (error) return console.log("ERROR", error); //unknown error, check the console    
+            console.log("JSON")
             
             var tooltip = selectAll(".tooltip:not(.css)");
             var HTMLmouseTip = select("div.tooltip.mouse");
+
+            console.log(features);
             
             //Create a path for each map feature in the data
-            features.selectAll("path")
-                .data(geodata.features)
+            select("#SVGContainer").select("#map").select("g").selectAll("path")
+                .data(function() { console.log("yeet"); return geodata.features})
                 .enter()
                 .append("path")
                 .attr("d", path)
@@ -262,40 +271,25 @@ class Map extends Component {
         } 
         
         var style = {
-            "pointer-events":"none",
+            "pointerEvents":"none",
             "opacity":"0",
             "transition": "opacity 0.3s",
-            "background-color": "white",
+            "backgroundColor": "white",
             "border": "1px solid #ccc",
             "position": "absolute"
         }
 
-        var paths = this.buildPaths();
+        //var paths = this.buildPaths();
 
         return (
             <div id="SVGContainer">
                 <svg id="map" width={this.props.width} height={this.props.height} viewBox={"0 0 959 593"}>
                     <title>{this.props.title}</title>
                     <g className="outlines">
-                        {paths}
+                        {this.buildPaths()}
                     </g>
                 </svg>
-                <div style={style} class="mouse tooltip">Mouse-tracking HTML Tip</div>
-            </div>
-        );
-
-        return (
-            <div id="SVGContainer">
-                <ReactHover options={optionsCursorTrueWithMargin}>
-                    <ReactHover.Trigger type='trigger'>
-                        <div>{paths}</div>
-                    </ReactHover.Trigger>
-                    <ReactHover.Hover type='hover'>
-                        <div>
-                            <p>--Albert Einstein</p>
-                        </div>
-                    </ReactHover.Hover>
-                </ReactHover>               
+                <div style={style} className="mouse tooltip">Mouse-tracking HTML Tip</div>
             </div>
         );
     }

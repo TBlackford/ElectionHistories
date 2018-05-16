@@ -27,8 +27,8 @@ export default class USElection extends Component {
         this.setState({ year: year });
     }
 
-    getGeoJSON = () => {
-        var geojson = data[this.props.year].GeoJSON;
+    getGeoJSON = (year) => {
+        var geojson = data[year].GeoJSON;
 
         return geojson;
     };
@@ -78,7 +78,7 @@ export default class USElection extends Component {
         return (
             <div id="us-container">
                 <div className="App">
-                    <Map id="map" title={""} year={this.props.year} geojson={this.getGeoJSON()} customize={this.statesCustomConfig()} onClick={this.mapHandler} />
+                    <Map id="map" title={""} year={this.props.year} geojson={this.getGeoJSON(this.props.year)} customize={this.statesCustomConfig()} onClick={this.mapHandler} />
                     <Candidates style={style} year={this.props.year}/>               
                 </div>                    
             </div>     
