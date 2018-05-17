@@ -16,6 +16,8 @@ export default class Results extends Component {
         this.state = {
             year: this.props.year,
         };
+
+        this.foo = this.foo.bind(this);
     }
 
     makeElectoralGraph = () => {
@@ -32,16 +34,22 @@ export default class Results extends Component {
 
         for( var i in candidates ) {
             var width = ( parseInt( candidates[i].electoral ) / total ) * 100;
+
             var style = {
                 "width": width + "%",
                 "height": "20px",
-                "backgroundColor": parties[candidates[i].party].colour
+                "backgroundColor": parties[candidates[i].party].colour,
+                "zIndex": "999"
             }
 
-            graph.push(<div style={style} />)
+            graph.push(<div onClick={this.props.changeMap} style={style} />)
         }
 
         return graph;
+    }
+
+    foo = () => {
+        console.log("Results")
     }
 
     render() {  

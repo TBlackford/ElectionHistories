@@ -256,13 +256,13 @@ class Map extends Component {
             "transition": "opacity 0.3s",
             "backgroundColor": "white",
             "border": "1px solid #ccc",
-            "marginTop": "12%",
+            "marginTop": "240px",
             "position": "absolute"
         }
 
         return (
             <div id="SVGContainer">
-                <svg id="map" width={this.props.width} height={this.props.height} viewBox={"0 0 959 593"}>
+                <svg id="map" style={this.props.style} viewBox={"0 0 959 593"}>
                     <title>{this.props.title}</title>
                     <g className="outlines">
                         {this.buildPaths()}
