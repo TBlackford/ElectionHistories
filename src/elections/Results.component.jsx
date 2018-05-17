@@ -16,8 +16,6 @@ export default class Results extends Component {
         this.state = {
             year: this.props.year,
         };
-
-        this.foo = this.foo.bind(this);
     }
 
     makeElectoralGraph = () => {
@@ -46,10 +44,6 @@ export default class Results extends Component {
         }
 
         return graph;
-    }
-
-    foo = () => {
-        console.log("Results")
     }
 
     render() {  

@@ -23,7 +23,7 @@ export default class ElectionSlider extends Component {
     render() {
         return (
             <div id="bottom-container">
-                <div id="info-box">
+                <div id="info-box">                    
                     <form className="form">
                         <InputRange
                             maxValue={2016}

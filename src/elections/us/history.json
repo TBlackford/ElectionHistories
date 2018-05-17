@@ -2675,19 +2675,19 @@
 			{
 				"name": "Richard M. Nixon",
 				"party": "Republican",
-				"popular": "34,107,646",
-				"electoral": "303"
-			},			
+				"popular": "34,108,157",
+				"electoral": "219"
+			},
 			{
 				"name": "John F. Kennedy",
 				"party": "Democratic",
-				"popular": "34,227,096",
-				"electoral": "219"
+				"popular": "34,220,984",
+				"electoral": "303"
 			},			
 			{
 				"name": "Harry F. Byrd",
 				"party": "Democratic (Byrd)",
-				"popular": "116,248",
+				"popular": "610,409",
 				"electoral": "15"
 			}
 		],
@@ -5703,13 +5703,13 @@
 				"name": "Benjamin Harrison (I)",
 				"party": "Republican",
 				"popular": "5,176,108",
-				"electoral": "277"
+				"electoral": "145"
 			},			
 			{
 				"name": "Grover Cleveland",
 				"party": "Democratic",
 				"popular": "5,556,918",
-				"electoral": "145"
+				"electoral": "277"
 			},			
 			{
 				"name": "James B. Weaver",
@@ -6062,20 +6062,20 @@
 	"1884": {
 		"totals": {
 			"electoral": "401",
-			"popular": "9,726,967"
+			"popular": "9,771,387"
 		},
 		"candidates": [	
 			{
 				"name": "James G. Blaine",
 				"party": "Republican",
-				"popular": "4,851,981",
-				"electoral": "214"
+				"popular": "4,856,905",
+				"electoral": "182"
 			},			
 			{
 				"name": "Grover Cleveland",
 				"party": "Democratic",
-				"popular": "4,874,986",
-				"electoral": "155"
+				"popular": "4,914,482",
+				"electoral": "219"
 			}
 		],		
 		"GeoJSON": "1884050.geojson",

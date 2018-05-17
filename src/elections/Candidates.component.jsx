@@ -37,10 +37,9 @@ export default class USCandidates extends Component {
         }
 
         var candidate_list = data[this.props.year].candidates;
+        var candidates = [];
 
         candidate_list.sort(function(a, b){return b.electoral - a.electoral});
-
-        var candidates = [];
 
         for(var i = 0; i < candidate_list.length; i++) {
             var style = {
