@@ -147,8 +147,6 @@ export default class USElection extends Component {
             position: "absolute"
         }        
 
-        console.log(window.height - 155 * 100);
-
         var header_style = {
             fontSize: "100px",
             color: "#ddd",
@@ -156,14 +154,20 @@ export default class USElection extends Component {
             zIndex: "2000000",
             position: "absolute",
             left: "-60px",
-            marginTop: (window.innerHeight / 2) - (155 / 1.5)
+            display: "flex",
+            verticalAlign: "middle",
+            marginTop: (window.innerHeight / 2) - (220)
         }
         
         return (
             <div id="us-container">
                 <div className="App">
                     <Results year={this.props.year} changeMap={this.changeMapDims}/>
-                    <h3 style={header_style}>{this.props.year}</h3>
+                    
+                    <div style={header_style}>
+                        <img onClick={() => {console.log("asdf")}} src={require("../img/info.svg")} style={Object.assign({}, header_style, {height: "60px", transform: "rotate(90deg)", left: "290px", marginTop: "155px"})} />
+                        <h3>{this.props.year}</h3>
+                    </div>
                     <div style={style}>                        
                         {this.makeAllCharts()}
                         <Map style={this.state.mapstyle} id="map" title={""} year={this.props.year} geojson={this.getGeoJSON(this.props.year)} customize={this.statesCustomConfig()} onClick={this.mapHandler} />
