@@ -27,7 +27,7 @@ export default class USCandidates extends Component {
 
         this.state = {
             year: this.props.year,
-            style: 
+            style: Object.assign({}, header_style, this.props.style)
         };
     }
 

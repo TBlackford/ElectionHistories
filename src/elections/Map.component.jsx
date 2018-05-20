@@ -2,7 +2,6 @@
 import React, { Component } from 'react';
 import PropTypes from "prop-types";
 
-import USAState from "./us/USAState.component";
 import { geoAlbersUsa, geoPath } from 'd3-geo';
 import { selectAll, select, event } from 'd3-selection';
 import { json } from 'd3-request'

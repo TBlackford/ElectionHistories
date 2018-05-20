@@ -7,6 +7,8 @@ import ReactHover from 'react-hover';
 import Results from './Results.component';
 import PieChart from "react-svg-piechart"
 
+import InfoModal from './InfoModal.component';
+
 // Logos and styles
 import logo from './../logo.svg';
 import './../css/App.css';
@@ -26,7 +28,8 @@ export default class USElection extends Component {
             mapstyle: {
                 width: 959,
                 height: 593
-            }            
+            },
+            candidate_list: []
         };
 
         this.changeMapDims = this.changeMapDims.bind(this);
@@ -158,14 +161,15 @@ export default class USElection extends Component {
             verticalAlign: "middle",
             marginTop: (window.innerHeight / 2) - (220)
         }
-        
+        //<img onClick={() => {console.log("asdf")}} src={require("../img/info.svg")} style={Object.assign({}, header_style, {height: "60px", transform: "rotate(90deg)", left: "290px", marginTop: "155px"})} />
+                        
         return (
             <div id="us-container">
                 <div className="App">
                     <Results year={this.props.year} changeMap={this.changeMapDims}/>
                     
                     <div style={header_style}>
-                        <img onClick={() => {console.log("asdf")}} src={require("../img/info.svg")} style={Object.assign({}, header_style, {height: "60px", transform: "rotate(90deg)", left: "290px", marginTop: "155px"})} />
+                        <InfoModal year={this.props.year}/>
                         <h3>{this.props.year}</h3>
                     </div>
                     <div style={style}>                        

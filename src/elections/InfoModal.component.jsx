@@ -12,7 +12,7 @@ export default class InfoModal extends Component {
             zIndex: "2000000",
             position: "absolute",
             left: "-60px",
-            display: this.getDisplayCSS(),
+            display: "none",
             verticalAlign: "middle",
             marginTop: (window.innerHeight / 2) - (220),
             height: "60px", 
@@ -24,6 +24,7 @@ export default class InfoModal extends Component {
         this.state = {
             style: Object.assign({}, style, this.props.style),
             visible: false,
+            year: this.props.state
         };
     }
 
@@ -41,7 +42,7 @@ export default class InfoModal extends Component {
 
     render() {
         return (
-            <img onClick={() => {console.log("asdf")}} src={require("../img/info.svg")} style={this.state.style} />
+            <img onClick={this.toggleVisible()} src={require("../img/info.svg")} style={this.state.style} />
         );
     }
 };
