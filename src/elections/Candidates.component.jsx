@@ -13,21 +13,9 @@ export default class USCandidates extends Component {
     constructor(props) {
         super(props);
 
-        var header_style = {
-            fontSize: "100px",
-            color: "#ddd",
-            transform: "rotate(-90deg)",
-            zIndex: "2000000",
-            position: "absolute",
-            left: "-60px",
-            display: "flex",
-            verticalAlign: "middle",
-            marginTop: (window.innerHeight / 2) - (220)
-        }
-
         this.state = {
             year: this.props.year,
-            style: Object.assign({}, header_style, this.props.style)
+            style: this.props.style
         };
     }
 
@@ -50,13 +38,18 @@ export default class USCandidates extends Component {
                 popular={candidate_list[i].popular}/>)
         }
 
-        return (
-            <div>            
-                <div id="candidates" style={this.props.style}>
-                    {candidates}
-                </div>    
-            </div>
+        var style = {}
+
+        if(candidate_list.length > 5) {
+            style = {
+                overflowY: "scroll"
+            }
+        }
+
+        return (       
+            <div id="candidates" style={Object.assign({}, this.state.style, style)}>
+                {candidates}
+            </div>    
         );
     }
-
 };

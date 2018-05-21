@@ -106,6 +106,7 @@ export default class USElection extends Component {
 
     makePiechart = (dataType) => (
         <PieChart                
+            expandOnHover={true}
             data={this.getChartData(dataType)}
             viewBoxSize={100}
         />
@@ -184,7 +185,7 @@ export default class USElection extends Component {
                     <div style={style}>                        
                         {this.makeAllCharts()}
                         <Map style={this.state.mapstyle} id="map" title={""} year={this.props.year} geojson={this.getGeoJSON(this.props.year)} customize={this.statesCustomConfig()} onClick={this.mapHandler} />
-                        <Candidates year={this.props.year}/>    
+                        <Candidates style={{maxHeight: "50%"}} year={this.props.year}/>    
                     </div>           
                 </div>                    
             </div>

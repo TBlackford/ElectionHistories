@@ -14,20 +14,23 @@ var styles = {
         left: '36px',
         top: '36px'
     },
-        bmBurgerBars: {
+    bmBurgerBars: {
         background: '#373a47'
     },
-        bmCrossButton: {
+    bmCrossButton: {
         height: '24px',
         width: '24px'
     },
     bmCross: {
-        background: '#bdc3c7'
+        background: '#404040'
     },
     bmMenu: {
-        background: '#373a47',
+        background: '#404040',
         padding: '2.5em 1.5em 0',
-        fontSize: '1.15em'
+        fontSize: '1.15em',
+    },
+    bmMenuWrap: {
+        zIndex: '2000001'
     },
     bmMorphShape: {
         fill: '#373a47'

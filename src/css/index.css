@@ -60,6 +60,11 @@ path:hover {
 }
 
 
+.bm-menu-wrap {
+    z-index: 2000001!important;
+}
+
+
 /* Modal Content/Box */
 /* The Modal (background) */
 .modal {
