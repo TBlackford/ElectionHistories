@@ -50,6 +50,14 @@ export default class Candidate extends Component {
             var image = <img style={image_style} src={require('../img/Default.jpg')} />;
         }
 
+        var name = this.props.name;
+
+        var name_html = [];
+
+        if(this.props.name != undefined) {
+            name_html.push(<div><b>Name: </b>{name}<br /></div>);
+        }
+
         return (
             <div>
                 <table>
@@ -57,13 +65,7 @@ export default class Candidate extends Component {
                     <tr>                                
                         <td>
                             <p style={style} ><b>Party: </b>{this.props.party}<br/>
-                            {() => {
-                                var name = this.props.name;
-                                console.log(name)
-                                if(this.props.name != undefined) {
-                                    return <b>Name: </b> + name + <br/>
-                                }
-                            }}
+                            {name_html}
                             <b>Electoral votes: </b>{this.props.electoral}<br />
                             <b>Popular votes: </b>{this.props.popular}
                             </p>

@@ -258,7 +258,7 @@ class Map extends Component {
             "marginTop": "240px",
             "position": "absolute"
         }
-            //{this.buildPaths()}
+
         return (
             <div id="SVGContainer">
                 <svg id="map" style={this.props.style} viewBox={"0 0 959 593"}>

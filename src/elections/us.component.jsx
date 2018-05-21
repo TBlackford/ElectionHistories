@@ -7,6 +7,7 @@ import ReactHover from 'react-hover';
 import Results from './Results.component';
 import PieChart from "react-svg-piechart"
 
+import InfoModalButton from './InfoModalButton.component';
 import InfoModal from './InfoModal.component';
 
 // Logos and styles
@@ -29,7 +30,8 @@ export default class USElection extends Component {
                 width: 959,
                 height: 593
             },
-            candidate_list: []
+            candidate_list: [],
+            visible: false,
         };
 
         this.changeMapDims = this.changeMapDims.bind(this);
@@ -110,6 +112,7 @@ export default class USElection extends Component {
     );
 
     makeAllCharts = () => {
+        // the popular vote existed before 1820, but I have no data before 1820
         if(this.props.year > 1820) {
             return (
                 <div>
@@ -136,6 +139,10 @@ export default class USElection extends Component {
         )        
     };
 
+    changeModalVisibility = () => {
+        this.setState({visible: !this.state.visible});
+    }
+
     render() {        
 
         var style = {
@@ -161,17 +168,19 @@ export default class USElection extends Component {
             verticalAlign: "middle",
             marginTop: (window.innerHeight / 2) - (220)
         }
-        //<img onClick={() => {console.log("asdf")}} src={require("../img/info.svg")} style={Object.assign({}, header_style, {height: "60px", transform: "rotate(90deg)", left: "290px", marginTop: "155px"})} />
-                        
+             
         return (
             <div id="us-container">
                 <div className="App">
                     <Results year={this.props.year} changeMap={this.changeMapDims}/>
+
+                    <InfoModal visible={this.state.visible} year={this.props.year} changeModalVisibility={this.changeModalVisibility}/>
                     
                     <div style={header_style}>
-                        <InfoModal year={this.props.year}/>
+                        <InfoModalButton changeModalVisibility={this.changeModalVisibility}/>
                         <h3>{this.props.year}</h3>
                     </div>
+
                     <div style={style}>                        
                         {this.makeAllCharts()}
                         <Map style={this.state.mapstyle} id="map" title={""} year={this.props.year} geojson={this.getGeoJSON(this.props.year)} customize={this.statesCustomConfig()} onClick={this.mapHandler} />
