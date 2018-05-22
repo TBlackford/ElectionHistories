@@ -40,7 +40,7 @@ export default class Results extends Component {
                 "zIndex": "999"
             }
 
-            graph.push(<div onClick={this.props.changeMap} style={style} />)
+            graph.push(<div style={style} />)
         }
 
         return graph;

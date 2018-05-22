@@ -259,6 +259,10 @@ class Map extends Component {
             "position": "absolute"
         }
 
+        if(!this.props.visible == false) {
+            return (<div/>);
+        }
+
         return (
             <div id="SVGContainer">
                 <svg id="map" style={this.props.style} viewBox={"0 0 959 593"}>

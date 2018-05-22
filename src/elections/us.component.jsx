@@ -1,11 +1,11 @@
 // Libraries
-import React, { Component } from 'react';
+import React, { Component, PropTypes, ReactDOM } from 'react';
 import USAMap from 'react-usa-map';
 import Map from './Map.component'
 import Candidates from './Candidates.component.jsx';
 import ReactHover from 'react-hover';
 import Results from './Results.component';
-import PieChart from "react-svg-piechart"
+import PieChart from "react-svg-piechart";
 
 import InfoModalButton from './InfoModalButton.component';
 import InfoModal from './InfoModal.component';
@@ -25,7 +25,6 @@ export default class USElection extends Component {
 
         this.state = {
             year: this.props.year,
-            graphsShowing: false,
             mapstyle: {
                 width: 959,
                 height: 593
@@ -34,7 +33,6 @@ export default class USElection extends Component {
             visible: false,
         };
 
-        this.changeMapDims = this.changeMapDims.bind(this);
     }
     
     setYear = (year) => {
@@ -77,15 +75,6 @@ export default class USElection extends Component {
         }
 
         return fills;
-    };
-
-    changeMapDims = () => {
-        this.state.graphsShowing = !this.state.graphsShowing
-
-        if(this.state.graphsShowing)
-            this.setState({mapstyle: {width: 959 / 3, height: 593 / 3}});
-        else
-            this.setState({mapstyle: {width: 959, height: 593}});
     };
 
     getChartData = (type) => {
@@ -173,7 +162,7 @@ export default class USElection extends Component {
         return (
             <div id="us-container">
                 <div className="App">
-                    <Results year={this.props.year} changeMap={this.changeMapDims}/>
+                    <Results year={this.props.year}/>
 
                     <InfoModal visible={this.state.visible} year={this.props.year} changeModalVisibility={this.changeModalVisibility}/>
                     
@@ -184,7 +173,7 @@ export default class USElection extends Component {
 
                     <div style={style}>                        
                         {this.makeAllCharts()}
-                        <Map style={this.state.mapstyle} id="map" title={""} year={this.props.year} geojson={this.getGeoJSON(this.props.year)} customize={this.statesCustomConfig()} onClick={this.mapHandler} />
+                        <Map visible={this.state.graphsShowing} style={this.state.mapstyle} id="map" title={""} year={this.props.year} geojson={this.getGeoJSON(this.props.year)} customize={this.statesCustomConfig()} onClick={this.mapHandler} />
                         <Candidates style={{maxHeight: "50%"}} year={this.props.year}/>    
                     </div>           
                 </div>                    

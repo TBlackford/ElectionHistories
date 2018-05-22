@@ -35,7 +35,7 @@ export default class Candidate extends Component {
         var image_style = {
             "float": "left",
             "height": "104px",
-            "minWidth": "100%",
+            "minWidth": "100%"
         }
 
         var div_style = {
