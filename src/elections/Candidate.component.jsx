@@ -35,7 +35,10 @@ export default class Candidate extends Component {
         var image_style = {
             "float": "left",
             "height": "104px",
-            "minWidth": "100%"
+            "minWidth": "100%",
+            "width": "70px",
+            "alignItems": "center",
+            "margin": "0"
         }
 
         var div_style = {
