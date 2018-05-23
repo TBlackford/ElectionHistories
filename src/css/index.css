@@ -3,10 +3,39 @@ html {
     height: 100%;
 }
 
+@font-face {
+    font-family: 'Gothamy';
+    src: local('Gotham Book'), local('Gotham-Book');
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+}
+@font-face {
+    font-family: 'Gothamy';
+    src: local('Gotham Bold'), local('Gotham-Bold');
+    font-weight: bold;
+    font-style: normal;
+    font-variant: normal;
+}
+@font-face {
+    font-family: 'Gothamy';
+    src: local('Gotham Book Italic'), local('Gotham-BookItalic');
+    font-weight: normal;
+    font-style: italic;
+    font-variant: normal;
+}
+@font-face {
+    font-family: 'Gothamy';
+    src: local('Gotham Bold Italic'), local('Gotham-BoldItalic');
+    font-weight: bold;
+    font-style: italic;
+    font-variant: normal;
+}
+
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: Gothamy, Gotham-Book, Arial, sans-serif;
     overflow: hidden;
 }
 
