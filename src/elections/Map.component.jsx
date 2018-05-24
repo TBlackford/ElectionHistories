@@ -263,6 +263,8 @@ class Map extends Component {
             return (<div/>);
         }
 
+        //viewBox={"0 0" + this.props.style.width + " " + this.props.style.height}
+
         return (
             <div id="SVGContainer">
                 <svg id="map" style={this.props.style} viewBox={"0 0 959 593"}>

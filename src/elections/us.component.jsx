@@ -24,15 +24,35 @@ export default class USElection extends Component {
         super(props);
 
         this.state = {
-            year: this.props.year,
-            mapstyle: {
-                width: 959,
-                height: 593
-            },
+            year: this.props.year,            
             candidate_list: [],
             visible: false,
+
+            mapstyle: {
+                width: 0,
+                height: 0,
+            },
         };
 
+        this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+
+    }
+
+    componentDidMount() {
+        this.updateWindowDimensions();
+        window.addEventListener('resize', this.updateWindowDimensions);
+    }
+    
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.updateWindowDimensions);
+    }
+      
+    updateWindowDimensions() {
+        if(window.innerWidth < 600) {
+            this.setState({mapstyle: {width: 350, height: window.innerHeight /2}});
+        } else {
+            this.setState({mapstyle: {width: window.innerWidth / 2, height: window.innerHeight /2}});
+        }
     }
     
     setYear = (year) => {
@@ -105,7 +125,7 @@ export default class USElection extends Component {
         // the popular vote existed before 1820, but I have no data before 1820
         if(this.props.year > 1820) {
             return (
-                <div>
+                <div id="charts">
                     <h4>Electoral</h4>
                     <div style={{width: "125px", height: "125px"}}>                            
                         {this.makePiechart("electoral")}                            
@@ -120,7 +140,7 @@ export default class USElection extends Component {
         }
 
         return (
-            <div>
+            <div id="charts">
                 <h4>Electoral</h4>
                 <div style={{width: "125px", height: "125px"}}>                            
                     {this.makePiechart("electoral")}                            
@@ -168,12 +188,12 @@ export default class USElection extends Component {
                     
                     <div style={header_style}>
                         <InfoModalButton changeModalVisibility={this.changeModalVisibility}/>
-                        <h3>{this.props.year}</h3>
+                        <h3 id="year">{this.props.year}</h3>
                     </div>
 
-                    <div style={style}>                        
+                    <div id="main-info" style={style}>                        
                         {this.makeAllCharts()}
-                        <Map visible={this.state.graphsShowing} style={this.state.mapstyle} id="map" title={""} year={this.props.year} geojson={this.getGeoJSON(this.props.year)} customize={this.statesCustomConfig()} onClick={this.mapHandler} />
+                        <Map style={this.state.mapstyle} id="map" title={""} year={this.props.year} geojson={this.getGeoJSON(this.props.year)} customize={this.statesCustomConfig()} onClick={this.mapHandler} />
                         <Candidates style={{maxHeight: "50%"}} year={this.props.year}/>    
                     </div>           
                 </div>                    

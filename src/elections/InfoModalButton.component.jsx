@@ -34,7 +34,7 @@ export default class InfoModalButton extends Component {
 
     render() {
         return (
-            <img onClick={this.toggleVisible} src={require("../img/info.svg")} style={this.state.style}/>
+            <img id="info-modal-button" onClick={this.toggleVisible} src={require("../img/info.svg")} style={this.state.style}/>
         );
     }
 };

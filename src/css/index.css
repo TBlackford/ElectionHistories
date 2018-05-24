@@ -53,10 +53,6 @@ path:hover {
 .form {
     margin: 0 auto;
     padding: 60px 30px 60px 30px;
-
-    @media (min-width: 800px) {
-        max-width: 60%;
-    }
 }
 
 #full-container {
@@ -70,7 +66,7 @@ path:hover {
 }
 
 #bottom-container {
-    position: absolute;
+    position: fixed;
     bottom: 20px;
     width: 100%;
 }
@@ -177,4 +173,82 @@ path:hover {
 @keyframes animatetop {
     from {top: -300px; opacity: 0}
     to {top: 40%; opacity: 1}
+}
+
+@media (max-width: 1650px) {  
+    h3#year {
+        display: none;
+    }
+
+    img#info-modal-button {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .form {
+        padding: 60px;    
+    }
+
+    #info-box {
+        height: 120px;
+        width: 100vw;
+        margin: 0 auto;
+
+        border-radius: 0;
+    }
+
+    #bottom-container {
+        bottom: 0;
+    }
+
+    .modal {
+        height: 100%;
+        width: 100%;
+    }
+
+    .modal-content {
+        top: 50%;
+        height: 100%;
+        width: 100%;
+    }
+
+    #main-info {
+        flex-direction: column;
+    }
+
+    #charts {
+        display: flex;
+        text-align: center;
+    }
+
+    #charts h4 {
+        padding-top: 10;
+        display: flex;
+        text-align: center;
+    }
+
+    #charts div svg {
+        margin-top: 10%;
+        display: flex;
+        padding-top: 150px;
+        width: 50px;
+    }
+
+    #candidates {
+        height: 200px;
+        margin-bottom: 122px;
+        overflow-y: scroll;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .form {
+        padding: 30px;  
+    }
+
+    #info-box {
+        height: 80px;
+    }
 }
