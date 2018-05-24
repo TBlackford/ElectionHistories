@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     width: 100%;
     height: 100%;
@@ -193,13 +198,16 @@ path:hover {
     #info-box {
         height: 120px;
         width: 100vw;
-        margin: 0 auto;
+        margin: 0;
 
         border-radius: 0;
+        border: 0;
+        border-top: 1px solid #e4e4e4;
     }
 
     #bottom-container {
         bottom: 0;
+        right: 0;
     }
 
     .modal {
@@ -218,25 +226,29 @@ path:hover {
     }
 
     #charts {
+        height: 50px;
         display: flex;
         text-align: center;
     }
 
     #charts h4 {
-        padding-top: 10;
-        display: flex;
-        text-align: center;
-    }
+        display: none;
+        padding-top: 0;
+    }   
 
     #charts div svg {
-        margin-top: 10%;
         display: flex;
-        padding-top: 150px;
-        width: 50px;
+        width: 100%;
+    }
+
+    #charts div {
+        padding-top: 15%;
+        width: 50px!important;
+
     }
 
     #candidates {
-        height: 200px;
+        height: 100px;
         margin-bottom: 122px;
         overflow-y: scroll;
         margin-bottom: 0;
