@@ -138,12 +138,14 @@ export default class NavigationDrawer extends Component {
                 <MenuWrap wait={20}>
                     <PushMenu id={'push'}>
                         <div id="logo">
-                            <h2 style={{margin: "auto", width: "50%", padding: "30px"}}><img src={require('../img/envelope.svg')} /></h2>
+                            <h2 style={{margin: "auto", width: "50%", padding: "30px"}}>
+                                <img src={require('../img/envelope.svg')} />
+                            </h2>
                         </div>
-                        <a id="home" className="menu-item" href="/">Home</a>
-                        <a id="election-histories" className="menu-item" href="/ElectionHistories/">Election Histories</a>
+                        <a id="home" className="menu-item" href="http://tblackford.com/">Home</a>
+                        <a id="election-histories" className="menu-item" href="http://elections.tblackford.com/">Election Histories</a>
                         <ul>
-                            <a id="usa" className="menu-item" href="/ElectionHistories/">United States of America</a>
+                            <a id="usa" className="menu-item" href="http://elections.tblackford.com/">United States of America</a>
                         </ul>                        
                         <a id="nlp-bit-project" className="menu-item" href="https://nlp.op-bit.nz/">Word Embeddings in American University Websites</a>
                     </PushMenu>
