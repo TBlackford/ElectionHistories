@@ -33,7 +33,6 @@ export default class App extends Component {
     render() {        
         return(
             <div>
-                <NavigationDrawer />
                 <div id="full-container">
                     <USElection year={this.state.year} />
                     <ElectionSlider updateElectionYear={this.onYearChange} />
